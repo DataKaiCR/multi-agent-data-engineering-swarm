@@ -1,0 +1,1001 @@
+order_id,order_date,product,category,quantity,unit_price,total_price,customer_region
+a7bc82d7-fa61-445c-9b33-3f43aeac9642,2025-10-16,Laptop Pro,Electronics,9,1187.78,10690.02,Asia
+e0e9722f-ad68-4779-8c35-4797255a99ff,2024-04-24,Desk Lamp,Furniture,4,49.79,199.16,South America
+38a479f1-d768-4390-ac82-1bdae5040646,2024-01-26,Office Chair,Furniture,3,201.37,604.11,Africa
+6a9251cf-593b-4cad-905b-51d2f5a60bcc,2024-10-08,Blender,Appliances,5,83.07,415.35,North America
+dc84401f-1831-4f98-b592-c66456e5ea13,2024-09-07,Desk Lamp,Furniture,3,45.37,136.11,Africa
+1b56b169-93ea-4e83-82f4-e7b8ea0f50c1,2024-08-16,Wireless Headphones,Electronics,2,156.05,312.1,Europe
+9de7df93-bdd7-430b-919a-848aa37df936,2024-05-22,Blender,Appliances,1,80.59,80.59,South America
+abf9cc90-92aa-411e-984b-4370f1300fae,2024-04-14,Coffee Maker,Appliances,3,108.29,324.87,Asia
+9fb91bda-30b4-4523-a632-65ffc44a86cd,2025-11-23,Laptop Pro,Electronics,5,1264.55,6322.75,Asia
+945bb035-e033-4aea-9ff8-3e206562a02b,2025-07-12,Coffee Maker,Appliances,10,103.29,1032.9,South America
+47374a32-35b9-4a05-83ea-76c5074ecf12,2024-03-30,Smartphone X,Electronics,10,823.52,8235.2,North America
+c7504035-15a9-478c-9638-2059d2c56fc5,2025-08-27,Laptop Pro,Electronics,5,1215.17,6075.85,Africa
+323707e6-42a7-4ed4-8e4c-509fb9441a43,2025-03-08,Coffee Maker,Appliances,8,103.55,828.4,Europe
+7e1ff367-5e16-45c9-b220-58bcf5b57442,2024-02-02,Office Chair,Furniture,2,218.67,437.34,Africa
+fdfd5b4a-6789-463c-aa90-4fd7ab5aa452,2024-01-31,Wireless Headphones,Electronics,8,163.97,1311.76,Asia
+15ab3a2e-cb28-44fc-a141-5cf6774a77d7,2024-04-05,Office Chair,Furniture,5,184.24,921.2,South America
+98a76fc8-5f07-4019-a850-fff5c96655e5,2024-08-11,Laptop Pro,Electronics,7,1142.1,7994.7,Asia
+f0ac306e-6cf3-44d7-8e87-6eed474f8f98,2024-08-26,Desk Lamp,Furniture,5,52.47,262.35,Asia
+77b373c3-fb9e-463d-8449-15fd82b75d8c,2025-06-01,Desk Lamp,Furniture,9,50.81,457.29,Europe
+888d534b-0d8d-4c1f-ae7d-91932b32575d,2025-09-08,Desk Lamp,Furniture,9,47.21,424.89,North America
+ecfff0b1-09d8-4c1c-856b-bffa71f90cae,2024-01-28,Wireless Headphones,Electronics,8,146.73,1173.84,North America
+74f2f0f0-1fa1-4fa5-9674-687510f76f85,2025-07-28,Blender,Appliances,8,82.87,662.96,Europe
+db7a0aee-f7a1-44cf-9ac9-3cd1c45fc388,2024-07-22,Coffee Maker,Appliances,2,100.01,200.02,South America
+58f4e7e2-0984-407c-a1b1-1c671eb0bdd0,2025-10-27,Wireless Headphones,Electronics,10,164.93,1649.3,Africa
+6e2be8de-bd58-4b8f-841f-eaf35d35fde7,2025-12-19,Office Chair,Furniture,1,184.18,184.18,South America
+17e8af87-c411-43b7-a7e3-6366fff16df0,2025-07-12,Office Chair,Furniture,7,216.82,1517.74,Africa
+aafd166e-1184-499e-a426-3685d3bf1014,2025-03-05,Laptop Pro,Electronics,6,1107.86,6647.16,North America
+4e7de778-e5f4-461c-90da-9481e34c8476,2024-08-13,Coffee Maker,Appliances,10,92.83,928.3,Asia
+39541847-6ec7-4fed-a89f-2f8d30412041,2025-04-04,Wireless Headphones,Electronics,5,145.29,726.45,Asia
+7a535e6c-a83f-4e54-8d44-c44f08800404,2025-08-26,Blender,Appliances,1,75.31,75.31,South America
+e9bf007e-9846-4e50-a849-867c6cbd2263,2024-10-11,Office Chair,Furniture,2,193.93,387.86,Europe
+6bf8aec7-33e7-4fcc-8146-caf38e27a3d2,2024-01-07,Laptop Pro,Electronics,4,1185.16,4740.64,Africa
+3e13801e-0013-481e-95a9-56c027269d46,2024-06-12,Coffee Maker,Appliances,10,99.05,990.5,Asia
+f7d681fa-9368-4d29-901d-37d98b25487c,2025-12-15,Laptop Pro,Electronics,10,1152.06,11520.6,South America
+2bf2f58d-bdef-4de4-8bff-c5bcb8ab840d,2025-03-08,Blender,Appliances,1,83.37,83.37,Europe
+45f92499-7e63-431b-b465-69bd57020fe5,2024-12-14,Laptop Pro,Electronics,5,1283.8,6419.0,North America
+fc1d3754-f4b7-4e78-b581-c5ee8c52f88b,2024-10-11,Coffee Maker,Appliances,10,92.19,921.9,Europe
+7b5e181d-a011-4da3-a7ea-74c13fef349a,2024-06-08,Blender,Appliances,1,74.63,74.63,North America
+937918c6-921a-4757-a1e7-8ce741dfcf4a,2024-08-08,Coffee Maker,Appliances,3,94.88,284.64,South America
+0febefe8-8572-4e84-b796-9c8f63fe01b8,2024-12-10,Smartphone X,Electronics,8,808.31,6466.48,Europe
+57fb1752-aa77-4426-a716-dbd155fa9c4f,2024-04-14,Wireless Headphones,Electronics,9,151.8,1366.2,South America
+c71eb863-7ee0-4cea-b90a-50bf940617a6,2024-04-04,Office Chair,Furniture,8,189.27,1514.16,North America
+13ca8849-2657-469d-ae31-535605a0b0ca,2025-01-24,Office Chair,Furniture,5,205.19,1025.95,Asia
+2a0d9792-1843-4f04-8b0d-2d30bf10b392,2024-04-09,Smartphone X,Electronics,3,822.48,2467.44,Asia
+dbcf6011-bfcc-4176-99a4-d75c121e6bb4,2025-01-02,Office Chair,Furniture,10,195.82,1958.2,North America
+3bfce4aa-47d4-479b-8d7f-c36675166660,2024-12-18,Coffee Maker,Appliances,7,102.28,715.96,Africa
+bf1cf016-b532-491d-afe1-da37aef4a332,2025-09-10,Smartphone X,Electronics,8,791.93,6335.44,Africa
+7401018a-9d84-4328-aa6b-8179981dee55,2024-09-27,Office Chair,Furniture,2,195.55,391.1,Asia
+f5474e91-1603-47d2-99b0-ffa6a89b05ac,2024-02-14,Coffee Maker,Appliances,8,94.3,754.4,Asia
+ff7d5524-6f55-4468-876e-a3a9739a192c,2025-04-15,Wireless Headphones,Electronics,6,157.57,945.42,Europe
+03589dfc-4526-4cd0-b019-7df9d5e5ce5a,2025-07-03,Blender,Appliances,7,84.74,593.18,Europe
+9c0b7a06-4ffa-4488-a35a-aeb62a0b9290,2024-05-07,Desk Lamp,Furniture,6,46.02,276.12,Asia
+680f944d-2993-47d8-bd3c-0a91c613ef62,2025-01-22,Blender,Appliances,6,80.59,483.54,Africa
+5be9abe6-c1a8-4cbb-9740-22f71c03819e,2024-03-21,Wireless Headphones,Electronics,2,144.78,289.56,Europe
+0966c97e-aa9a-400c-8ae3-d5b4a68f3aab,2025-07-19,Office Chair,Furniture,3,184.56,553.68,North America
+d7361128-3af2-4392-8039-b90c1afcc288,2024-10-27,Coffee Maker,Appliances,6,107.25,643.5,Europe
+48bc0f4f-df4b-49ef-bdcd-3f78edabc59f,2025-10-05,Desk Lamp,Furniture,7,54.66,382.62,Europe
+6a28e84b-c190-4e65-b002-34e08ad0fa66,2025-09-25,Wireless Headphones,Electronics,8,152.91,1223.28,Europe
+829f9cf0-6044-4b36-82ba-c24936581d6c,2025-01-05,Desk Lamp,Furniture,5,48.93,244.65,South America
+4d93cf1b-b7b4-4144-bf03-c4d1b24705fb,2025-08-14,Laptop Pro,Electronics,7,1163.5,8144.5,North America
+2ffd08b6-d7a0-4ea7-84dc-60aa489ee81a,2024-07-15,Blender,Appliances,9,79.33,713.97,Asia
+95698ce7-0523-4ffe-82d1-cae66df482b8,2025-12-22,Smartphone X,Electronics,1,850.2,850.2,Africa
+276f0879-46b9-453d-ac3a-65f36475f8ce,2024-03-12,Coffee Maker,Appliances,8,106.01,848.08,Africa
+37644a06-b9d7-44e6-92c8-fa1f12ca6309,2024-02-16,Desk Lamp,Furniture,2,50.9,101.8,Asia
+3f7d95a9-97ac-4eb3-9e77-47ab741da928,2025-11-08,Coffee Maker,Appliances,6,92.68,556.08,South America
+b1ec76b7-e154-4837-8c8a-9c8f53330c10,2024-08-21,Laptop Pro,Electronics,5,1137.26,5686.3,Africa
+c75866cd-de74-4bfa-9a42-0f23026c6b69,2024-10-23,Laptop Pro,Electronics,6,1123.93,6743.58,Europe
+5d82f46b-08b7-433c-a58f-0eb6e473a3cc,2024-03-22,Coffee Maker,Appliances,2,92.83,185.66,Africa
+4ea30a6d-02a5-40fb-b0af-312c69edcece,2024-08-26,Office Chair,Furniture,7,196.73,1377.11,North America
+00fd5a67-3751-4cfc-9ce2-72b68ce14f45,2024-04-13,Smartphone X,Electronics,9,811.97,7307.73,North America
+d678593d-33e8-45ea-a056-f5027b7728e8,2025-01-24,Office Chair,Furniture,1,187.43,187.43,Asia
+cf2d7a5e-c4d4-4428-b05f-b83948008ddc,2024-10-11,Coffee Maker,Appliances,9,100.75,906.75,South America
+29eb9887-5166-43ba-ad90-51aaeee49336,2025-04-09,Coffee Maker,Appliances,8,108.61,868.88,South America
+d1b8452e-7efa-435c-953a-37365572f721,2025-10-12,Smartphone X,Electronics,7,808.79,5661.53,Africa
+a7073048-4507-45e9-bd6a-06e47c5318c4,2025-01-08,Office Chair,Furniture,1,191.55,191.55,South America
+267bc354-b4c7-4a7a-b343-d29b64e9196d,2024-06-15,Smartphone X,Electronics,4,770.33,3081.32,South America
+1ed7795b-9ab9-447d-aa7b-c51051e40d5f,2025-01-14,Office Chair,Furniture,9,204.78,1843.02,Africa
+72be06a9-e5e3-45ee-a2c3-3600ec70df7b,2024-12-29,Blender,Appliances,6,77.74,466.44,North America
+f7b3a5f9-82d2-44c0-980b-ad99fbea58c6,2024-08-02,Laptop Pro,Electronics,10,1196.31,11963.1,Europe
+3d0e7097-5d49-4e96-85ce-755637aaef8f,2025-11-17,Smartphone X,Electronics,8,850.43,6803.44,Asia
+6bc62acf-337d-42d9-986c-741fb1c8c8e8,2024-09-30,Desk Lamp,Furniture,8,50.05,400.4,North America
+9982987d-68ec-4a33-9552-5ab21709810d,2025-12-19,Office Chair,Furniture,1,196.37,196.37,South America
+830c4299-3a7a-451b-a78f-60fc62ea4478,2025-11-30,Office Chair,Furniture,4,196.63,786.52,South America
+95704c97-1642-48a8-b5f5-b2b4daeaa540,2025-10-25,Blender,Appliances,5,79.1,395.5,Africa
+548d7c24-feb7-427b-8dfd-75d35d04cc43,2024-03-14,Smartphone X,Electronics,9,733.23,6599.07,Asia
+9f6848ea-de0e-4a89-a3da-65d2e2b61da6,2025-09-15,Laptop Pro,Electronics,3,1271.01,3813.03,Europe
+e735ab79-46ed-47b4-ade9-aa37107bb3fe,2025-10-12,Smartphone X,Electronics,5,766.73,3833.65,Africa
+01745a78-9683-4dd9-9057-ea5104e5d8c7,2024-06-24,Wireless Headphones,Electronics,8,141.75,1134.0,Africa
+282d7545-6477-4d79-bbcc-80f2f328c092,2025-06-30,Wireless Headphones,Electronics,8,140.05,1120.4,Europe
+851326fc-aa13-4ada-b011-5bfc49325c47,2024-09-07,Office Chair,Furniture,2,202.63,405.26,Europe
+03291421-20b6-469e-83d5-16b81a9ff3c7,2024-06-16,Blender,Appliances,1,84.25,84.25,South America
+d762ae39-7bb2-455f-ac70-759ac56538e6,2025-04-18,Desk Lamp,Furniture,10,50.11,501.1,Africa
+4459bd09-f612-4266-9844-08bff89a966a,2025-01-23,Desk Lamp,Furniture,4,46.14,184.56,North America
+e44ac6a5-0ff4-4489-a72b-8708fbcf9c01,2024-10-03,Blender,Appliances,3,80.69,242.07,North America
+2986a0c9-2171-4655-bf37-bf345b680df3,2025-10-17,Wireless Headphones,Electronics,5,151.26,756.3,Africa
+2e64ceae-8234-4b85-9bdb-d55bdadf40ea,2025-12-05,Blender,Appliances,9,72.67,654.03,Europe
+bcd65387-c725-426d-a956-d69ecabac597,2025-07-24,Coffee Maker,Appliances,1,98.83,98.83,Asia
+5242979c-cbb0-4e14-85b4-8847f20403c5,2024-08-12,Smartphone X,Electronics,9,878.36,7905.24,Europe
+1a70959c-3194-47ef-975d-2443bd012f3f,2025-12-02,Laptop Pro,Electronics,7,1256.64,8796.48,Europe
+01d2a493-6b94-467d-923f-6727ab66d86c,2024-11-28,Coffee Maker,Appliances,2,105.03,210.06,Asia
+4ace43a3-cfc5-4a3a-891a-2eedb3bde2fc,2024-02-27,Wireless Headphones,Electronics,4,161.24,644.96,Europe
+e356dda9-d926-4f16-aeab-c2d8a4e35141,2024-08-22,Laptop Pro,Electronics,2,1187.94,2375.88,Asia
+a1df8c1c-565e-40b8-9a67-4257ecf2eb6c,2024-02-02,Wireless Headphones,Electronics,8,160.87,1286.96,Africa
+9af9420f-f39e-45de-abff-fbc607b0d660,2024-11-19,Laptop Pro,Electronics,2,1185.38,2370.76,Asia
+5750c43e-a06c-4011-ae21-c3344d6db7a5,2025-02-14,Laptop Pro,Electronics,3,1266.15,3798.45,North America
+7c1a9009-3701-4afb-8eec-78e40827e80b,2024-10-01,Smartphone X,Electronics,8,753.58,6028.64,Asia
+08289274-d763-412a-a06b-3fe59eadea4f,2024-03-08,Coffee Maker,Appliances,5,101.76,508.8,Europe
+c0d814e6-4558-45a2-ad5f-fb35647189e1,2024-08-04,Wireless Headphones,Electronics,9,160.83,1447.47,Africa
+cc6d1983-4872-43ef-97a4-3dcd930f8832,2025-08-03,Desk Lamp,Furniture,5,51.33,256.65,Asia
+928cd388-a698-4eb6-8c3e-99c57b95c79d,2024-11-18,Smartphone X,Electronics,7,818.58,5730.06,Europe
+ab9404af-4a8a-44ee-a135-c9a21c78b609,2024-08-05,Blender,Appliances,8,75.31,602.48,Asia
+c261c8f9-75fc-4ca3-9c82-8033af106ab6,2025-11-02,Smartphone X,Electronics,8,848.87,6790.96,Africa
+1fa5ed93-a56b-4eeb-93c1-a2ba24d19a16,2025-05-26,Desk Lamp,Furniture,4,48.51,194.04,Africa
+d017e937-4c3b-441f-a682-91823f8decfe,2025-02-09,Wireless Headphones,Electronics,8,152.91,1223.28,North America
+8dc8ba71-2979-48b5-9b7f-41f85ea41792,2025-10-20,Smartphone X,Electronics,9,771.78,6946.02,Africa
+94b6288e-e006-4a92-8c91-bd4c6a8ca7d5,2025-04-14,Coffee Maker,Appliances,3,95.85,287.55,Europe
+a87ba2a3-0d58-4d57-b451-4ed6ebd9d5ad,2024-05-26,Desk Lamp,Furniture,7,47.67,333.69,Africa
+1e7fa015-c096-4a50-8745-373aeeca00d9,2024-09-28,Blender,Appliances,4,80.23,320.92,Africa
+072931fa-7c29-4da8-9f93-cc795d90a997,2024-05-22,Coffee Maker,Appliances,10,106.3,1063.0,Europe
+03843f12-32fa-4ae9-beac-2fedb3f2b521,2024-09-09,Smartphone X,Electronics,9,874.04,7866.36,Europe
+c218c527-303a-48ed-8b6e-80dc5a65f1d0,2025-07-28,Blender,Appliances,3,78.59,235.77,Africa
+90362ef8-862f-41d8-a2f0-b2fa54be1b55,2025-07-05,Laptop Pro,Electronics,2,1318.2,2636.4,Africa
+7b0b7ba8-e395-40db-99ca-2cbd65e94b76,2024-09-26,Blender,Appliances,5,82.49,412.45,Asia
+cd4a02b7-ba65-47d6-81e0-5e2660203ee3,2025-08-21,Coffee Maker,Appliances,7,107.32,751.24,Africa
+95c255ba-ff3e-4864-ba8c-c689a3569ce9,2025-03-14,Smartphone X,Electronics,6,743.4,4460.4,North America
+f8d34a8b-e6d1-4c24-a04f-a64d5797f69e,2025-08-20,Wireless Headphones,Electronics,9,159.85,1438.65,North America
+c9905e9f-12dc-45fa-a06c-39fa8fd0f096,2025-02-12,Blender,Appliances,5,85.5,427.5,North America
+471bdc2d-a199-40fa-89e2-f6cf2bfab5d5,2025-01-05,Office Chair,Furniture,1,199.58,199.58,North America
+2d18b233-9090-421f-b04f-0edf04c3a83b,2024-08-12,Desk Lamp,Furniture,5,51.32,256.6,Africa
+e3d09f7b-e305-46a7-be11-16aa42641977,2024-05-21,Coffee Maker,Appliances,5,98.28,491.4,Asia
+1509de3b-524d-45da-b414-8962c11ec33a,2025-06-05,Office Chair,Furniture,10,183.02,1830.2,Europe
+b2becf78-115b-49ad-a081-d457b8eff1f5,2025-05-20,Blender,Appliances,10,86.08,860.8,Africa
+e54d943a-3207-44e1-9b98-66b7ee2b997e,2024-04-03,Laptop Pro,Electronics,8,1176.68,9413.44,South America
+957e5acb-8af4-445a-9f94-7a553f0c3df3,2024-02-18,Coffee Maker,Appliances,3,95.56,286.68,Africa
+4d1b3e21-370c-4c33-aec2-e0957475315f,2024-04-22,Wireless Headphones,Electronics,8,148.64,1189.12,North America
+acd8fc41-3c14-4c30-a140-3d82a6aa5ece,2024-06-05,Office Chair,Furniture,9,193.09,1737.81,South America
+13be32ea-8bff-4ade-be6e-548ed5f8a861,2025-10-04,Laptop Pro,Electronics,8,1288.54,10308.32,Africa
+f3933f66-17f5-483d-af41-b0d9288550d7,2024-06-12,Blender,Appliances,6,83.72,502.32,Asia
+b065dc0f-bc78-44ab-8239-8aa1a2527008,2025-11-27,Coffee Maker,Appliances,6,109.44,656.64,Asia
+f653b7c4-58c9-4104-a17d-7e423237ab67,2025-03-08,Coffee Maker,Appliances,9,103.28,929.52,South America
+f037d27f-30f6-4b7e-9f23-a543557b982a,2025-09-02,Wireless Headphones,Electronics,9,160.5,1444.5,Europe
+d484faf6-8513-49fb-bf89-98bc746535bf,2024-03-06,Blender,Appliances,7,80.55,563.85,South America
+865b5e32-2e37-4ae7-ad04-49e4ef06044e,2025-01-29,Smartphone X,Electronics,8,874.9,6999.2,Asia
+314cfce8-468b-4865-8822-b6d1dca3004a,2025-01-25,Blender,Appliances,6,75.39,452.34,South America
+ca0010ba-c5c4-4efd-bda3-af9c62c0dd3a,2025-09-02,Wireless Headphones,Electronics,4,144.69,578.76,North America
+0fda88de-aa32-44ce-b73e-b1af4968a0cd,2025-04-24,Wireless Headphones,Electronics,4,145.13,580.52,North America
+1e789442-0a36-49e6-9df4-afcd79e5eeae,2025-06-25,Desk Lamp,Furniture,10,46.31,463.1,Europe
+16e3838f-f011-4cdf-9f8c-740a0eabb54e,2024-09-14,Blender,Appliances,7,79.77,558.39,South America
+256a0092-0499-4223-a92c-b204db9cc2bf,2025-07-20,Wireless Headphones,Electronics,4,161.82,647.28,South America
+79641a7e-eb44-4b34-93bb-56fd70433a9e,2024-01-12,Blender,Appliances,7,72.77,509.39,South America
+b1afc8c9-bffe-4bc6-a6af-679383337e5c,2025-11-27,Laptop Pro,Electronics,1,1230.28,1230.28,South America
+abacfd8a-2b04-40ac-920d-63219e943422,2024-04-27,Blender,Appliances,6,79.35,476.1,Europe
+29a5a6cc-fdd2-42d0-b748-5f75967be9aa,2025-11-29,Laptop Pro,Electronics,8,1303.06,10424.48,Asia
+3c93a2cf-d6ac-46e4-916d-65812ebea32e,2025-07-03,Smartphone X,Electronics,7,790.61,5534.27,Africa
+25308d3a-e67a-408d-a4fe-55f6dd24ae81,2024-09-30,Laptop Pro,Electronics,7,1318.04,9226.28,Europe
+225c9798-b431-4aee-a0a2-ffda5ea299c8,2025-10-18,Office Chair,Furniture,3,188.09,564.27,Asia
+e99e5c86-14d1-415b-9c80-951d5799eb6f,2024-12-14,Coffee Maker,Appliances,8,108.19,865.52,Asia
+8e5827cb-e9f7-4846-bf34-deee7f5351b3,2024-04-24,Coffee Maker,Appliances,1,96.04,96.04,Asia
+e73d33cc-7d24-4830-a72f-0b0965d5daf1,2024-10-27,Blender,Appliances,3,86.92,260.76,South America
+c76a940a-4391-49f3-bef7-1466ff9757c2,2025-03-21,Wireless Headphones,Electronics,9,137.8,1240.2,Europe
+7b358078-deb4-43f9-bf1f-97796b498d22,2024-06-10,Wireless Headphones,Electronics,10,142.51,1425.1,Asia
+f7c22ad4-9dbc-4fd4-af4c-7afa1b355e17,2025-04-09,Wireless Headphones,Electronics,6,154.94,929.64,Africa
+4903a375-42e2-4cb2-a0f2-50a191965040,2024-01-04,Coffee Maker,Appliances,2,93.31,186.62,Africa
+2277daa7-80a8-4616-9822-9beb186bd584,2024-09-26,Office Chair,Furniture,8,205.02,1640.16,North America
+4c7d4962-56ee-4a57-8079-e93121d7bd5a,2025-05-27,Coffee Maker,Appliances,2,103.99,207.98,Asia
+e5ea81bd-72a0-402f-9db9-b3cf2005acb9,2024-07-01,Smartphone X,Electronics,9,788.68,7098.12,Europe
+f99efce2-1475-4701-a2ad-15e92cdce104,2025-06-03,Laptop Pro,Electronics,8,1248.89,9991.12,South America
+3c9a60fe-8468-4b8c-bcfd-63c30aacd6fb,2024-04-18,Laptop Pro,Electronics,1,1131.22,1131.22,North America
+fae5cae0-4dd0-470a-8bcc-90f15bc0ee70,2025-10-02,Laptop Pro,Electronics,3,1111.85,3335.55,Asia
+ac81b27b-cbc1-4c11-b57c-c8fbf73e6bd2,2024-11-01,Smartphone X,Electronics,7,803.11,5621.77,South America
+56fd653c-abe2-41d6-88fb-8396bd3b6ebf,2025-10-16,Office Chair,Furniture,3,180.37,541.11,Europe
+2c767ef3-2fb7-4d64-9fb9-56d23afb061c,2025-06-03,Coffee Maker,Appliances,2,96.87,193.74,Europe
+18086f5a-0420-405e-b7f0-2549f6c3f1f8,2025-09-15,Laptop Pro,Electronics,8,1317.16,10537.28,North America
+9bfd902a-be10-40ec-89cb-d19f5865545d,2024-07-22,Office Chair,Furniture,5,207.76,1038.8,North America
+cde8c087-8c68-41e5-9757-2c9fef3cc062,2024-06-05,Office Chair,Furniture,6,182.83,1096.98,Asia
+bdef42f4-1077-4255-aae0-209b57fb785f,2025-01-17,Office Chair,Furniture,10,183.57,1835.7,South America
+2590ea2b-9624-41de-9c46-3a2652dffe63,2024-06-14,Blender,Appliances,7,73.64,515.48,Africa
+c7e64487-8ec7-4681-8a79-815ef40b2be9,2025-07-06,Wireless Headphones,Electronics,2,146.03,292.06,South America
+c2b7b024-a3a8-4a40-ae03-8ca53bc1d05b,2025-06-27,Wireless Headphones,Electronics,6,139.11,834.66,Europe
+da611ba5-a447-4f50-8459-d25a5bc0e3e3,2024-01-01,Blender,Appliances,9,85.01,765.09,Europe
+e624a77d-cf3d-4228-8ff4-efe05ac152f0,2025-09-05,Blender,Appliances,7,74.13,518.91,Asia
+f85f578b-993f-45b4-bf05-7529089a92d5,2024-11-27,Coffee Maker,Appliances,6,92.86,557.16,Africa
+83253c29-6d45-4aca-b346-f641ac0e2812,2025-05-15,Desk Lamp,Furniture,8,50.63,405.04,Asia
+c4cc5a40-5acb-4f2e-a7e1-62fff08260bd,2024-01-20,Desk Lamp,Furniture,9,51.5,463.5,Europe
+55a406ea-af70-4085-bf2c-7235861f5c35,2024-04-24,Office Chair,Furniture,1,194.05,194.05,Europe
+e6a2bfcf-efb5-45af-a671-31a55731ad12,2025-01-06,Smartphone X,Electronics,10,820.49,8204.9,South America
+2c1a0c15-2eb6-4064-93b6-deed6b2560f0,2024-11-10,Smartphone X,Electronics,2,867.18,1734.36,Africa
+413a8227-c520-4a6b-9f9a-499d7a039a25,2024-09-02,Desk Lamp,Furniture,4,51.87,207.48,South America
+55e590ef-96a7-4488-8196-fcacf9d90346,2024-02-29,Blender,Appliances,5,75.48,377.4,South America
+dfeb2648-f015-468c-873c-3d1c9ff74565,2024-09-03,Laptop Pro,Electronics,4,1113.6,4454.4,Asia
+9964c50f-bd3d-4ec5-bb8a-6698976233e7,2025-08-03,Laptop Pro,Electronics,2,1221.5,2443.0,South America
+630feabd-2387-44f5-a555-fa90798b1586,2024-03-21,Office Chair,Furniture,7,194.06,1358.42,North America
+9c520249-daf5-4ea3-a937-df34077f0d21,2024-03-28,Office Chair,Furniture,2,192.58,385.16,North America
+5ece5101-c114-42a6-8d7b-12f076b6b362,2025-05-12,Smartphone X,Electronics,2,759.65,1519.3,South America
+67aaa317-7cf8-45f2-b720-a246a73b7bef,2024-03-11,Coffee Maker,Appliances,8,91.68,733.44,Africa
+c0da8905-fd03-43a4-bd3c-ea8af41ded48,2025-06-29,Desk Lamp,Furniture,3,51.01,153.03,South America
+5fa38546-ef00-4d0a-a1a4-d87556f2533b,2024-05-08,Coffee Maker,Appliances,5,102.15,510.75,Europe
+259f9b01-dcda-4357-a709-6b8a0a8da499,2024-05-11,Blender,Appliances,1,87.06,87.06,Europe
+8542086d-54c3-472f-ad48-1896875028b2,2025-11-06,Laptop Pro,Electronics,1,1283.49,1283.49,Africa
+1f6c5ed8-c936-4826-a6ee-f3f21117f345,2025-05-01,Coffee Maker,Appliances,6,107.52,645.12,Asia
+108389f4-e1e2-45fb-ab2b-403478d30766,2025-07-16,Smartphone X,Electronics,1,802.84,802.84,North America
+e5754cc2-459d-4b56-9e5c-cd268197fdb4,2024-06-18,Desk Lamp,Furniture,5,46.89,234.45,North America
+dc412cd4-bd45-4105-9b95-9e23fd73b566,2024-09-28,Office Chair,Furniture,6,191.82,1150.92,Asia
+fd1542a0-54cd-4a31-bb9f-0e02cca67c9b,2025-06-24,Laptop Pro,Electronics,6,1268.11,7608.66,South America
+cdcf14c1-a460-49d9-93d0-372b36e6a7ee,2025-09-13,Blender,Appliances,7,87.27,610.89,Africa
+68b7ab59-8c91-4c20-b0ff-76bbb6215cba,2025-03-09,Office Chair,Furniture,3,195.44,586.32,South America
+785e6095-a9c1-4645-807b-4bd9316dd0d1,2024-08-04,Smartphone X,Electronics,4,799.93,3199.72,Asia
+fd61f0ef-507c-44ae-b831-20e829519ba9,2025-07-06,Desk Lamp,Furniture,9,45.71,411.39,Africa
+c5192ae7-15e8-41bf-ad70-f0eca0965014,2025-12-07,Laptop Pro,Electronics,7,1316.85,9217.95,North America
+1c3894f9-4b97-4196-877a-1f72e6c30926,2024-07-24,Wireless Headphones,Electronics,10,138.96,1389.6,North America
+8796a0a3-d5c3-472c-b1d5-e4cf2efd3f24,2024-11-15,Blender,Appliances,3,85.42,256.26,South America
+8e5b75ef-d077-412d-866d-8f9ff2ae0db5,2025-02-12,Office Chair,Furniture,3,194.62,583.86,Europe
+0416db2e-f6f3-4a95-a96d-d0fbaf5f45d8,2025-11-18,Coffee Maker,Appliances,3,93.46,280.38,Asia
+90bcde5d-0d87-40d6-a739-ee89168739d5,2025-10-27,Office Chair,Furniture,2,218.18,436.36,Asia
+b560caa8-dd9d-4ac4-8586-88309b795abd,2025-01-17,Blender,Appliances,10,73.17,731.7,South America
+a710d7a8-05a5-4b54-9f7f-b81a2e72f35b,2025-03-24,Desk Lamp,Furniture,7,45.68,319.76,Asia
+03c19151-9d76-4394-a8e3-6547ba1c5acd,2025-06-13,Wireless Headphones,Electronics,10,141.47,1414.7,North America
+9ee3334a-67c7-4503-a03d-dc6ad62798ec,2025-04-07,Laptop Pro,Electronics,4,1307.68,5230.72,South America
+c62c8c0d-b551-499b-99c1-b654326cf1c3,2024-05-03,Office Chair,Furniture,8,200.26,1602.08,North America
+91256834-5d4f-4d90-b1ac-7ac98cf56439,2024-09-10,Coffee Maker,Appliances,10,104.25,1042.5,Africa
+6a512bb7-98f9-4797-885e-51f840afa648,2024-08-18,Blender,Appliances,3,78.65,235.95,Africa
+50610b75-7749-4c3a-9912-0ccc1d604699,2024-03-06,Coffee Maker,Appliances,4,98.05,392.2,Europe
+7ee292bc-b8f9-493d-993f-690c399375d4,2024-12-12,Coffee Maker,Appliances,8,100.73,805.84,Asia
+751889fa-d044-4b55-be3d-18adeec90d5e,2024-01-22,Desk Lamp,Furniture,5,46.53,232.65,Africa
+4d378e35-ac5d-499b-bd8d-d6ce0695d79f,2025-08-25,Laptop Pro,Electronics,8,1154.38,9235.04,Asia
+5b1598a0-cb55-4c88-88a3-b406195043fe,2025-07-21,Desk Lamp,Furniture,5,54.21,271.05,North America
+7b39af7b-12a0-4b6e-8e27-a52094d6bc40,2024-08-23,Blender,Appliances,1,74.49,74.49,South America
+54715b48-2547-4a2c-8b22-97efdda482f8,2025-08-25,Wireless Headphones,Electronics,8,146.72,1173.76,Africa
+e45d18de-bc21-4430-a77f-459c8afd99bf,2024-08-13,Coffee Maker,Appliances,5,105.26,526.3,South America
+adcbd06b-708a-4a54-be16-f1d936bfd51a,2024-01-08,Coffee Maker,Appliances,9,103.62,932.58,Africa
+d9daaae3-a493-4fe8-89bd-20b6ab04bb4a,2024-03-13,Laptop Pro,Electronics,3,1154.44,3463.32,Asia
+1b0a2999-c795-4c08-8612-42966c28c9fd,2025-12-25,Office Chair,Furniture,2,209.2,418.4,Africa
+01209c17-a03b-4580-bec6-0aede601a369,2025-10-08,Blender,Appliances,8,75.82,606.56,Africa
+2c9cff92-dda9-447e-bbd0-5ff0381781f3,2024-03-01,Smartphone X,Electronics,6,733.79,4402.74,North America
+1a663469-ce87-4c61-b334-13c3e853ac85,2024-08-22,Office Chair,Furniture,10,184.64,1846.4,Europe
+57a7cf7b-5e23-4f1c-9491-80ffd41417e5,2024-03-10,Desk Lamp,Furniture,5,51.09,255.45,North America
+c0a82581-986c-41f3-a2ee-f8b234ad871c,2024-02-02,Wireless Headphones,Electronics,7,154.98,1084.86,South America
+13fa6e3e-f7c4-474c-a4b0-b1bedc5ef055,2024-12-04,Coffee Maker,Appliances,5,104.81,524.05,Asia
+dfe27394-0fd6-4bbd-806e-8db3fe929be0,2024-03-13,Laptop Pro,Electronics,8,1083.04,8664.32,Asia
+4eb3f1ac-2c49-439c-b93b-3abf6674eb5c,2025-06-10,Smartphone X,Electronics,5,832.24,4161.2,Africa
+f5be157a-4663-40d3-9194-dd4ebbd28c41,2024-08-31,Smartphone X,Electronics,4,799.43,3197.72,Asia
+9266c4e0-595a-4c1e-ba27-457969595369,2024-10-12,Wireless Headphones,Electronics,7,150.69,1054.83,Europe
+a7cc6320-60e9-452d-997c-f6b62776e557,2025-11-16,Blender,Appliances,8,85.16,681.28,Europe
+39916210-ee6b-4849-a419-88963520c3cf,2025-05-12,Wireless Headphones,Electronics,2,140.01,280.02,Africa
+daff1e86-6dcb-436e-9885-0d27da68b44a,2024-08-07,Smartphone X,Electronics,4,839.96,3359.84,Africa
+0593e07b-eadc-49b0-b6b9-294c55ef6141,2025-07-06,Blender,Appliances,7,76.3,534.1,South America
+3a777e33-5079-4066-8875-0e1921d75bc5,2024-05-15,Laptop Pro,Electronics,10,1265.14,12651.4,Africa
+1d94bc55-4ce9-4979-9883-70346dffc1c9,2025-08-07,Laptop Pro,Electronics,6,1160.4,6962.4,North America
+18813b62-b8a1-4ceb-a2d7-25e8ddba74c3,2025-08-13,Office Chair,Furniture,10,190.88,1908.8,North America
+0a03c1b4-421e-4619-97bc-038a4cd24c15,2025-04-29,Laptop Pro,Electronics,5,1143.11,5715.55,North America
+e74ffb07-23fb-4ad8-a3d8-4b10cd401a11,2024-09-05,Desk Lamp,Furniture,5,51.28,256.4,Europe
+b2d31d4a-7441-44f2-b6ab-7dee5b21a6ae,2025-04-29,Office Chair,Furniture,1,198.21,198.21,Asia
+3f8986d8-faa7-4203-a017-edb55b2f4ff4,2025-02-20,Wireless Headphones,Electronics,7,136.66,956.62,South America
+f977b362-1677-4f2f-9de8-cc8da05778ea,2024-07-13,Blender,Appliances,5,81.07,405.35,Africa
+8c2d39e4-c093-4e9c-968e-2f7d9b9a180a,2024-04-06,Wireless Headphones,Electronics,1,139.72,139.72,South America
+b4146d52-1d34-4ae8-97f4-8c609b9d0cea,2024-04-09,Blender,Appliances,10,73.65,736.5,Europe
+24547e10-a29f-4f18-b8dc-57e1cf5598f5,2025-11-05,Desk Lamp,Furniture,1,51.74,51.74,Africa
+603db734-851d-45b1-a75d-a1d23cce6cfc,2025-03-17,Laptop Pro,Electronics,10,1134.82,11348.2,Africa
+b025d079-7ee3-4d9b-8b90-7ea925d4bea6,2024-12-28,Desk Lamp,Furniture,8,45.03,360.24,Europe
+6f15dbf8-db0f-440b-8e1e-7d675e0ddbaa,2025-03-09,Blender,Appliances,5,85.81,429.05,Asia
+51bbc512-1afe-4544-9d17-7fabbcc25268,2025-02-24,Smartphone X,Electronics,4,727.36,2909.44,Africa
+42360d32-47e3-436d-9308-149b3c4134f8,2025-04-23,Wireless Headphones,Electronics,10,146.49,1464.9,Asia
+96f3f18d-82e6-4de4-9abe-ed5ece37fd20,2024-02-25,Smartphone X,Electronics,6,748.63,4491.78,Europe
+e8500b6c-a0f5-4f1b-8dd8-862c2b2e9bbe,2025-11-20,Blender,Appliances,4,72.57,290.28,South America
+59c8b282-489e-4f4c-a8e9-1a99d8fee1cd,2025-10-31,Blender,Appliances,4,86.62,346.48,Africa
+9e53fa02-9dca-4fcd-8814-f4b03cc8e8d5,2025-10-23,Coffee Maker,Appliances,10,103.11,1031.1,Asia
+78067638-45de-473a-b47f-81c03bfc23ce,2024-04-10,Smartphone X,Electronics,5,771.49,3857.45,Africa
+d8409d2e-61ce-447d-8151-5a8828ddb746,2024-03-03,Office Chair,Furniture,3,216.63,649.89,Asia
+509633f0-938f-4ecc-841c-3571db931c46,2025-02-16,Wireless Headphones,Electronics,2,143.14,286.28,Africa
+1197e600-6225-41c9-884c-19bf15b20016,2024-12-13,Laptop Pro,Electronics,1,1217.17,1217.17,Africa
+186f981e-0af3-4fb5-aa53-389e8d285471,2024-04-21,Laptop Pro,Electronics,5,1200.49,6002.45,Africa
+62847fe9-e283-47c9-bc67-457c59838a06,2024-09-11,Laptop Pro,Electronics,8,1123.04,8984.32,South America
+edca1c86-1650-4684-9037-1facbe98fc1f,2024-07-15,Blender,Appliances,1,80.25,80.25,Africa
+d33003ec-2c8c-49ed-9fab-c626e97d6b08,2024-07-13,Laptop Pro,Electronics,10,1308.98,13089.8,Asia
+86001a34-5958-49d0-9844-9c4fa36cd769,2025-07-03,Laptop Pro,Electronics,6,1290.48,7742.88,South America
+0d4657d4-af1f-45dc-b65d-2db942d18288,2025-04-04,Blender,Appliances,3,76.52,229.56,North America
+5e77cf4a-5fb0-4c7b-98cc-e743b5decc07,2024-05-23,Blender,Appliances,2,76.97,153.94,Asia
+444392e7-4e37-4bca-b1b5-558d1b2696db,2025-03-08,Laptop Pro,Electronics,5,1212.74,6063.7,Asia
+77ea7206-1796-49b1-ae44-a4fbfb05eb5d,2024-07-06,Laptop Pro,Electronics,6,1168.54,7011.24,North America
+47568757-ae06-42fd-a47a-08ecf7606b38,2024-10-12,Wireless Headphones,Electronics,7,151.91,1063.37,South America
+ce177b45-2695-40fb-852c-cc661c0e33b7,2025-04-18,Wireless Headphones,Electronics,3,157.19,471.57,Africa
+749f721c-c762-47a8-ba7e-6c9633bdc1c4,2024-09-12,Smartphone X,Electronics,4,794.23,3176.92,Asia
+c686f2b4-d464-42cc-8ef2-41744ac4dcd7,2024-03-18,Desk Lamp,Furniture,3,54.72,164.16,North America
+03b717db-6cba-462c-96af-c07e6bd2ddee,2025-03-29,Blender,Appliances,9,84.41,759.69,Africa
+14a859c4-88b0-40b4-88d3-8259ffaec90e,2025-07-17,Coffee Maker,Appliances,6,108.01,648.06,South America
+e87a5261-04e8-45ec-ab48-2812031722f7,2024-04-10,Blender,Appliances,9,84.74,762.66,Asia
+178fcbc0-dde7-42d2-9b6e-5a9e8a7becbe,2024-02-21,Smartphone X,Electronics,9,721.02,6489.18,Africa
+ee3b4628-5eb5-403e-b90c-88615340955d,2025-10-29,Office Chair,Furniture,5,180.96,904.8,Africa
+a8f52879-7cf7-432f-89df-4b03d0b3fd06,2025-07-07,Desk Lamp,Furniture,3,48.46,145.38,Europe
+ac37ee1f-763d-4a9d-9f79-968bd1de87b8,2024-01-16,Blender,Appliances,5,83.1,415.5,North America
+da46a133-75bf-4a48-9cb8-8f98d10779b8,2024-04-05,Laptop Pro,Electronics,8,1308.24,10465.92,Africa
+ccc6db6f-7982-4e56-a89d-f8ee66fff40a,2024-08-30,Laptop Pro,Electronics,5,1262.14,6310.7,South America
+afc9b6eb-374b-463f-a9bd-a270a3205d8d,2024-06-19,Office Chair,Furniture,6,213.96,1283.76,Europe
+f3412996-089d-4833-b8cb-e07cc38765a5,2025-02-20,Coffee Maker,Appliances,2,96.15,192.3,Africa
+6ded7e46-3cc9-4c46-8935-aa38d0936e92,2025-05-12,Smartphone X,Electronics,8,804.77,6438.16,Africa
+b5dd3ad7-b15a-4f4c-87de-8bd794483295,2025-05-07,Smartphone X,Electronics,2,787.17,1574.34,South America
+c4d49093-0e31-4c2d-9e9c-4fcee8b9c1b9,2024-08-06,Laptop Pro,Electronics,3,1313.41,3940.23,Europe
+9952022a-0b4d-41d3-aaac-0e4f2f021d78,2025-02-14,Smartphone X,Electronics,4,833.86,3335.44,Europe
+55512a35-da25-4af7-8fab-5d44cb399f79,2024-03-01,Laptop Pro,Electronics,7,1090.54,7633.78,North America
+a3addf29-dea7-4ccb-8666-23112713da97,2024-06-17,Smartphone X,Electronics,9,863.57,7772.13,Africa
+60efa2f3-3e71-4df6-aff0-d9f86d9b9d67,2025-01-23,Desk Lamp,Furniture,6,49.13,294.78,North America
+71464ead-18a0-4bd0-a1fe-298da0f14452,2024-01-03,Wireless Headphones,Electronics,2,148.75,297.5,Europe
+a3b02e1e-485f-427f-9ea4-3f420e73df3b,2025-02-03,Coffee Maker,Appliances,7,91.7,641.9,North America
+a46add13-4338-4e91-b748-143c5cd3c205,2024-09-28,Laptop Pro,Electronics,1,1201.3,1201.3,South America
+2489a6c9-8716-4571-a3be-eeb4cdc951e3,2025-04-10,Coffee Maker,Appliances,5,106.4,532.0,Asia
+e80ea6ce-82da-40f5-96bc-dab2b2dac5f5,2024-10-19,Laptop Pro,Electronics,9,1222.05,10998.45,South America
+63e779f6-d0b6-47a1-ace9-5883d46c7c24,2025-03-09,Laptop Pro,Electronics,2,1184.4,2368.8,Europe
+4f3b8c28-5e96-47cf-8e18-14d27c14db62,2025-12-14,Smartphone X,Electronics,8,757.88,6063.04,South America
+5f654ca0-4190-47bf-bdef-9072c0b27f0f,2025-07-23,Wireless Headphones,Electronics,6,160.53,963.18,Europe
+858de686-4aa4-4949-917c-f7b658a5af1a,2025-11-08,Blender,Appliances,5,78.29,391.45,South America
+0e8497c6-a082-4671-966e-de805198f6be,2025-05-13,Blender,Appliances,10,83.77,837.7,Africa
+119254e8-75b9-4f5d-af30-3a7c73221753,2024-06-07,Wireless Headphones,Electronics,7,148.58,1040.06,Africa
+f1f7c988-6e8d-4f3b-aac0-3b5d5cc0072e,2024-07-13,Smartphone X,Electronics,6,731.95,4391.7,South America
+79d591ff-c61d-4e5b-8778-46f84d5e5856,2024-10-30,Smartphone X,Electronics,2,741.78,1483.56,North America
+c25ae9b9-23ed-45ca-9e8f-66e0acbc00f9,2024-08-10,Blender,Appliances,4,81.36,325.44,Europe
+a840fd88-a976-490e-955a-0c2001d8e914,2024-02-29,Smartphone X,Electronics,8,736.91,5895.28,Africa
+59236fca-90a5-4e93-a695-c65324fdc02c,2025-08-16,Office Chair,Furniture,1,198.64,198.64,Europe
+c1dee3b8-5381-45d0-9f96-fc2c98a4bace,2025-07-09,Office Chair,Furniture,10,184.83,1848.3,Africa
+4ba2357e-5319-4f59-a2f8-3597e7ee8243,2024-03-03,Wireless Headphones,Electronics,9,163.94,1475.46,Asia
+7dbcaf70-7359-4f25-af03-07494eb65aa5,2024-11-17,Smartphone X,Electronics,6,792.31,4753.86,South America
+33fb2497-b0f9-483e-8bca-17c4a5b3ecad,2024-02-28,Office Chair,Furniture,10,190.6,1906.0,Africa
+ce27feb4-0b57-438f-ae3b-0c72c676a1f2,2024-02-21,Laptop Pro,Electronics,4,1101.7,4406.8,South America
+b99faa7d-f128-4d21-8b23-1d276582f909,2025-08-21,Blender,Appliances,2,82.98,165.96,Asia
+7f8b365f-fd0d-4a4e-ad4a-ca8fbd8ec393,2025-05-03,Blender,Appliances,8,83.28,666.24,Europe
+d0673061-b6c6-4343-ace2-7b61615082bd,2025-05-29,Desk Lamp,Furniture,5,45.4,227.0,South America
+e298a13b-99cb-4a50-b14e-3ff5c2bbb235,2025-06-27,Blender,Appliances,7,85.71,599.97,Africa
+50ea9795-e650-4809-857e-771127712f44,2024-06-10,Smartphone X,Electronics,2,734.59,1469.18,Asia
+78f056ce-539b-4a7c-ace7-809c7aed01a5,2024-02-28,Smartphone X,Electronics,3,874.94,2624.82,Africa
+959717e4-2307-4f9b-87ce-05a2d47b2a4b,2025-06-04,Office Chair,Furniture,1,200.54,200.54,Asia
+2694e85b-244c-4220-9f7a-4da869628ae1,2024-03-23,Coffee Maker,Appliances,1,95.98,95.98,Asia
+4b4eefc2-1038-438d-be74-8dd93b57e74e,2024-07-09,Blender,Appliances,5,87.85,439.25,Africa
+68dfbc8f-61e7-4843-b35e-52d2d5f6a455,2024-03-11,Laptop Pro,Electronics,8,1308.5,10468.0,South America
+ce7c3513-6b6f-4619-8152-f2bf212a8661,2025-09-01,Blender,Appliances,2,79.24,158.48,Europe
+5e899fae-f0d4-47e3-8e46-94b8fa1c2dfe,2024-03-10,Coffee Maker,Appliances,2,101.0,202.0,Europe
+d9fa8dac-7d38-4270-bd16-ad5ff8d565b3,2025-11-22,Laptop Pro,Electronics,4,1190.89,4763.56,Asia
+39a0955f-9e30-488d-a85b-36fea2c5b76c,2024-08-28,Blender,Appliances,9,84.7,762.3,Africa
+e9da9005-cc0b-45f1-b24a-738da957e0e7,2025-02-17,Laptop Pro,Electronics,3,1082.87,3248.61,Asia
+27f8bdab-eeef-4643-87db-a47d12b8a566,2024-05-02,Blender,Appliances,7,84.5,591.5,Europe
+9a9180e1-726b-4494-ad1d-74063b29818e,2025-08-06,Smartphone X,Electronics,8,740.91,5927.28,Asia
+8ec2b3cc-18fc-4e87-b9d7-632b8035ce80,2024-09-09,Blender,Appliances,6,78.41,470.46,Asia
+f9a73611-b684-458f-90bc-eef2f28a1d3a,2025-08-15,Coffee Maker,Appliances,9,102.61,923.49,Europe
+1686e824-3188-4ffb-a10f-86b8c31a0088,2025-08-31,Coffee Maker,Appliances,7,91.68,641.76,South America
+4d9382ff-a4e3-4863-b339-eed52ac54a29,2024-02-10,Desk Lamp,Furniture,10,47.59,475.9,Asia
+753612c8-8d8b-4a11-812b-a261d7fa78f6,2025-09-26,Blender,Appliances,3,73.2,219.6,South America
+ded328ae-7a68-41bd-982a-b67fb7218741,2024-03-24,Laptop Pro,Electronics,7,1127.46,7892.22,Asia
+8ae08869-fa70-474c-9271-890f8459fb83,2025-03-05,Coffee Maker,Appliances,2,98.87,197.74,Africa
+a1e8804e-1865-4a2d-a823-ec7c8d47f3d1,2025-11-04,Smartphone X,Electronics,8,734.72,5877.76,Asia
+304133d7-d0ef-48a5-97d0-94caebac7285,2025-08-20,Blender,Appliances,10,85.27,852.7,Asia
+362b4352-e267-4f62-a60d-285bee578f04,2025-08-01,Wireless Headphones,Electronics,7,138.68,970.76,North America
+2a22481e-5223-4130-a514-faacb614057a,2025-06-19,Office Chair,Furniture,5,182.03,910.15,Africa
+ec3a6e29-5216-45d6-898a-da3d50a6a611,2024-11-19,Desk Lamp,Furniture,1,49.33,49.33,Africa
+ea1952a9-8902-4196-ad1a-0802c65e1d6f,2024-09-24,Coffee Maker,Appliances,6,97.9,587.4,South America
+1de7749f-1759-443d-8553-cba47681371e,2024-07-28,Laptop Pro,Electronics,4,1171.86,4687.44,South America
+9489a24b-bb28-4b64-a299-35127b33b5a4,2025-11-16,Office Chair,Furniture,8,186.91,1495.28,Asia
+0bb1a54d-85d3-49ca-862e-834a0896dc62,2024-11-17,Smartphone X,Electronics,8,865.33,6922.64,Europe
+a7c1e0d9-ec42-49fa-834c-44e471d5f591,2024-09-01,Wireless Headphones,Electronics,4,143.4,573.6,Asia
+0f066b23-cc73-4078-bcf7-3caaf0b1cd7f,2024-09-28,Smartphone X,Electronics,6,725.54,4353.24,North America
+5f33e5ee-2127-4fa0-8d39-84e82a838c07,2025-02-09,Desk Lamp,Furniture,2,51.17,102.34,Asia
+17de9181-2c63-4e6e-b63a-8b128083bfd7,2024-05-14,Coffee Maker,Appliances,6,95.9,575.4,North America
+35bb5f30-fa7e-449d-969e-e7132419769f,2025-11-18,Office Chair,Furniture,9,215.31,1937.79,Asia
+893b23f6-ba37-4ec6-a687-d88822e67828,2025-10-22,Office Chair,Furniture,6,182.44,1094.64,South America
+286eb2a4-ccfe-40e8-a672-055f927ff39a,2024-11-03,Wireless Headphones,Electronics,1,146.49,146.49,Asia
+f2f6c50d-330d-4044-ac4c-6ebc1cbe9d17,2025-04-13,Office Chair,Furniture,7,187.98,1315.86,South America
+524482ab-ab4a-417f-849d-fc20eb837330,2024-11-19,Blender,Appliances,5,80.41,402.05,Europe
+b9d20cdf-ab9f-4078-918e-e505d6d395f3,2024-03-15,Coffee Maker,Appliances,4,109.88,439.52,Europe
+79a31a4e-c920-403d-b734-ab3f31713ce0,2024-01-10,Desk Lamp,Furniture,2,52.95,105.9,Africa
+7de9347f-4728-4264-80e6-597afbbb89db,2025-04-14,Office Chair,Furniture,8,211.28,1690.24,Asia
+93b84d91-57b5-46f7-8fe5-c911de869c1e,2025-09-28,Wireless Headphones,Electronics,2,149.39,298.78,Africa
+ff962614-4602-45fa-b80e-2e4e20da268b,2025-07-30,Blender,Appliances,4,79.75,319.0,Asia
+ce844cfe-2988-4c9a-8fcf-5157d7758ec2,2024-04-12,Desk Lamp,Furniture,10,50.02,500.2,Europe
+6ae9918e-2ad4-4013-b7c0-f44beb6f347f,2024-03-16,Office Chair,Furniture,1,190.82,190.82,North America
+bcf2f739-4483-4949-829a-476af5d2de4c,2025-07-04,Laptop Pro,Electronics,1,1156.53,1156.53,Africa
+4d6c0b35-7f2b-48f3-97bb-e8185e802ab7,2024-08-06,Smartphone X,Electronics,6,724.69,4348.14,Africa
+0d706f17-184e-4d74-89f0-606eca6cd71b,2025-06-02,Blender,Appliances,4,84.46,337.84,Europe
+efc19c46-09bc-4438-8a8d-6aa7ffb604a7,2024-09-28,Laptop Pro,Electronics,3,1274.08,3822.24,Europe
+ad29cf7e-2054-4481-9893-3c1a08f97570,2024-05-15,Office Chair,Furniture,10,201.18,2011.8,North America
+254940a2-0905-405a-8ab2-34fa6975a2b8,2024-12-23,Blender,Appliances,4,81.34,325.36,Africa
+454dffae-c187-458e-80ab-1daa7cd3a57c,2024-03-11,Smartphone X,Electronics,2,875.84,1751.68,Europe
+ed12de6e-fdb1-4ecc-8545-1c0bb69085e6,2024-09-07,Laptop Pro,Electronics,9,1139.49,10255.41,Europe
+6dc2fb0a-667a-49d8-a583-2f9f82c38b7c,2025-01-13,Smartphone X,Electronics,4,762.64,3050.56,North America
+024e8a6f-bb89-4af3-bace-f6f082c29fa4,2024-10-18,Blender,Appliances,10,84.66,846.6,North America
+0d9a6d35-de98-4c0d-8fd1-df62aadddd9c,2024-06-10,Coffee Maker,Appliances,4,91.12,364.48,South America
+d07a7258-61ca-42b5-9ee6-baee128a7330,2025-03-24,Smartphone X,Electronics,4,812.11,3248.44,Asia
+8ad090ae-cfe4-41b9-adea-24a54bf940f6,2025-07-10,Blender,Appliances,6,78.21,469.26,South America
+9c3b2ea5-b3dd-4916-a1ff-e397797e72f2,2025-12-21,Blender,Appliances,3,87.86,263.58,North America
+14dc8731-6736-42f5-a06c-da619f6a2fb5,2024-11-05,Smartphone X,Electronics,10,748.18,7481.8,Europe
+e404dff2-0760-4bc1-92c0-fa525865ab17,2025-09-18,Desk Lamp,Furniture,1,48.18,48.18,North America
+ccb71e83-fca4-4238-a094-a9e7b70b7c36,2025-10-31,Coffee Maker,Appliances,5,103.95,519.75,Africa
+80ef963c-284b-4551-895f-e299ca7e7e97,2025-06-25,Desk Lamp,Furniture,3,45.28,135.84,Europe
+c46ef798-0d3f-4d36-9666-2d9e18dda2bb,2024-01-09,Coffee Maker,Appliances,3,97.03,291.09,South America
+7d1ab3e0-7921-42b6-be00-75e877c48459,2025-11-14,Desk Lamp,Furniture,9,50.64,455.76,South America
+bb0680f7-ab3c-4272-ac7c-9441965d60f7,2025-07-21,Desk Lamp,Furniture,5,54.48,272.4,South America
+c99322dd-8e9a-4593-922c-862d939878f1,2024-11-02,Blender,Appliances,3,87.81,263.43,Europe
+59df69e2-1dfc-4349-8c61-207892741ec3,2025-11-10,Office Chair,Furniture,2,201.68,403.36,Asia
+f3b5179e-4eb4-418d-8ede-0f2c91f9d2e6,2024-04-16,Smartphone X,Electronics,1,798.47,798.47,Asia
+500291e4-b9b2-431d-85fb-9dfa0982ad37,2024-05-17,Laptop Pro,Electronics,3,1093.48,3280.44,Asia
+7e2808f3-0100-4086-95d0-69bdf737304e,2024-09-27,Desk Lamp,Furniture,1,47.19,47.19,North America
+086fc3a3-73fc-4de0-8cd6-8c0950849072,2024-04-28,Desk Lamp,Furniture,6,49.78,298.68,North America
+b8e77d42-888d-40ad-8bc5-f008ac524324,2024-04-19,Wireless Headphones,Electronics,4,162.54,650.16,Africa
+82ded249-f064-433e-93ac-815f56946a10,2025-07-20,Smartphone X,Electronics,10,849.03,8490.3,Europe
+855b693d-d270-408e-bdce-890505a4b485,2024-06-08,Wireless Headphones,Electronics,6,156.51,939.06,Africa
+a3b37196-35b4-4102-b165-95633088b790,2024-10-05,Blender,Appliances,1,85.51,85.51,North America
+090d020a-b90a-4c25-a06a-7a5bcd33f44d,2024-10-15,Wireless Headphones,Electronics,3,136.79,410.37,Europe
+e809c065-cd97-4fe1-b92f-a12023e12efc,2025-09-11,Smartphone X,Electronics,5,813.86,4069.3,South America
+a831cd6d-4aa7-43d4-9dc6-b42e85a48fc1,2024-08-03,Smartphone X,Electronics,1,843.9,843.9,Europe
+8bbfe7b8-53ca-490c-ba86-8b94d89cbc92,2024-12-17,Blender,Appliances,3,80.42,241.26,North America
+8af55f58-74a9-4c7c-83d9-83cbe80a1308,2024-07-27,Wireless Headphones,Electronics,7,163.82,1146.74,South America
+5086ed3a-9206-44a2-b5f6-d6cd920f0ff2,2025-12-04,Wireless Headphones,Electronics,9,156.14,1405.26,South America
+29022804-fe5a-4f58-9fd5-6c96710cfa26,2025-10-11,Coffee Maker,Appliances,2,97.91,195.82,Europe
+56c7f6ab-9bb6-49cb-8457-cf320bd51f16,2024-09-27,Laptop Pro,Electronics,2,1160.77,2321.54,Asia
+b04bf81a-d490-4d5f-9124-1d86a4f39806,2025-06-01,Wireless Headphones,Electronics,8,139.09,1112.72,North America
+149e99c1-7535-433f-9aff-fd36036bda29,2025-05-15,Smartphone X,Electronics,8,837.18,6697.44,North America
+79cfd458-6e46-44b1-9210-a738bc65aec7,2024-09-14,Office Chair,Furniture,6,211.67,1270.02,Asia
+08b8ac27-52b5-4872-8fc2-49fd298be26c,2024-02-22,Office Chair,Furniture,9,205.97,1853.73,Africa
+d93eefc8-9444-4a57-820a-aab680f580f9,2024-04-04,Smartphone X,Electronics,10,833.15,8331.5,Africa
+addf739d-dc86-474d-9bb9-f644c55c06e1,2025-10-11,Desk Lamp,Furniture,2,51.94,103.88,North America
+cad5d969-c05a-44c3-8001-46babbdd7880,2025-03-09,Desk Lamp,Furniture,8,52.87,422.96,Asia
+2a0cd5e0-949c-4859-bc48-e32332732513,2024-10-10,Smartphone X,Electronics,9,826.49,7438.41,Asia
+7aec3063-fee6-4e76-990b-7607019ae644,2024-02-15,Blender,Appliances,4,74.81,299.24,South America
+32bf6145-af51-4c07-a812-41d95f1251c1,2024-01-04,Wireless Headphones,Electronics,10,157.02,1570.2,Africa
+192589d5-03bb-4e1d-b105-f545f5f7c4e1,2024-12-07,Wireless Headphones,Electronics,1,138.82,138.82,Africa
+1481420d-612a-44e2-a94f-1730b34df68f,2024-05-13,Coffee Maker,Appliances,9,90.04,810.36,South America
+94918c86-3eff-44a4-b622-ba8c7ca0c4f5,2025-10-14,Coffee Maker,Appliances,5,108.97,544.85,Europe
+396629dc-5904-40e0-a33d-b93edc22493a,2024-09-25,Office Chair,Furniture,8,214.03,1712.24,Africa
+8b5cff1d-cec0-4366-8022-627e04f02293,2024-06-14,Blender,Appliances,1,87.44,87.44,South America
+5d9cc5c0-4d9b-4cab-911b-15a33c93324c,2025-03-28,Laptop Pro,Electronics,1,1123.7,1123.7,Asia
+8dfa600e-235e-4988-a059-63b9147e3ade,2025-07-18,Wireless Headphones,Electronics,8,162.63,1301.04,Europe
+4c3305fb-4496-46a5-a661-ed1058d5984e,2025-12-23,Desk Lamp,Furniture,7,47.21,330.47,North America
+dd502ef9-4d5d-4409-9e24-90594b833d48,2025-03-13,Desk Lamp,Furniture,7,46.04,322.28,Asia
+6dad0586-ea0b-4136-9927-3acd67437a13,2025-07-28,Office Chair,Furniture,2,185.63,371.26,Europe
+82c7f797-27bf-4378-81dc-3afe520e3b4d,2024-01-10,Coffee Maker,Appliances,8,91.56,732.48,South America
+f8e3ed41-c281-4207-966b-645ff6acd827,2024-04-24,Wireless Headphones,Electronics,8,164.47,1315.76,Asia
+273f895d-7455-4136-9022-45e7fdb804c9,2024-03-18,Smartphone X,Electronics,2,821.79,1643.58,Europe
+9a30f6d7-f6bb-4e80-b421-f93737c89bb9,2025-12-08,Laptop Pro,Electronics,2,1277.2,2554.4,North America
+d0c4ecd2-c464-47e4-89e8-f0bf7f1215c2,2024-06-01,Coffee Maker,Appliances,6,102.78,616.68,Asia
+861ac083-7c14-41fe-befe-41598086102c,2025-07-12,Wireless Headphones,Electronics,10,148.4,1484.0,Asia
+30c0861d-6edb-46a7-a585-0e7bf050f55b,2024-02-06,Wireless Headphones,Electronics,3,141.29,423.87,Africa
+9e66016b-a75c-45c3-9882-ee0deab7c3b0,2025-01-13,Coffee Maker,Appliances,2,91.36,182.72,Europe
+ddc8b43f-e697-4085-801c-a276de12fdd2,2025-08-19,Wireless Headphones,Electronics,3,158.61,475.83,Europe
+fc45ae18-6214-4516-8e7b-0f735873476f,2025-07-19,Coffee Maker,Appliances,5,90.03,450.15,Africa
+f7dbba32-b2c6-463a-be17-029b6c8e6dec,2024-05-31,Office Chair,Furniture,10,197.53,1975.3,South America
+dca4e8e9-0698-4a41-9fd9-08b70aaa7b21,2025-03-16,Office Chair,Furniture,10,218.76,2187.6,South America
+eebcb8e3-bc08-48bc-b250-41275c6b524a,2024-05-10,Office Chair,Furniture,9,199.72,1797.48,Africa
+0d148cc6-1da8-49e9-9229-4059232fbd52,2024-02-12,Office Chair,Furniture,6,194.05,1164.3,Asia
+6104c6a4-5903-4176-9aec-fc6a075a60f6,2024-11-11,Office Chair,Furniture,7,184.06,1288.42,North America
+e380fbdf-3b62-455f-8d1e-17707d0a0184,2025-01-08,Office Chair,Furniture,10,211.55,2115.5,South America
+25aad698-1ad3-4765-9311-07cc66ac0d95,2024-02-10,Desk Lamp,Furniture,9,51.51,463.59,North America
+6d147d7e-e170-4585-a1bc-6faaf025bb06,2025-01-01,Coffee Maker,Appliances,5,94.51,472.55,Europe
+31f20e3a-fde8-40f5-a356-9c84b0454538,2024-08-03,Office Chair,Furniture,8,182.95,1463.6,Europe
+c34120ac-5a85-4aa7-ac9e-303927606cb7,2025-11-29,Blender,Appliances,9,72.53,652.77,South America
+35431a50-39d0-41f7-8769-3eeeeb4a7452,2024-09-12,Laptop Pro,Electronics,10,1156.49,11564.9,Asia
+c3147ac5-a9a0-4877-baa4-4c64f6aad6c8,2025-11-13,Laptop Pro,Electronics,7,1097.81,7684.67,Europe
+7902c3bd-eeb6-4cd9-a018-7f75a84ded38,2024-04-15,Smartphone X,Electronics,2,862.07,1724.14,North America
+fa3796d7-3773-4111-858c-3c24ae0c0aa4,2024-12-28,Smartphone X,Electronics,2,837.12,1674.24,Asia
+25615622-4937-4774-8120-286fdbc9c0b7,2025-07-27,Desk Lamp,Furniture,9,54.42,489.78,South America
+db9af18b-3383-4352-8594-f57c223aaeae,2025-02-20,Laptop Pro,Electronics,4,1161.11,4644.44,Europe
+125aa2e9-b837-4dd8-892a-d6392946d3aa,2025-09-27,Desk Lamp,Furniture,7,53.93,377.51,South America
+99092587-a228-4cf0-93ef-ea8471fbcea6,2024-06-07,Coffee Maker,Appliances,8,90.62,724.96,Asia
+6b6c2a80-bfed-4da6-85c4-7d95639a9224,2024-08-30,Coffee Maker,Appliances,4,93.3,373.2,Asia
+394c6bf2-3aab-4959-a692-4ef9afc85c71,2024-06-15,Office Chair,Furniture,7,186.28,1303.96,Asia
+97bc6b7c-0482-40d3-a866-2593d49f6fb7,2024-06-30,Laptop Pro,Electronics,6,1159.46,6956.76,Africa
+fc74e099-a851-403b-88ea-3096df0c37a9,2025-02-26,Smartphone X,Electronics,8,785.48,6283.84,Africa
+c398d869-1a43-4fe4-a996-f10966ac29dd,2024-01-26,Desk Lamp,Furniture,7,52.22,365.54,North America
+40915584-238c-47fc-9608-d50abea92cbf,2024-07-02,Coffee Maker,Appliances,7,100.8,705.6,Asia
+b47b3d38-e482-4737-8bb3-185057ca5e9c,2024-12-06,Coffee Maker,Appliances,2,95.63,191.26,Asia
+245b83ea-2b13-4d42-aa01-dc00e02585c1,2025-02-25,Smartphone X,Electronics,6,735.35,4412.1,Europe
+00bfdfc6-5e9e-4a8f-b000-89ecef52c8a0,2025-11-16,Office Chair,Furniture,7,202.87,1420.09,North America
+16267712-31d9-4261-a600-9a058c0bf88e,2024-09-11,Blender,Appliances,6,79.86,479.16,North America
+95867fd4-9ba1-4642-9d21-ff4e3bb53960,2024-09-30,Laptop Pro,Electronics,5,1166.6,5833.0,South America
+6ad9e8ee-a7c6-4453-be6f-79465f74cf85,2024-06-12,Office Chair,Furniture,6,183.51,1101.06,Asia
+2ed00e33-4e4f-4225-ac77-017414322256,2025-12-19,Blender,Appliances,3,82.59,247.77,Europe
+12046766-da7c-418d-b4c7-99fc74eed736,2024-04-20,Desk Lamp,Furniture,8,49.8,398.4,South America
+e5027743-cb6b-4025-9f4e-5442a8b61878,2025-01-26,Laptop Pro,Electronics,2,1086.18,2172.36,Africa
+11cb87bb-78a3-4d9b-9cfb-69faf7d2e444,2024-02-09,Smartphone X,Electronics,2,822.11,1644.22,Asia
+12279ff1-d759-4de7-a826-94dca1bb3831,2025-04-26,Laptop Pro,Electronics,2,1193.66,2387.32,North America
+ab7e56da-921f-424a-9a74-acc7eb3b0152,2024-08-15,Laptop Pro,Electronics,2,1154.0,2308.0,Asia
+9b2e109d-b8d5-41a1-b2ed-5ddc1a8c7de5,2024-07-23,Office Chair,Furniture,7,198.84,1391.88,Asia
+b61ececa-f6a9-434e-9e5b-147b00652f70,2025-04-16,Coffee Maker,Appliances,2,95.3,190.6,Africa
+c0dc1db6-2ce9-4fe8-a91d-2f447e584c3a,2024-12-24,Coffee Maker,Appliances,6,100.88,605.28,Europe
+b52a20b4-00dd-419a-bcd7-c4516e732a2d,2024-11-08,Smartphone X,Electronics,3,779.36,2338.08,Europe
+7f0763b1-3639-4de5-b7d6-bfc53d1d5c8d,2024-08-21,Office Chair,Furniture,9,194.78,1753.02,Europe
+77068d18-e9b2-495a-b528-80cca3fd28ac,2024-08-16,Office Chair,Furniture,1,181.78,181.78,South America
+283d0f58-7140-43c1-95a4-8a60d40e6fb8,2024-01-25,Office Chair,Furniture,10,198.6,1986.0,Europe
+1bdc021c-7b90-449d-93c9-45601ba6a792,2025-11-06,Smartphone X,Electronics,9,853.93,7685.37,South America
+177d4f68-948c-4c74-819a-1bd2a093fadd,2024-07-16,Desk Lamp,Furniture,9,45.62,410.58,Africa
+c28b37e2-a47d-4d17-9a98-49a5338b46d6,2025-02-12,Blender,Appliances,6,83.14,498.84,Asia
+e35cf6ea-4027-4b10-b75c-7d3dbfc6d110,2024-12-02,Laptop Pro,Electronics,2,1100.57,2201.14,South America
+29652277-5324-43de-b9bc-3a35b76d7ecf,2024-10-12,Wireless Headphones,Electronics,7,159.25,1114.75,Africa
+7ccedae3-18bf-4ae0-b56b-c13c3730f8e8,2024-03-12,Office Chair,Furniture,6,218.83,1312.98,South America
+dd11bf87-1000-41c8-9def-136dc840a1ad,2024-10-12,Desk Lamp,Furniture,7,47.28,330.96,Africa
+fef4f7f8-473e-42fe-9580-92d5ad8a5ca1,2024-12-25,Laptop Pro,Electronics,1,1281.79,1281.79,Europe
+13e8d271-d5e2-4b56-a44b-8065574c51a5,2025-10-18,Blender,Appliances,5,80.36,401.8,Europe
+91f31301-5c5b-465e-927f-e18353cddcd8,2025-06-05,Desk Lamp,Furniture,10,51.87,518.7,Africa
+9fece2be-d8ef-43e1-bdb8-22ed952c91c0,2025-02-13,Office Chair,Furniture,5,202.91,1014.55,North America
+5fa9d2c9-e645-4171-bece-c61d878995fb,2025-11-26,Smartphone X,Electronics,6,796.2,4777.2,Africa
+3ee76054-e09b-4f60-b9a9-b59c93908955,2025-07-03,Laptop Pro,Electronics,2,1174.75,2349.5,South America
+02ad82c4-cd11-4e2b-96af-414c1b29fa72,2024-12-05,Blender,Appliances,10,83.43,834.3,Africa
+9749fb21-142e-4786-9d10-63b7f88b473c,2024-01-29,Desk Lamp,Furniture,9,50.71,456.39,Asia
+8da06780-b7ae-4597-a835-8e45dcba70b3,2024-04-28,Desk Lamp,Furniture,4,53.0,212.0,North America
+91680622-bf1e-4c82-b159-c9f9243f1340,2024-09-24,Coffee Maker,Appliances,3,109.66,328.98,Africa
+21599e01-a026-4e9d-a057-1a85ec0ed82e,2024-07-01,Smartphone X,Electronics,8,739.25,5914.0,North America
+c750e7b3-261f-4ddb-9d91-60f6710daf19,2025-08-17,Blender,Appliances,4,79.18,316.72,North America
+6d6b9daa-cf13-496f-9e5a-7a53963e7348,2024-09-28,Smartphone X,Electronics,2,875.55,1751.1,Africa
+a7867c35-ce41-4e6d-a4e8-144c1675d8d0,2024-02-09,Blender,Appliances,6,75.08,450.48,Africa
+a10bcc6e-a36e-4d47-a243-47022486149f,2024-04-21,Laptop Pro,Electronics,9,1181.61,10634.49,Europe
+39d40ee0-d3e2-4e07-9f1f-0405653b2f91,2025-09-02,Coffee Maker,Appliances,6,98.71,592.26,Africa
+b7105364-4925-4430-b4df-5c8dc06bc4fb,2025-03-20,Blender,Appliances,2,82.04,164.08,Africa
+438c4707-3a18-4e43-819a-60ec850f23cd,2024-12-19,Blender,Appliances,5,81.52,407.6,Europe
+b85b2f10-5bb2-492c-b008-42cdeeb4afc0,2024-11-17,Wireless Headphones,Electronics,10,162.32,1623.2,Europe
+1b28c32a-54f6-44ce-b402-38abd1e7c17d,2025-03-22,Blender,Appliances,4,73.07,292.28,Asia
+cb49fa7b-56a3-484a-b4cb-7cb6537810c2,2025-09-12,Office Chair,Furniture,7,202.25,1415.75,Africa
+110b03fd-6f79-41c9-b81b-059b5eb17944,2025-06-07,Desk Lamp,Furniture,9,48.26,434.34,South America
+d9dae73d-a12c-4fe8-8e00-b3806d1f006e,2024-04-28,Wireless Headphones,Electronics,10,150.59,1505.9,North America
+b70808a2-f71f-4cde-8860-e99e733ccfb4,2025-01-29,Blender,Appliances,10,72.2,722.0,Europe
+ef79be0d-c26e-4bb5-a2e2-47f8130a639b,2025-08-13,Coffee Maker,Appliances,9,102.46,922.14,Africa
+0532bb2d-812a-4975-8b6b-7e38fe48b4be,2024-07-13,Desk Lamp,Furniture,1,52.82,52.82,South America
+6184b106-a599-4765-aea7-08aaee840cf1,2024-09-17,Laptop Pro,Electronics,10,1179.47,11794.7,North America
+41595ce3-c986-4c79-806f-65b1929f3ae7,2024-02-15,Smartphone X,Electronics,5,810.66,4053.3,Africa
+472bca9b-ef91-4e8b-a49e-49699ae1b0f9,2025-12-26,Desk Lamp,Furniture,1,52.58,52.58,South America
+241ddf25-c553-4035-b72a-a69302b97e4e,2025-03-22,Laptop Pro,Electronics,3,1301.98,3905.94,North America
+2b83fe63-f60c-4290-8617-f5841da2a893,2024-01-02,Desk Lamp,Furniture,5,52.8,264.0,South America
+0a214384-b796-4809-89ae-50fb5710dc8b,2025-06-16,Blender,Appliances,5,76.58,382.9,Europe
+860943a7-af17-4864-8800-5cbedd4a4808,2025-07-05,Desk Lamp,Furniture,6,53.8,322.8,Africa
+85a344be-df14-4537-a3dd-d1510747797e,2025-12-04,Office Chair,Furniture,6,190.57,1143.42,South America
+50c8e73d-1ed0-4b9d-9e0d-ed37a2b23b1d,2025-11-17,Coffee Maker,Appliances,1,99.71,99.71,South America
+2c7cca94-e1fd-482f-9892-2d8711f96d00,2024-07-20,Desk Lamp,Furniture,3,49.73,149.19,Africa
+e6a4afa1-afc7-4562-9f30-bf402bb3ac84,2025-01-07,Smartphone X,Electronics,3,764.07,2292.21,North America
+fba9f38e-ed54-486c-a038-da40a1fb9511,2025-03-17,Smartphone X,Electronics,10,818.92,8189.2,Africa
+f66d3acf-d383-4291-bcc6-56b20a487170,2024-03-12,Coffee Maker,Appliances,7,103.87,727.09,South America
+d00c27ba-864c-464b-aebb-958d7f50ea01,2025-11-11,Laptop Pro,Electronics,2,1174.99,2349.98,Asia
+8a5ac1ac-9835-4b61-965a-2910f56c5d7a,2024-12-04,Wireless Headphones,Electronics,3,155.72,467.16,North America
+90b1ddf1-d5b3-4fc1-b941-f59584db42c8,2025-09-30,Laptop Pro,Electronics,1,1258.98,1258.98,South America
+5b53d3e8-f42a-4058-8ad5-4dff7d166b96,2024-11-17,Wireless Headphones,Electronics,2,161.91,323.82,Asia
+234e0c5f-99cb-47bb-b3f0-d6ca02ec0314,2025-11-10,Laptop Pro,Electronics,9,1161.09,10449.81,North America
+3e6d0543-4d27-4fea-918f-e770133ccb52,2024-05-07,Blender,Appliances,4,76.85,307.4,Europe
+c152e05d-460e-4140-9b72-8a1dea950824,2024-11-03,Wireless Headphones,Electronics,7,160.29,1122.03,Africa
+ab848643-5945-44ce-831c-bc76b3ea3f43,2025-06-03,Blender,Appliances,7,83.14,581.98,North America
+f5e69cb1-d5ac-45b3-913e-1a897bbda3b3,2024-11-12,Laptop Pro,Electronics,8,1313.4,10507.2,North America
+e6cd3624-2590-4f21-826d-7f30b5f5f1ba,2025-11-13,Smartphone X,Electronics,6,741.5,4449.0,South America
+debdea8e-2025-416b-bd2b-84201a2676d2,2025-02-22,Coffee Maker,Appliances,3,98.86,296.58,Asia
+ec27621c-4f68-455b-aea4-d73378ace717,2024-11-30,Blender,Appliances,6,77.13,462.78,North America
+b3a95cd5-a1af-495a-9deb-56c88b7a144a,2025-02-16,Coffee Maker,Appliances,5,98.34,491.7,Africa
+2b85fb59-db25-40f1-be59-e53324c5e772,2025-12-14,Coffee Maker,Appliances,6,91.79,550.74,North America
+2b8a22a5-6223-42d5-b421-db11612bc52c,2024-10-29,Office Chair,Furniture,10,188.46,1884.6,North America
+1cf1bdc9-f40c-40c6-9ae2-f64225d9df2e,2025-07-21,Blender,Appliances,10,78.51,785.1,South America
+77417242-0d84-412b-ba8a-d9184c9a4243,2024-05-10,Office Chair,Furniture,2,210.38,420.76,North America
+d936c84a-3028-4ce0-9a1d-1e0442237672,2024-07-15,Blender,Appliances,1,77.98,77.98,Asia
+5529bffb-4831-441f-be81-d693b3708273,2025-03-06,Laptop Pro,Electronics,3,1203.66,3610.98,South America
+a8124eb0-749c-4c43-a24f-52d53326dd68,2025-11-11,Smartphone X,Electronics,3,730.5,2191.5,Europe
+8c2ee304-3302-4041-8c26-101b19d53051,2025-01-23,Coffee Maker,Appliances,10,100.14,1001.4,Europe
+e975ac3e-9d10-4f93-a0bf-b2ac9f0ce063,2025-11-24,Smartphone X,Electronics,1,844.88,844.88,South America
+b09703d9-7541-4ce9-b2d4-2bd4e54c99dc,2024-06-27,Desk Lamp,Furniture,2,53.79,107.58,Asia
+93b3e738-b0a7-4cab-9729-1f12e3a0f502,2025-09-22,Laptop Pro,Electronics,5,1121.7,5608.5,South America
+8200ef40-9f86-496b-8adf-2a955a25b871,2025-08-05,Blender,Appliances,8,75.21,601.68,South America
+0da4a296-d1e0-4ed1-b4a1-95909c151d77,2024-11-04,Laptop Pro,Electronics,7,1139.88,7979.16,South America
+17db74db-c1be-44ce-bef6-eddd24542e6b,2025-02-19,Office Chair,Furniture,8,182.02,1456.16,South America
+f003e684-1338-4de0-a92f-d13e49993495,2025-07-15,Wireless Headphones,Electronics,10,156.14,1561.4,North America
+cfdbcdac-f203-47dc-98d7-79a2a8a1cfd4,2024-01-01,Wireless Headphones,Electronics,8,146.05,1168.4,Africa
+70ee4594-5f0f-4c39-9355-bd573ad50043,2024-11-07,Office Chair,Furniture,7,200.21,1401.47,Europe
+e17c6e9d-318a-4123-ab70-aa68c67f3265,2024-10-20,Coffee Maker,Appliances,5,108.46,542.3,Asia
+eb0b361c-1168-46b6-96ba-ccffabd179f8,2024-08-03,Coffee Maker,Appliances,4,90.61,362.44,North America
+38f249f6-62a4-4eee-80e2-2aabda972d64,2025-03-16,Wireless Headphones,Electronics,9,149.66,1346.94,Europe
+306102d0-727c-4024-9576-747e06d89949,2025-08-16,Office Chair,Furniture,2,187.1,374.2,Africa
+5a54b669-0f06-4c0a-8acd-a8758342b969,2025-09-13,Blender,Appliances,6,79.59,477.54,South America
+75d0da52-bebd-4e1c-a4dc-2515e9279817,2025-11-01,Desk Lamp,Furniture,7,48.5,339.5,Africa
+f634b5d3-bdd3-48ff-bfe6-a3621f7fe964,2024-11-25,Smartphone X,Electronics,2,854.02,1708.04,Europe
+31191969-96de-48e3-8ff4-bbfb4c2a13ad,2025-04-21,Wireless Headphones,Electronics,5,157.47,787.35,Europe
+e4167302-dcbe-4c4f-b38a-df7c91bacc8c,2025-03-28,Coffee Maker,Appliances,10,91.81,918.1,North America
+e0428e08-2041-4b2f-bf19-6913b20f24cb,2025-03-28,Laptop Pro,Electronics,8,1172.78,9382.24,North America
+f5d78f81-47a7-4f8f-a45b-5025ac875c5c,2025-11-22,Smartphone X,Electronics,9,856.61,7709.49,Asia
+4b5c871e-c0ab-4600-ad11-a404d00da148,2024-08-06,Blender,Appliances,5,87.44,437.2,South America
+c13f0d8d-78a2-480f-af7c-10382fa156b0,2025-06-07,Blender,Appliances,1,75.54,75.54,Africa
+fedd5d9f-e793-4ca1-8d43-a668e3a9b24e,2025-04-29,Smartphone X,Electronics,4,828.43,3313.72,South America
+47c1c0ef-4492-42c4-b6e4-1c16fc8bb862,2024-06-22,Wireless Headphones,Electronics,7,154.55,1081.85,Africa
+84662e76-8eb5-42ea-a2cc-df38df643fdc,2025-11-05,Desk Lamp,Furniture,10,45.2,452.0,South America
+4c31243a-6e48-4e9d-8d1c-6eaa5bc598e4,2024-03-27,Blender,Appliances,1,87.47,87.47,Europe
+99528d02-3ae4-42cf-9890-1b7a803ee5b6,2024-10-17,Coffee Maker,Appliances,1,90.18,90.18,Europe
+aaeb11af-efe1-4b78-b5aa-3715fe7f0822,2025-06-11,Smartphone X,Electronics,4,823.58,3294.32,South America
+2bf90c72-d73d-45c4-a452-9f3b4bfd5b09,2025-11-10,Desk Lamp,Furniture,5,53.01,265.05,Asia
+17d9650d-9e91-46a0-b61c-bfb28dddfff1,2025-10-10,Smartphone X,Electronics,4,760.38,3041.52,Europe
+4782b39c-7ab1-4040-9729-243010a6c6b3,2025-09-26,Blender,Appliances,3,87.09,261.27,Asia
+fe562574-b97f-4121-9869-f06fc1855292,2024-12-09,Coffee Maker,Appliances,5,109.34,546.7,Europe
+f959c95d-b60a-48a2-861b-905424e189c6,2024-04-05,Coffee Maker,Appliances,5,95.51,477.55,North America
+66f064fa-ec67-482c-afda-f500a2b6cb98,2024-08-28,Office Chair,Furniture,6,214.06,1284.36,North America
+08ac98dd-3cdb-4343-8ee3-cb9b7ed9529d,2025-11-19,Office Chair,Furniture,2,190.08,380.16,South America
+de1b1ff6-9d66-4f28-a21a-ecacf46a0d1a,2024-11-13,Office Chair,Furniture,1,192.09,192.09,Africa
+9a414d72-06be-4da6-b0c5-478f80701269,2024-08-18,Desk Lamp,Furniture,8,53.24,425.92,North America
+73259ae7-5413-498a-95a1-440ff925eb1e,2024-07-22,Office Chair,Furniture,7,203.38,1423.66,Europe
+bc6daf31-ae07-4caa-ac52-f3fc98f6dd6f,2024-05-30,Laptop Pro,Electronics,3,1202.76,3608.28,Europe
+5f1178aa-7814-44ca-9378-ebca013e56fd,2024-01-26,Coffee Maker,Appliances,3,109.33,327.99,North America
+dae08e63-f228-49cc-a159-600ca1985b15,2024-02-17,Blender,Appliances,7,77.99,545.93,North America
+d5a909c2-dafd-4f0f-b142-3f815b8d4901,2024-09-07,Coffee Maker,Appliances,9,101.88,916.92,Africa
+605d6224-d99e-4881-bc4e-6dd32effb5f4,2025-05-01,Wireless Headphones,Electronics,4,143.95,575.8,North America
+d51893e5-2cbf-42a5-86b5-a67880a598be,2025-09-17,Laptop Pro,Electronics,9,1195.62,10760.58,South America
+75a6da1f-1cca-4833-98f5-cb0dbcdf79d7,2024-03-15,Wireless Headphones,Electronics,9,164.65,1481.85,Africa
+642b5060-f1e7-4bad-8d2e-1563237db033,2025-04-11,Coffee Maker,Appliances,6,96.5,579.0,North America
+63aa99b8-39b0-4c24-9e14-c13e5c2ebdb7,2025-02-28,Wireless Headphones,Electronics,2,142.83,285.66,Europe
+940ffb1f-d946-4fbb-ae81-549fbeddc70b,2025-10-06,Coffee Maker,Appliances,7,109.04,763.28,North America
+367e8e74-d4b1-4e7a-a30c-bd7d80c2588d,2025-08-12,Coffee Maker,Appliances,1,95.98,95.98,South America
+066de926-5591-417f-b72d-a6f5c6fc0b9d,2024-07-18,Smartphone X,Electronics,7,802.77,5619.39,South America
+1e561343-2f81-4b62-b23f-37da8fff1bcb,2025-12-14,Smartphone X,Electronics,1,863.95,863.95,Europe
+68fb9e53-5483-43ca-ad6d-f4ce6dfa337a,2025-01-28,Blender,Appliances,8,85.72,685.76,Africa
+c32cecdf-3527-4697-a287-941e43df88d6,2025-05-21,Blender,Appliances,2,81.6,163.2,Europe
+324e9302-200e-40ed-88bd-56c09bd4d4b1,2025-02-13,Coffee Maker,Appliances,6,96.39,578.34,North America
+94937a6c-e5c9-4372-9fcb-129414086f21,2024-09-06,Smartphone X,Electronics,10,835.41,8354.1,Europe
+8aa1f0d1-a7a5-46fd-87f0-1d4b75d0f36b,2024-05-31,Coffee Maker,Appliances,7,99.95,699.65,Africa
+ddcf5ae2-cb00-49cb-ba74-41a5fe49fb1a,2025-11-02,Wireless Headphones,Electronics,10,142.78,1427.8,Asia
+4534a000-a176-468f-9ee7-f46b74e7e64c,2025-12-05,Office Chair,Furniture,7,196.18,1373.26,Europe
+b846bf72-1f53-4cd3-bfc7-133a0c19af0a,2024-01-06,Coffee Maker,Appliances,7,90.71,634.97,Africa
+f686c352-c2e9-4ad5-ae79-9bb9dd271169,2024-04-19,Coffee Maker,Appliances,5,109.9,549.5,Asia
+9e3a4a2c-af5e-43ca-918c-87c7ccee5a1d,2025-03-11,Blender,Appliances,2,75.04,150.08,Africa
+d8e82d3a-4647-4b0e-aa85-efe75f63fb49,2024-08-12,Coffee Maker,Appliances,7,104.27,729.89,Africa
+0035b6d7-8268-44d7-98ea-85da2451dc9f,2024-06-29,Coffee Maker,Appliances,1,100.69,100.69,Asia
+5493003e-88a6-44a4-8725-034bf5325ebb,2025-12-13,Blender,Appliances,6,79.61,477.66,Europe
+d5436c42-68f0-42c7-877f-b713acdb2e01,2025-06-14,Coffee Maker,Appliances,3,97.17,291.51,Asia
+541f6a1b-aad7-4273-9673-6d5bf1c2fd06,2025-04-20,Wireless Headphones,Electronics,10,160.36,1603.6,Europe
+027ffe4d-d166-4bdc-8a41-aff3358e82dc,2024-02-21,Blender,Appliances,8,82.52,660.16,Africa
+60e5ac12-49a6-4cce-95ba-dfa484d511db,2025-07-24,Desk Lamp,Furniture,6,46.81,280.86,Europe
+59809071-33d7-4d2b-a688-5a1055265e6e,2024-09-12,Laptop Pro,Electronics,2,1192.99,2385.98,South America
+1b27b5a3-469b-474e-b1b2-a3a87edeafa1,2024-05-04,Coffee Maker,Appliances,7,95.17,666.19,Asia
+5999e93d-3761-4495-a0d1-219a0ceaf58d,2025-04-12,Blender,Appliances,2,80.94,161.88,Asia
+04bef6f6-fe00-47d9-8ddb-117bd5dc3af3,2024-05-16,Smartphone X,Electronics,4,871.51,3486.04,North America
+26091dda-9af4-4c6d-b6b3-4498a3e58dac,2025-04-20,Wireless Headphones,Electronics,7,154.63,1082.41,Africa
+c40c0eb7-d092-48d7-a06e-6372ecf5c3f9,2025-11-14,Smartphone X,Electronics,10,776.85,7768.5,Africa
+57d9e5c5-7a9d-42f6-b83b-9bbcce77f12b,2025-06-27,Coffee Maker,Appliances,7,107.43,752.01,Europe
+f98719a8-de99-4322-ab7f-18f3e03a6d6a,2025-07-26,Office Chair,Furniture,9,211.52,1903.68,South America
+d017d709-56e6-4248-baa1-6e06a757ee1a,2025-09-01,Wireless Headphones,Electronics,2,146.15,292.3,Africa
+2ce7972c-eacc-468f-a5e3-dedcc00211c0,2024-11-20,Desk Lamp,Furniture,7,47.94,335.58,South America
+a94e0136-e473-4327-a4db-86a216f63401,2025-03-29,Blender,Appliances,5,73.88,369.4,North America
+e8370ffd-a879-4a4b-9138-6b0606847f5b,2025-09-19,Laptop Pro,Electronics,6,1287.93,7727.58,Asia
+114731f0-09e8-4f59-8979-afa9deaec210,2025-05-31,Desk Lamp,Furniture,4,50.8,203.2,South America
+b3c1b861-a98b-4382-b290-da198c41352b,2025-03-12,Desk Lamp,Furniture,6,45.71,274.26,Africa
+f60d2f55-cafc-4c4b-851e-36ba4d57fc33,2025-07-15,Smartphone X,Electronics,3,800.08,2400.24,Asia
+7ca399ce-a60f-45e5-b43a-196aa70812af,2025-04-01,Blender,Appliances,2,82.89,165.78,South America
+15fab7c4-1988-4297-93ea-5c2188f21028,2024-06-11,Desk Lamp,Furniture,9,47.98,431.82,South America
+e1a826d5-086c-467e-aa5b-3c4d9811ebf2,2025-05-01,Laptop Pro,Electronics,2,1289.0,2578.0,Europe
+c84e4fb8-1373-4a9c-8aec-49cfd72dd441,2025-04-05,Smartphone X,Electronics,9,741.98,6677.82,Asia
+7075e13e-9893-46d1-8e69-7101b3ffe2b0,2024-09-22,Smartphone X,Electronics,9,774.83,6973.47,South America
+955dee8e-f674-48b7-9fe8-cca1ed24e912,2024-09-10,Desk Lamp,Furniture,4,53.93,215.72,Europe
+b1ded319-a0fd-4574-91fa-cf3a6fad8d99,2025-10-14,Office Chair,Furniture,6,185.73,1114.38,Africa
+fb6342cd-b4f0-4f83-815b-46610e058623,2024-10-10,Blender,Appliances,6,83.45,500.7,South America
+bbde37a9-7b81-42fb-b7ca-485192426937,2025-06-17,Blender,Appliances,3,73.29,219.87,Europe
+f65a73eb-2286-4a46-854b-d139977019c3,2025-05-11,Wireless Headphones,Electronics,4,153.93,615.72,Europe
+36f440af-5938-4493-8880-21452e23928e,2025-10-03,Smartphone X,Electronics,2,770.15,1540.3,Asia
+ff7d5912-9721-4514-a524-1e434422c2cf,2024-09-01,Laptop Pro,Electronics,3,1081.13,3243.39,Europe
+58ccf68b-2c08-4912-b52a-f470d0793471,2024-10-08,Wireless Headphones,Electronics,5,141.28,706.4,South America
+ff029e89-2cbe-4fac-aa98-d1a668e432b3,2025-03-26,Blender,Appliances,4,74.7,298.8,North America
+b51c6f9c-f07a-4926-9cb3-3bcedbad1e3c,2024-03-20,Blender,Appliances,3,74.53,223.59,Africa
+77d7c714-4c79-40f6-8717-d5c2096a2bd2,2024-10-19,Blender,Appliances,10,84.22,842.2,South America
+87749334-2b7c-4839-a148-c6f47ebfcf2a,2024-08-28,Laptop Pro,Electronics,3,1111.06,3333.18,South America
+a9f53642-b35f-4e7c-afe5-dc9b46b018e0,2024-10-05,Office Chair,Furniture,2,205.34,410.68,Africa
+24350838-a16a-4ffe-b2d2-59e33c2c54c2,2024-12-09,Office Chair,Furniture,3,197.16,591.48,Africa
+cf34f30b-3204-41b4-93f6-e6c78be552f8,2024-11-23,Office Chair,Furniture,8,195.33,1562.64,Europe
+942e1a2f-0ab9-4a08-8c2e-da3d1aaf63a7,2025-07-07,Laptop Pro,Electronics,8,1208.11,9664.88,South America
+18ca2d4d-b92b-4baa-80c6-a9bc7fd53a48,2024-03-23,Coffee Maker,Appliances,10,97.46,974.6,Europe
+0aa3bf0f-68dc-4ad8-8180-bf5006721080,2024-05-21,Laptop Pro,Electronics,10,1294.08,12940.8,Asia
+b7e9e520-2d9b-414b-9281-7d73e12045e5,2024-06-03,Blender,Appliances,8,85.33,682.64,Europe
+838cc307-e1c2-4556-9bb1-19f2c0809ce3,2024-08-24,Smartphone X,Electronics,10,722.87,7228.7,Asia
+c5689b7b-dfdf-47db-a0dc-2369d802114f,2025-01-27,Laptop Pro,Electronics,10,1230.4,12304.0,North America
+122af2cf-40fb-49d8-a9a8-cd6226727d5a,2025-12-11,Smartphone X,Electronics,6,756.2,4537.2,South America
+89748c48-b4af-4265-b464-2856651e85ec,2024-06-05,Wireless Headphones,Electronics,6,144.36,866.16,Asia
+7d5749cf-7ebe-4f46-a4e1-2317d75b08cc,2025-12-24,Laptop Pro,Electronics,3,1172.05,3516.15,North America
+f0848f05-5117-4122-87a4-7f65be91d319,2024-08-07,Desk Lamp,Furniture,8,48.06,384.48,Africa
+6cc39fb5-1e80-4b00-9f08-5757421a8497,2024-03-06,Laptop Pro,Electronics,2,1277.72,2555.44,Europe
+0a5c341e-8277-4592-a699-d92e4e3aceda,2025-02-28,Wireless Headphones,Electronics,8,163.45,1307.6,North America
+0405baa8-5718-4aef-ad38-81887b5c6db4,2025-02-21,Office Chair,Furniture,8,209.11,1672.88,Asia
+b06e0c1f-0b93-43cf-9711-1e0fba60674b,2024-12-04,Desk Lamp,Furniture,5,50.24,251.2,South America
+59372f65-3bcb-4457-96e9-997e7cdb7afc,2025-07-09,Office Chair,Furniture,5,215.52,1077.6,Africa
+ead82e5e-4731-4745-8d32-38cf522a73a3,2025-04-22,Smartphone X,Electronics,10,774.84,7748.4,Africa
+228e0151-187b-4dc9-87d7-581432aa333b,2025-03-01,Office Chair,Furniture,1,194.37,194.37,North America
+3af0f861-3ce8-420f-9a3e-cbde4ede83e0,2024-03-04,Smartphone X,Electronics,6,746.38,4478.28,North America
+524c98a5-102e-46de-abee-573f4866ea4b,2024-07-30,Blender,Appliances,9,78.45,706.05,Europe
+9974eafc-e6b9-4834-a90e-792b980ed6b8,2025-03-06,Smartphone X,Electronics,2,755.89,1511.78,Africa
+bfbc7202-f41b-4986-a0cd-e5be44a2bdbf,2025-02-02,Smartphone X,Electronics,5,753.79,3768.95,Africa
+ef5e7576-7f99-49f2-a0cf-892506fac8fd,2025-08-21,Laptop Pro,Electronics,8,1221.53,9772.24,Europe
+dbe70a4b-1597-4fd4-85d6-1db493280050,2025-12-13,Smartphone X,Electronics,8,739.71,5917.68,South America
+f9bbbf91-e37d-4b93-b9ba-ddd851a43576,2024-01-21,Coffee Maker,Appliances,1,103.01,103.01,Europe
+ed3eac5b-7441-4f46-bc86-c8283c9280a0,2025-08-12,Laptop Pro,Electronics,1,1170.05,1170.05,Asia
+67c043e4-a874-45cf-ab6f-c286527523db,2025-01-24,Coffee Maker,Appliances,6,95.12,570.72,Asia
+2abc08d9-e56a-4294-994b-e2aebce7d7a0,2025-05-03,Desk Lamp,Furniture,5,51.23,256.15,North America
+123a8e81-8ce4-4af1-b1ae-20a7a8b8309d,2024-01-07,Desk Lamp,Furniture,2,54.95,109.9,Europe
+f607a1f0-71d0-456e-81c4-d6cf439b48c1,2024-12-26,Coffee Maker,Appliances,2,92.16,184.32,Europe
+20e7dd79-ea79-45b0-ad54-0149417917cd,2024-11-01,Blender,Appliances,10,72.32,723.2,North America
+41edeafa-1c66-4c94-901a-5c4845cfd1a2,2025-02-03,Coffee Maker,Appliances,10,92.32,923.2,South America
+8c28054a-5290-45d9-9c2a-9ed780d055f6,2025-03-05,Office Chair,Furniture,9,195.21,1756.89,Europe
+0eeaf1f5-f056-4b56-be7f-e16c55ca41a4,2025-07-05,Desk Lamp,Furniture,7,47.53,332.71,Africa
+78d70f06-e67d-47f0-8342-6541573e60b9,2025-07-13,Coffee Maker,Appliances,8,93.06,744.48,Europe
+b75f12b7-5f59-43d7-b66f-016746ac0023,2025-09-09,Coffee Maker,Appliances,10,103.71,1037.1,South America
+b2d269de-71f2-4ba0-b3fc-a983bd04a601,2024-08-13,Laptop Pro,Electronics,9,1152.27,10370.43,Europe
+659bcb9e-001a-43e9-b6e0-d3977d53d85e,2025-05-14,Coffee Maker,Appliances,1,92.02,92.02,Africa
+cacb3d66-95a5-4b6a-b3f3-b3c254cf8319,2024-08-12,Desk Lamp,Furniture,8,47.7,381.6,Asia
+3aacb56c-975a-4787-9d57-b98668f3e635,2024-10-06,Desk Lamp,Furniture,10,52.01,520.1,Asia
+d5a8bd34-533c-4391-b5d6-6e5f39a65fad,2025-03-22,Office Chair,Furniture,4,213.23,852.92,South America
+34d8b8f9-5c4f-4399-a55a-665665718f76,2025-05-12,Laptop Pro,Electronics,6,1202.78,7216.68,South America
+afefeafb-0d5b-4c3b-b100-c0b4f006b2ed,2024-01-30,Desk Lamp,Furniture,10,46.18,461.8,Africa
+d672be65-f0b2-4e40-a511-0b6dad4131fe,2025-02-02,Laptop Pro,Electronics,8,1268.34,10146.72,Asia
+259f6cc1-2a44-4efe-8974-f9a071988457,2024-12-10,Office Chair,Furniture,9,187.95,1691.55,Asia
+1bbbb23e-1046-4b48-b487-95222b8db33f,2025-11-15,Smartphone X,Electronics,3,844.47,2533.41,Asia
+9791a35d-1a32-4161-abc8-e0b4762bcd34,2025-11-26,Blender,Appliances,1,80.37,80.37,Asia
+f7127963-bce9-4f50-9613-be258cb80fcf,2025-02-18,Smartphone X,Electronics,8,777.27,6218.16,Africa
+51971b39-2e0a-4502-b49c-315c6e9cbbe0,2024-06-18,Office Chair,Furniture,2,191.81,383.62,South America
+7d304316-8ace-4683-bc8e-04304e8ae6c7,2025-04-23,Laptop Pro,Electronics,6,1211.55,7269.3,South America
+eea71d10-55b6-4dfe-8f93-6d3920bc5a1a,2024-05-10,Smartphone X,Electronics,2,830.11,1660.22,North America
+3f353ffa-64b6-4e5b-8890-f9fd1d19b270,2025-09-29,Office Chair,Furniture,9,193.22,1738.98,South America
+701f12b9-71f9-4c09-b60e-c03292ac8306,2025-06-30,Laptop Pro,Electronics,3,1083.06,3249.18,Asia
+748e7126-a645-4368-821a-0afd8989ed7a,2024-01-28,Laptop Pro,Electronics,1,1297.65,1297.65,Europe
+2693509f-fd1c-4e75-9ab9-e59cd24cd5fe,2025-02-07,Blender,Appliances,4,81.19,324.76,Asia
+6e14c8db-032e-4978-8c43-6155d2edbd1d,2025-08-29,Office Chair,Furniture,8,185.97,1487.76,Asia
+35abce2b-6099-4eba-b234-a0d26bab83f8,2025-07-31,Laptop Pro,Electronics,8,1267.09,10136.72,South America
+fbc4ed78-aaa0-4540-a86a-7f267868bce5,2025-11-09,Laptop Pro,Electronics,9,1253.66,11282.94,North America
+5aa20861-5b2f-486c-a187-daaa7ad7cca8,2024-01-28,Laptop Pro,Electronics,9,1297.15,11674.35,Africa
+778db713-0079-4a3d-afa9-cae5a8632d46,2024-03-26,Coffee Maker,Appliances,10,94.62,946.2,Europe
+2c554105-2cb9-4c5d-b26e-eef1d5f4d2a8,2025-10-20,Wireless Headphones,Electronics,3,142.92,428.76,Europe
+5cff4a3f-fe06-4730-b7fc-fe24d70e10af,2025-03-14,Laptop Pro,Electronics,6,1103.95,6623.7,North America
+8f5854b5-5f5e-43fd-8db0-5c81004cb84d,2024-05-18,Smartphone X,Electronics,6,859.86,5159.16,Asia
+2441190c-3eb8-4155-bb7e-3fbfc42aa03e,2025-04-17,Blender,Appliances,5,76.65,383.25,Africa
+a686e77e-9fb2-4601-9ead-0d1c02068d6d,2024-07-05,Blender,Appliances,7,82.83,579.81,Africa
+302f649d-5b5a-4cab-b32c-66d277ea69cd,2024-02-21,Office Chair,Furniture,7,209.54,1466.78,Africa
+23ac7ceb-453c-45e0-80d9-b5b3862ed740,2024-09-23,Laptop Pro,Electronics,6,1284.3,7705.8,South America
+5bbe7074-9750-4c62-9379-1845ce86229c,2025-01-23,Laptop Pro,Electronics,10,1082.32,10823.2,Asia
+16c375e6-8f0d-4550-b5aa-48a3eed22283,2024-12-01,Smartphone X,Electronics,1,826.14,826.14,Europe
+4b126914-7a66-4b1d-a142-5f3f76a75444,2024-08-04,Smartphone X,Electronics,6,772.59,4635.54,Europe
+181d2612-5036-41e2-b26d-9a3372ca7c0b,2025-04-10,Office Chair,Furniture,2,218.2,436.4,Asia
+35dd0e53-c2ee-4fd5-9728-29b828d0135e,2024-11-30,Wireless Headphones,Electronics,6,161.35,968.1,Europe
+416d737e-01df-4f39-90f2-a9b734640b7d,2024-12-11,Laptop Pro,Electronics,2,1169.43,2338.86,South America
+de8a170c-f2b5-4504-8be4-378ae90f00ca,2025-01-23,Wireless Headphones,Electronics,9,140.49,1264.41,Africa
+df430f4f-af30-42ad-b61f-d3d726499d0b,2024-10-11,Office Chair,Furniture,7,196.01,1372.07,Europe
+94e90c64-d8fd-4cee-baf5-63f624d48b18,2025-03-07,Office Chair,Furniture,5,190.87,954.35,South America
+c34b2da2-808e-49d5-b389-a188293eb9a3,2024-09-15,Office Chair,Furniture,5,207.6,1038.0,Africa
+d22ed68b-34cb-4573-a28b-9f28e3e05722,2024-03-24,Office Chair,Furniture,10,212.0,2120.0,Asia
+33726716-743d-4bdd-accb-0f6ffef31c46,2025-04-26,Coffee Maker,Appliances,3,107.72,323.16,Asia
+d816c9d4-d32a-46dc-925a-151d3ffcbcd1,2024-01-20,Smartphone X,Electronics,6,738.09,4428.54,South America
+5bf1d672-939d-4e25-87d8-cb8bbd6cfc8d,2025-07-06,Coffee Maker,Appliances,2,104.53,209.06,South America
+51579bba-82ff-43bb-8f27-8ffbcd8e860a,2024-02-23,Blender,Appliances,10,74.55,745.5,South America
+747da027-e1c3-4e06-8e7f-fca5c6263e23,2024-12-24,Office Chair,Furniture,3,216.45,649.35,Europe
+f98ddc7f-086d-4889-8a83-3ce7d3e04800,2024-08-17,Office Chair,Furniture,6,212.09,1272.54,Asia
+d1598afe-2dc8-40cf-bac2-5745dba1207b,2025-10-27,Coffee Maker,Appliances,5,98.76,493.8,Europe
+61cc8cec-7e0f-4a64-a959-ee9ae991f84e,2024-03-11,Desk Lamp,Furniture,7,48.8,341.6,Europe
+06710231-868a-40d1-8dcd-8df40402d1bf,2025-10-29,Wireless Headphones,Electronics,3,153.34,460.02,Africa
+244aee83-9769-4460-89a1-ce9a0edfd29d,2024-02-11,Blender,Appliances,10,82.95,829.5,South America
+c74e547b-4c2f-42d4-861f-a753486e8f28,2024-02-01,Blender,Appliances,2,83.64,167.28,Europe
+1861f4fb-507c-490c-9638-1fce972bb9d9,2024-09-10,Smartphone X,Electronics,5,797.29,3986.45,Africa
+4c4ea9eb-5d98-4d1f-a97d-4bb54df5774a,2024-07-23,Office Chair,Furniture,9,184.52,1660.68,North America
+f74415a4-2d57-4e12-8a2f-eda206f66228,2024-01-21,Office Chair,Furniture,7,197.63,1383.41,Africa
+807c722d-503a-4a6b-bb4c-2b4f2df66880,2025-09-28,Laptop Pro,Electronics,6,1142.79,6856.74,North America
+86d7a0cb-276d-48ab-9710-ba6cf37d1310,2024-06-05,Wireless Headphones,Electronics,3,135.37,406.11,North America
+64f965ae-09d9-4dae-bcde-535e0bc8d240,2024-09-01,Blender,Appliances,9,82.85,745.65,North America
+0cd982d4-8e4c-4939-be57-3cae15c3826c,2024-05-09,Blender,Appliances,2,83.9,167.8,North America
+76ceb63f-1d8f-428c-9600-cd55456af59d,2025-04-29,Coffee Maker,Appliances,7,101.3,709.1,South America
+b744beb0-b071-4041-a1be-525806219440,2025-11-16,Coffee Maker,Appliances,9,107.46,967.14,Europe
+3c4aa43f-ca6e-41df-9437-19c2023c2741,2024-04-27,Desk Lamp,Furniture,6,50.23,301.38,Europe
+3260dd80-b9b6-4609-a6ed-73ae6bf4febd,2025-07-31,Coffee Maker,Appliances,1,102.36,102.36,North America
+08442fef-1fea-40fe-9d09-353d2afa5a25,2024-08-11,Office Chair,Furniture,6,206.47,1238.82,Europe
+62641452-6459-4751-888f-69ff3b367cca,2025-04-21,Smartphone X,Electronics,5,797.11,3985.55,North America
+de71c63d-20b0-4929-9c03-e89a8448f911,2025-12-17,Coffee Maker,Appliances,3,103.53,310.59,Europe
+0d125736-2bdf-455e-9b73-c41495e5a0ac,2024-09-19,Office Chair,Furniture,4,185.95,743.8,Africa
+40ec3336-8cf5-4f1d-b29c-9c0f2e7aeea2,2025-01-12,Blender,Appliances,6,80.93,485.58,South America
+867f79a8-2610-46b3-a99c-88ffc0ccfa9e,2024-06-20,Desk Lamp,Furniture,8,45.55,364.4,Asia
+5e2f8dc5-a9c1-4ea2-b414-2a20f1152b9e,2025-09-12,Coffee Maker,Appliances,4,108.69,434.76,North America
+ce72215b-44a3-4ff2-af95-50da9efd3343,2025-09-13,Desk Lamp,Furniture,4,53.49,213.96,Africa
+6c07b0d4-3460-49fa-944c-7798de661906,2024-04-27,Blender,Appliances,3,79.93,239.79,Africa
+4c712947-fa44-4efe-b4ce-7f500225e4b8,2024-06-16,Smartphone X,Electronics,3,731.98,2195.94,South America
+d7b12041-b0de-42f0-9fcb-72634d563a38,2024-11-14,Office Chair,Furniture,2,192.83,385.66,South America
+5c7b7027-f03a-44ef-9b9b-a413f15f3605,2024-04-20,Wireless Headphones,Electronics,5,164.1,820.5,North America
+7a9ee027-c4ce-49ff-bb5f-49c09c970218,2025-08-15,Laptop Pro,Electronics,2,1201.66,2403.32,North America
+49bbd404-fcac-4e58-850a-76c24ce683df,2024-01-27,Desk Lamp,Furniture,9,51.43,462.87,Africa
+9420267d-6e77-4519-9792-133e5a0129a9,2024-11-15,Office Chair,Furniture,9,212.68,1914.12,Africa
+aac0290a-1442-4019-9ab5-8019b29c49e1,2025-08-12,Laptop Pro,Electronics,9,1190.18,10711.62,South America
+f2233ae2-ab75-48a7-99e0-71fc8164a4a1,2025-11-24,Blender,Appliances,1,81.17,81.17,North America
+3ac60e33-ef12-429e-b3d4-06611ad72792,2025-01-19,Laptop Pro,Electronics,6,1285.58,7713.48,North America
+5c47eb0f-9106-4c8b-af60-34a6d8a3d872,2025-02-10,Office Chair,Furniture,10,192.64,1926.4,Africa
+8179cddc-43a4-4065-9d09-2752684ecfe1,2024-07-22,Office Chair,Furniture,3,209.81,629.43,Asia
+7d66988c-4e3e-4ada-bc3e-439296bc4b81,2024-03-18,Laptop Pro,Electronics,10,1104.63,11046.3,Africa
+466de106-9ed3-4ff2-84f3-5efdf17fe535,2025-08-29,Office Chair,Furniture,7,181.43,1270.01,Asia
+2c1044ec-8628-4256-bc37-8d6602e13ac3,2025-12-08,Desk Lamp,Furniture,3,45.0,135.0,North America
+10a83691-77f9-467e-9b71-f2725344c60e,2025-10-04,Laptop Pro,Electronics,3,1270.03,3810.09,Africa
+d267201e-f58f-418a-a12d-184233232bb3,2024-09-05,Desk Lamp,Furniture,3,51.38,154.14,South America
+5587c858-7524-4281-9d69-683892f5adde,2024-04-14,Desk Lamp,Furniture,10,50.62,506.2,Europe
+b002390e-746b-42eb-b597-6f3039a121d3,2025-12-14,Coffee Maker,Appliances,3,103.43,310.29,North America
+9c9dc2d5-a391-4f71-baac-fdf84a42fc78,2024-11-04,Wireless Headphones,Electronics,8,145.9,1167.2,North America
+6595a9e4-752d-4b36-8d78-5270c3bc9771,2025-12-01,Laptop Pro,Electronics,1,1275.98,1275.98,Africa
+3867d632-38ae-4491-944d-faa4fc8f71fe,2025-09-06,Blender,Appliances,7,79.27,554.89,Europe
+a1334499-68fb-46e5-ac63-94fb943225f2,2024-05-03,Desk Lamp,Furniture,6,52.67,316.02,Europe
+f78894ef-b8ca-4f51-8f23-2909c8850832,2025-08-02,Desk Lamp,Furniture,4,49.73,198.92,Europe
+3db5dd3e-6a8d-41d7-acf3-19131fe3d8f8,2024-02-12,Coffee Maker,Appliances,8,97.27,778.16,Africa
+cba2ab3f-b903-4142-b63f-561f79ea9633,2024-12-21,Office Chair,Furniture,10,184.56,1845.6,Africa
+e876907a-7ea6-4d0d-8660-768345aeb589,2025-06-29,Blender,Appliances,5,82.54,412.7,Asia
+37419f9d-3cb2-4a65-862a-af34592bf89d,2025-03-14,Laptop Pro,Electronics,8,1161.93,9295.44,Asia
+9ada3974-c31a-4197-998e-7318de463334,2025-11-08,Blender,Appliances,4,82.14,328.56,Asia
+273f6951-a90d-4178-a128-1c1ec2a5efc0,2025-01-14,Blender,Appliances,9,76.67,690.03,South America
+bafed2e7-50f0-4972-ac5e-b85637709fa4,2024-03-11,Desk Lamp,Furniture,4,48.74,194.96,North America
+2f22192b-2bcd-4ef9-9bb5-2ae88e9db353,2025-06-02,Laptop Pro,Electronics,5,1090.99,5454.95,Asia
+4d2b36c5-3a82-47cd-953d-8ee1a91bda7d,2025-10-25,Smartphone X,Electronics,8,798.79,6390.32,South America
+f6955981-3d49-47f5-9e28-209ee7d5a960,2024-12-15,Blender,Appliances,4,83.47,333.88,South America
+8461b694-4ada-4af1-baff-a6dd15b4915e,2024-01-13,Coffee Maker,Appliances,6,98.18,589.08,Africa
+59b88576-d763-48cc-a635-2ef091b8c935,2025-03-06,Wireless Headphones,Electronics,10,153.33,1533.3,Europe
+162a3c85-9bc8-49ad-8a09-37df24ae8b47,2025-05-16,Smartphone X,Electronics,8,739.32,5914.56,Europe
+be475407-fb3a-447d-9716-406296fb55f3,2024-04-18,Blender,Appliances,8,78.29,626.32,Asia
+e9fcd5bd-207b-41b8-956b-93eb3a9cb34e,2025-03-19,Office Chair,Furniture,5,212.98,1064.9,North America
+a885f265-b1b6-47b3-8ea7-22d48abfde25,2025-01-05,Smartphone X,Electronics,7,834.69,5842.83,North America
+7904aa0b-7694-47c6-9c4c-1e16ba6e8422,2025-10-12,Laptop Pro,Electronics,9,1261.72,11355.48,North America
+bc1d8ce3-bb41-4a51-b7c4-bd5ae7dd9ea8,2025-04-15,Laptop Pro,Electronics,9,1302.39,11721.51,South America
+a4bde147-b2e8-4bc7-9e45-6ed5b70e7df7,2025-12-25,Blender,Appliances,7,82.75,579.25,South America
+9d81e97c-d28b-40e4-b06c-dea34ac395d6,2024-06-05,Laptop Pro,Electronics,3,1265.31,3795.93,South America
+0b179187-0587-4b29-948b-997b6b464dc3,2025-03-21,Office Chair,Furniture,4,198.3,793.2,Africa
+a6506838-907e-4d56-a474-c965037c7086,2024-06-29,Desk Lamp,Furniture,10,54.56,545.6,South America
+ab98d0b0-7c7f-4866-9dcd-58763d17fefa,2025-06-18,Smartphone X,Electronics,3,874.22,2622.66,North America
+2ff81fc2-3d70-49a4-a4b1-c7042fc8d1df,2025-10-28,Laptop Pro,Electronics,5,1207.29,6036.45,North America
+386a3f13-ba1a-4dff-8b4f-5d983a0e5208,2024-10-03,Laptop Pro,Electronics,1,1212.77,1212.77,Europe
+1b66e7bf-6599-4c77-b6cb-8c0ad04357c2,2025-09-22,Office Chair,Furniture,8,213.55,1708.4,North America
+e8eac1d0-8155-4ac6-b45f-caa9ae582068,2025-07-05,Office Chair,Furniture,6,216.97,1301.82,South America
+f1095fb6-a71b-46c4-b447-3773045a0e1e,2025-05-10,Blender,Appliances,9,86.74,780.66,South America
+04fdd8a5-97d2-4f26-b41f-dfa14a813430,2025-04-21,Smartphone X,Electronics,2,830.69,1661.38,Asia
+922170f1-89b6-449b-9fa1-13c9678754fa,2025-03-22,Smartphone X,Electronics,9,836.88,7531.92,Africa
+4b919639-76c7-4f5c-aa5c-0efca38848ef,2025-08-29,Smartphone X,Electronics,2,736.57,1473.14,North America
+8dd711ba-f29d-4da0-8d95-b1f104777d59,2024-10-01,Coffee Maker,Appliances,5,102.01,510.05,Africa
+1df4137e-6c73-4ad1-bbbd-a29560f80944,2024-11-26,Wireless Headphones,Electronics,2,150.12,300.24,North America
+b6100e03-6eb9-43c4-8d5e-3964831a497b,2024-09-08,Office Chair,Furniture,3,196.75,590.25,Europe
+5e8fc862-4717-4800-890a-08dc4260ac60,2024-03-29,Desk Lamp,Furniture,5,54.16,270.8,Europe
+9fea3ea2-ddf7-425c-bd29-489c6d11ea9c,2024-10-12,Blender,Appliances,8,75.97,607.76,Africa
+880a284b-b90b-4749-b85b-e681faff8edb,2025-04-06,Office Chair,Furniture,9,218.54,1966.86,South America
+a4d3ed4c-cc95-4f14-95e7-553cf03e6a22,2024-09-06,Wireless Headphones,Electronics,3,148.59,445.77,Asia
+33481d18-daf5-43f6-86f0-c15c5d61b48c,2025-04-20,Smartphone X,Electronics,7,742.11,5194.77,North America
+c49a5cb0-abe1-4f47-8b55-ca6fef06eea7,2025-08-06,Desk Lamp,Furniture,2,52.0,104.0,North America
+ee31eb56-32d8-4fac-ac17-a9cafeae8e51,2025-09-16,Coffee Maker,Appliances,4,100.25,401.0,Asia
+06651ff3-663a-4975-b6af-facb38707269,2025-11-15,Blender,Appliances,8,83.22,665.76,Africa
+3b1e8e82-df9b-46e0-b97a-4010babe1dbf,2025-01-23,Blender,Appliances,6,77.02,462.12,Africa
+b5685fbc-24ba-4db6-b22e-6356866d3ead,2024-12-10,Coffee Maker,Appliances,1,108.71,108.71,North America
+59002c8a-ed86-4213-8427-407b3aaa49b3,2024-01-30,Coffee Maker,Appliances,7,94.35,660.45,Europe
+499b37c4-abe8-4501-98e6-a786551d1ff8,2025-05-21,Smartphone X,Electronics,1,819.87,819.87,Asia
+38f07fd7-d169-4347-99f2-69d8a1a5e6d1,2024-11-28,Wireless Headphones,Electronics,7,155.6,1089.2,North America
+3a841029-1715-42d9-a959-21c3b302419c,2024-07-05,Coffee Maker,Appliances,9,92.65,833.85,Europe
+f9c28bec-4a22-4383-a8c6-d6ab065412d5,2025-05-14,Coffee Maker,Appliances,6,103.0,618.0,Africa
+96dbb4fb-51e8-4c26-b625-cef3e11ce5d4,2024-08-05,Smartphone X,Electronics,4,800.62,3202.48,Europe
+d9aff9f2-579e-43b6-8cb7-b0d562d081ed,2024-12-29,Coffee Maker,Appliances,7,102.74,719.18,South America
+a1e032ac-3993-45b5-af7a-66bfc8fcdc13,2024-09-21,Coffee Maker,Appliances,2,92.31,184.62,North America
+eef51e23-0696-4e4d-a902-8a4ff2cb9cdc,2024-12-14,Wireless Headphones,Electronics,6,151.87,911.22,Asia
+8ee36dac-da06-4e60-9751-5128e9130ee4,2024-10-13,Desk Lamp,Furniture,4,50.71,202.84,Europe
+0f86b978-c48b-4768-ab61-e974773f09db,2025-09-02,Coffee Maker,Appliances,1,104.2,104.2,Africa
+c922c635-608f-4e30-8a60-c6be5a4e882a,2025-12-19,Coffee Maker,Appliances,6,104.96,629.76,Europe
+82a1e740-7dff-4142-ace2-9412d307528d,2024-10-09,Blender,Appliances,2,80.54,161.08,Africa
+864639cd-db6a-4177-9d54-15139672541d,2025-07-23,Blender,Appliances,6,78.76,472.56,South America
+8ba0cb8b-7ff5-4332-9d52-c09462a3a5c3,2024-01-11,Laptop Pro,Electronics,3,1205.46,3616.38,Africa
+c3155b30-83bd-454e-abf5-0f1e6be29355,2025-06-13,Laptop Pro,Electronics,3,1171.41,3514.23,Asia
+c758afe5-a37e-494a-9fa5-4b4ec5338a09,2024-07-14,Laptop Pro,Electronics,1,1240.86,1240.86,South America
+1bebf560-8bac-4fc5-a272-1a2af0d6a21b,2024-03-28,Smartphone X,Electronics,5,762.72,3813.6,Europe
+19ea4657-dae8-4734-8ad1-76bef78f5428,2024-09-04,Blender,Appliances,8,74.57,596.56,North America
+d3913a82-e00b-4e95-8b2a-428da52fbe5b,2025-02-20,Wireless Headphones,Electronics,3,155.5,466.5,Africa
+3b3fb0d2-0dd5-4c6f-8e38-a299abdd9240,2025-05-15,Smartphone X,Electronics,8,854.3,6834.4,Asia
+9df24768-5c6a-4a75-ba07-39116a239afa,2025-07-22,Coffee Maker,Appliances,8,105.69,845.52,North America
+4b6125d0-ff41-4618-9dac-c8cba577e373,2024-09-03,Smartphone X,Electronics,10,840.58,8405.8,North America
+5e90a20e-8fd9-4193-992d-ec76a13a4a4e,2025-12-08,Laptop Pro,Electronics,1,1166.08,1166.08,South America
+472fe8ee-6f45-4559-a78f-bdfaeee14832,2025-05-02,Office Chair,Furniture,2,184.1,368.2,Europe
+3173439d-4d63-4598-9b54-01ee219d05a8,2025-10-23,Blender,Appliances,1,82.81,82.81,North America
+09a55681-48c0-47c1-908f-d220e3d50f49,2025-12-29,Desk Lamp,Furniture,5,53.65,268.25,Asia
+177785e2-54b6-4674-85ea-15361198a8ad,2025-05-17,Coffee Maker,Appliances,4,102.94,411.76,Africa
+8f75ddac-9edf-4173-b3b7-312fbf5bbaff,2025-04-03,Office Chair,Furniture,3,189.5,568.5,Africa
+68fd427d-fe08-41cc-9625-cc9acec81c05,2024-01-18,Blender,Appliances,9,84.75,762.75,Africa
+8087c645-817b-4497-88dc-882ffb36a1e3,2024-04-05,Coffee Maker,Appliances,10,95.75,957.5,South America
+f9bb736c-2a27-4fb2-863a-dea37947fdc8,2024-10-28,Coffee Maker,Appliances,9,90.94,818.46,Asia
+e27ceb93-af3f-4c4a-99e5-ab2751807697,2024-08-14,Office Chair,Furniture,7,195.5,1368.5,North America
+57e25e0d-4a0e-4e2d-bf9b-007be3612f9f,2025-02-18,Blender,Appliances,2,87.61,175.22,Asia
+5cfe1a46-17a2-411a-8211-2ee466c39a00,2025-12-09,Wireless Headphones,Electronics,5,163.97,819.85,South America
+68e55d4b-2e76-4c15-91f5-d8cfb62f2c84,2024-09-06,Laptop Pro,Electronics,4,1083.11,4332.44,South America
+87471132-7bb7-4762-b995-f61f753876b2,2024-11-09,Wireless Headphones,Electronics,5,141.09,705.45,Europe
+4253ea3d-c723-4215-ac05-1815b7a52ffa,2025-11-10,Blender,Appliances,2,84.49,168.98,Asia
+c61e7e6e-22c7-486d-965f-17596b405165,2025-08-18,Blender,Appliances,1,79.09,79.09,Africa
+dc80f7df-019d-4493-a39a-7e7f343aa078,2025-01-12,Smartphone X,Electronics,4,865.84,3463.36,South America
+f515fbe3-c42d-4bad-8846-2d9c1aa06153,2025-04-29,Coffee Maker,Appliances,7,104.19,729.33,South America
+65d97ac6-558b-40a6-bd3b-336ad8510e09,2025-07-20,Wireless Headphones,Electronics,10,157.65,1576.5,Europe
+032af2e2-6849-48df-b570-186c63b73007,2025-06-27,Desk Lamp,Furniture,8,52.38,419.04,Africa
+a333ce72-f1d7-4291-9a7e-6736d71ff7f9,2024-12-18,Smartphone X,Electronics,2,844.18,1688.36,South America
+27566fb9-8634-422e-b5fd-23ae263cbd99,2025-03-11,Smartphone X,Electronics,2,767.07,1534.14,North America
+f3bb3f03-a622-4bfc-9f79-7545292166e6,2025-07-17,Smartphone X,Electronics,8,877.35,7018.8,Africa
+89c8999a-20c5-4c61-b02f-ed289e9206b5,2024-12-04,Laptop Pro,Electronics,10,1124.87,11248.7,Asia
+16a9fb97-0617-45bf-b6e4-e07314f4fe24,2024-12-26,Smartphone X,Electronics,9,837.61,7538.49,Europe
+b1d2a8ce-6aff-4b10-ace8-79350e6f6d3d,2025-12-20,Laptop Pro,Electronics,1,1170.53,1170.53,North America
+7be6a341-fce2-4698-a4c3-771c2c974346,2025-04-09,Office Chair,Furniture,9,191.16,1720.44,North America
+bfa0e238-4cde-4467-bb04-30c592f1c00d,2024-10-04,Wireless Headphones,Electronics,10,138.9,1389.0,Asia
+8028abd8-4550-433a-a419-c1ee81317803,2024-11-09,Desk Lamp,Furniture,4,53.46,213.84,Europe
+34a0f918-ce80-46a0-bc2c-25de0553dcbd,2024-09-14,Laptop Pro,Electronics,3,1159.34,3478.02,South America
+db0db8c0-e789-492f-a493-2241b7be384e,2024-08-24,Coffee Maker,Appliances,5,108.75,543.75,Europe
+f436e444-9b8b-4487-ab8c-242bbc77267a,2024-05-03,Laptop Pro,Electronics,7,1116.89,7818.23,South America
+6fb6fcfd-99f9-411e-9dd9-fdaedb71dc7e,2024-07-16,Wireless Headphones,Electronics,1,152.91,152.91,Asia
+148d0924-bbae-49d8-a948-06c6fb326691,2024-11-19,Blender,Appliances,10,86.92,869.2,Asia
+d4357e4b-f03c-4776-adc4-2b5a708c0154,2024-05-02,Desk Lamp,Furniture,6,53.43,320.58,North America
+453c3087-e8eb-4684-a772-233588bff5d3,2025-07-02,Wireless Headphones,Electronics,4,149.72,598.88,North America
+7a899fe7-9ec4-4689-b019-09bc62bcfbaa,2025-12-07,Desk Lamp,Furniture,10,50.5,505.0,North America
+6cb1f36e-648c-4ac7-ad66-3a4a0106c4da,2024-07-08,Laptop Pro,Electronics,7,1268.17,8877.19,Asia
+86b97dda-7f32-4e47-a76b-33a408d5d5ef,2024-07-15,Wireless Headphones,Electronics,3,150.76,452.28,South America
+dc9a9fe5-8169-4562-9aff-f08422c3aecd,2024-08-09,Smartphone X,Electronics,2,803.3,1606.6,Asia
+b46d9cd3-a3b9-48d6-81e4-e1ffbb6b733a,2025-05-10,Blender,Appliances,9,80.08,720.72,Asia
+040fcb44-f9e0-4130-9e65-0626707576ba,2024-10-10,Office Chair,Furniture,6,201.72,1210.32,North America
+a996f8dd-7dd5-4407-8de7-a275e0916e90,2025-08-26,Office Chair,Furniture,2,183.68,367.36,Europe
+b1349180-f797-4083-b300-eb4139d44080,2025-06-21,Smartphone X,Electronics,9,861.34,7752.06,North America
+9337a21b-df36-4a24-b202-c0ff60272fb7,2025-09-03,Coffee Maker,Appliances,9,96.64,869.76,Europe
+7bb2f035-3e09-4dbf-8250-fbd242941229,2024-10-16,Wireless Headphones,Electronics,9,143.81,1294.29,South America
+95db5029-a32b-44e1-ad2b-33f34c7f13db,2024-04-12,Blender,Appliances,9,81.89,737.01,South America
+a927381b-c520-4025-a419-69ceb9185a1a,2024-07-17,Office Chair,Furniture,9,219.87,1978.83,Africa
+b79ae21c-69e1-4d65-9560-a91810558d32,2024-10-30,Blender,Appliances,1,84.03,84.03,Africa
+e9245dcf-843f-4971-b75b-64eced41ca07,2024-08-20,Coffee Maker,Appliances,7,90.18,631.26,Africa
+ecc3a28b-14d8-40f1-b4cd-2d89a7cdea74,2025-01-04,Coffee Maker,Appliances,8,96.92,775.36,South America
+195e2ff8-c75a-4a29-b1e1-72be120c54ba,2024-07-02,Smartphone X,Electronics,1,864.72,864.72,North America
+47ba8199-3f8e-4142-85a9-f8864d040b79,2024-11-05,Desk Lamp,Furniture,7,54.19,379.33,North America
+9ccd97f1-d57d-4c58-be3a-bdf24a21052d,2024-01-15,Smartphone X,Electronics,6,873.42,5240.52,North America
+af4a7a7a-7480-4494-b825-679abd00207b,2025-12-26,Coffee Maker,Appliances,5,107.71,538.55,Asia
+38a620e1-ea2b-4964-af0b-e62678b537ee,2025-06-30,Office Chair,Furniture,1,216.64,216.64,Africa
+2028e21e-7006-4957-bc0b-869c0f123e9a,2024-05-09,Laptop Pro,Electronics,6,1172.61,7035.66,North America
+cf38da2f-022d-4790-abd2-760b8d6de974,2024-10-07,Desk Lamp,Furniture,2,52.24,104.48,Africa
+e5a5e607-2f6f-4893-9a83-6a0864d373f3,2024-02-16,Laptop Pro,Electronics,6,1298.72,7792.32,Africa
+7a2d77f0-1509-4e62-9658-15a95eb8d3b7,2024-02-25,Blender,Appliances,4,84.33,337.32,Asia
+941aa00f-e3ca-45dd-b662-fbcc2c28982d,2025-07-20,Desk Lamp,Furniture,2,53.03,106.06,South America
+6ca91a92-f540-4b9e-832d-04953ae6c181,2024-10-26,Office Chair,Furniture,10,199.47,1994.7,North America
+b5c57cb5-ed67-4165-96b8-1ae0d9f76935,2025-12-15,Wireless Headphones,Electronics,6,161.95,971.7,Asia
+fa0f88e0-382a-4fcb-8b62-c04a8ee1b944,2024-05-09,Smartphone X,Electronics,3,771.25,2313.75,South America
+ad2f7841-5cba-4c79-81d7-9ebe2dcf5de4,2025-10-15,Laptop Pro,Electronics,1,1307.57,1307.57,South America
+4c434198-84ee-4779-bcc5-37834991d803,2025-05-17,Smartphone X,Electronics,6,875.46,5252.76,North America
+ec087bfe-7aa2-4365-b786-b12c017be731,2024-04-15,Blender,Appliances,9,80.61,725.49,Africa
+747cb44f-6338-49d6-9f03-376596a02e09,2024-01-13,Laptop Pro,Electronics,6,1230.46,7382.76,Europe
+b0cc148d-12c3-43c4-ba8c-586a725b8a4b,2025-08-10,Smartphone X,Electronics,3,827.25,2481.75,Africa
+3fbf31df-7825-42ec-9bf2-4966e105509d,2024-10-18,Blender,Appliances,8,75.41,603.28,Africa
+e0a43210-d403-4302-b8d4-c428fb2be30e,2025-04-25,Coffee Maker,Appliances,8,98.48,787.84,Europe
+7f671424-50e6-4a32-9be5-63970736cf63,2025-05-05,Laptop Pro,Electronics,3,1129.34,3388.02,South America
+7fb67ab4-7a1c-4c39-b5da-92a51abc3ae3,2025-03-27,Blender,Appliances,3,83.24,249.72,Europe
+e7b190da-9d17-4321-93ba-b410f4f3fd00,2024-12-14,Coffee Maker,Appliances,2,105.5,211.0,Europe
+96a5ce77-afb7-441b-805d-9953e1f96b1e,2024-07-07,Coffee Maker,Appliances,8,106.34,850.72,Asia
+97c86323-c7e1-4794-a3d9-33cbfda47390,2024-02-22,Laptop Pro,Electronics,1,1259.25,1259.25,Asia
+5461683a-195b-4849-862e-df90017455a8,2024-09-15,Smartphone X,Electronics,5,723.8,3619.0,Asia
+220e6f05-9994-429d-9de5-cf20b30492d3,2025-05-04,Coffee Maker,Appliances,4,96.63,386.52,South America
+3790ed11-4817-4415-87fc-c0170fd2a24d,2024-04-26,Laptop Pro,Electronics,1,1097.58,1097.58,Europe
+2e17bb01-151f-4b3c-8123-1ea24edc6f20,2024-03-07,Smartphone X,Electronics,4,847.07,3388.28,North America
+69c48618-a902-4d70-975f-0ed90ab218c2,2025-02-14,Desk Lamp,Furniture,1,45.7,45.7,Europe
+b17d78c3-5d7a-4779-a2c2-fdb471040352,2025-05-18,Blender,Appliances,6,75.64,453.84,South America
+31738f96-71ab-4ca8-bce5-9dfdecdf972b,2024-03-16,Wireless Headphones,Electronics,5,147.23,736.15,Asia
+c56c1796-f227-432a-afcd-d343aa7a31f9,2025-08-13,Office Chair,Furniture,9,205.21,1846.89,South America
+40a3ac08-8c1b-48a0-9d64-2f488dc0f60f,2025-10-06,Office Chair,Furniture,7,192.66,1348.62,Asia
+2e80d489-9850-4877-b7f5-59cb6a4e9052,2025-12-03,Office Chair,Furniture,9,206.93,1862.37,South America
+1ac6d9ef-7d3b-49bb-b81b-8b8b32e1de4b,2024-02-24,Desk Lamp,Furniture,8,45.06,360.48,North America
+c7309a6e-5a34-44d6-9823-00f6555cff20,2024-06-04,Coffee Maker,Appliances,5,102.37,511.85,Asia
+d63f5e68-4639-47aa-aa75-f48b8dbc053e,2024-06-01,Blender,Appliances,1,83.94,83.94,Asia
+26bdb19d-7734-4327-af29-c25aac5cbda5,2025-07-30,Laptop Pro,Electronics,4,1248.21,4992.84,Europe
+2965ab3e-43bd-4697-ac25-dd472761b451,2024-11-07,Laptop Pro,Electronics,5,1165.85,5829.25,South America
+6416fc79-bc30-4774-b7cc-a76101ad8dd1,2024-03-28,Desk Lamp,Furniture,6,46.06,276.36,Africa
+22ee264c-1e0f-4055-8ae4-28a4a5c503ca,2024-09-11,Blender,Appliances,1,82.97,82.97,Africa
+502810ec-adac-452e-8604-5c3c2305f0b8,2024-05-01,Desk Lamp,Furniture,6,45.87,275.22,Europe
+b2a9b8dd-9494-4d9b-bb89-c399cbb2b9a9,2025-07-25,Blender,Appliances,5,86.83,434.15,South America
+6d64d5c2-003d-46a3-8cec-e95e774c413b,2025-03-02,Office Chair,Furniture,2,195.8,391.6,North America
+eee01343-824d-4436-81e9-d890dfa2f92c,2025-09-12,Coffee Maker,Appliances,6,90.62,543.72,Europe
+0850bc08-2524-49bd-898e-f838bf89a14a,2025-09-02,Smartphone X,Electronics,7,805.35,5637.45,Asia
+f711c23a-6a31-43c8-af20-424dd5e39473,2025-09-25,Smartphone X,Electronics,7,839.48,5876.36,North America
+99040df8-fcd9-42ca-895c-4eab436064f8,2024-08-19,Blender,Appliances,8,84.76,678.08,South America
+d46e651e-09bf-4fb5-acdd-5ca135a52c19,2025-06-19,Desk Lamp,Furniture,7,47.95,335.65,Asia
+e4be27b1-2ef1-48cd-a3a1-6e912fd94778,2025-01-24,Coffee Maker,Appliances,6,92.88,557.28,Africa
+7a196fc0-7c4b-4449-b66c-3299ebbb1e6b,2025-04-06,Coffee Maker,Appliances,3,107.74,323.22,South America
+1da38944-b707-4ad4-8d83-714c1cee3eb0,2025-03-29,Blender,Appliances,8,85.87,686.96,Asia
+79becf9c-ffdb-4f97-801c-5d9dc15d047b,2024-10-31,Coffee Maker,Appliances,8,97.46,779.68,South America
+1a753af4-9756-4d46-9be2-d98ee470575f,2025-08-25,Laptop Pro,Electronics,6,1212.85,7277.1,Asia
+ea24e359-7f36-4789-a588-5b0bdddba859,2025-03-15,Desk Lamp,Furniture,9,46.41,417.69,South America
+8598d637-b7d6-4522-ae25-aeefa9c6108f,2024-11-08,Laptop Pro,Electronics,5,1081.21,5406.05,Africa
+49a33df2-2918-4b4e-9f71-7417f42c24b9,2025-08-05,Desk Lamp,Furniture,2,48.94,97.88,Europe
+e6493498-e34f-466d-beb3-7a8fbc38b9ca,2025-09-27,Desk Lamp,Furniture,7,54.47,381.29,Asia
+3fbb41e1-799e-47f3-8577-0474396de293,2024-03-02,Wireless Headphones,Electronics,2,141.3,282.6,Asia
+e623ba3e-b6bf-4488-a8ed-9ccc0571819c,2025-09-16,Coffee Maker,Appliances,7,108.07,756.49,Africa
+d0d37b7f-3f21-452c-b5fb-590bbe6c96c6,2024-04-11,Wireless Headphones,Electronics,10,141.35,1413.5,Europe
+f5ac5dab-14b3-45ed-acea-458070f3e5e1,2024-07-31,Coffee Maker,Appliances,3,107.03,321.09,South America
+508babb4-dd74-4db1-83c0-1d85f8469501,2025-10-02,Smartphone X,Electronics,9,745.75,6711.75,Asia
+8e165899-0201-4f80-a636-dd9e415367a5,2024-08-04,Smartphone X,Electronics,5,818.7,4093.5,Europe
+13038bc4-b8c4-4992-abba-cc24b082c2dd,2024-09-27,Wireless Headphones,Electronics,6,140.83,844.98,South America
+a0d2a95f-0cc7-482b-adfe-74bfdf2849fa,2025-11-07,Smartphone X,Electronics,2,827.36,1654.72,Asia
+34f4ab83-208e-4570-b17a-9199eab1efb9,2024-03-24,Desk Lamp,Furniture,2,53.52,107.04,Asia
+f3de0ada-c888-4057-8234-e2a4e1747939,2024-06-09,Blender,Appliances,6,84.02,504.12,South America
+882e02ec-2f01-4cf0-9dfc-937ef526858f,2024-09-02,Desk Lamp,Furniture,5,49.61,248.05,Africa
+488830de-8df4-4a09-aeb1-8ce1e899bbc1,2024-06-26,Desk Lamp,Furniture,5,45.73,228.65,Europe
+e5e732fe-45c8-4b81-8699-00f8bd3c5427,2025-07-19,Coffee Maker,Appliances,8,91.35,730.8,Asia
+c6d5c606-4050-45be-a366-859e142f54c7,2024-03-17,Laptop Pro,Electronics,10,1127.38,11273.8,South America
+189e0654-f371-4b8f-8b26-f31e45f3315e,2024-06-09,Desk Lamp,Furniture,7,49.87,349.09,Asia
+baca589d-55dd-4edc-8bcc-9a90534865ef,2024-01-03,Wireless Headphones,Electronics,3,145.71,437.13,South America
+8c1e6ad2-38a2-458c-8c22-7c0fb1952380,2025-02-22,Coffee Maker,Appliances,8,103.11,824.88,Asia
+dfd1848e-c488-41da-af8c-ba6e1ab965be,2025-04-06,Laptop Pro,Electronics,6,1148.43,6890.58,North America
+c12d070a-6bd6-4eee-9330-2fdf72235f55,2025-12-06,Laptop Pro,Electronics,8,1296.03,10368.24,Africa
+1c871b31-064a-4492-9d83-718965d85344,2025-08-31,Wireless Headphones,Electronics,1,149.58,149.58,Europe
+23357be6-7cf1-461a-b630-3bc9d238f9fc,2025-04-26,Wireless Headphones,Electronics,6,153.49,920.94,Africa
+53cb1701-ebf2-4245-9e3c-e523b6f50ca0,2024-10-25,Wireless Headphones,Electronics,10,155.8,1558.0,Africa
+fc24c859-36a0-42ec-8976-394e684302f1,2024-02-03,Smartphone X,Electronics,7,810.49,5673.43,Europe
+cf8fd625-ec41-410b-a64c-9e6d2fbaf205,2024-08-25,Wireless Headphones,Electronics,5,159.23,796.15,Africa
+7de779e6-de89-44d4-9f67-e68c001a0bb3,2024-10-22,Office Chair,Furniture,1,186.75,186.75,North America
+c431e2b9-bd63-461d-8cd3-8a1aec1c62bc,2025-12-24,Wireless Headphones,Electronics,2,142.39,284.78,South America
+7dcf63e5-9657-4eef-886c-5f804dddedcd,2024-10-16,Smartphone X,Electronics,7,833.95,5837.65,Europe
+a070351e-9f20-4f0a-b2c4-d5f4138de84a,2025-12-20,Coffee Maker,Appliances,6,98.72,592.32,South America
+92e84829-2085-4cff-9bc9-32b9b6b7f653,2025-04-09,Blender,Appliances,9,77.75,699.75,Asia
+887f01bb-6d81-46be-b2e6-786f8524676c,2024-03-13,Coffee Maker,Appliances,3,104.66,313.98,North America
+0710b0dc-e3f8-4b7a-b4b3-95feb49a8246,2025-12-04,Office Chair,Furniture,1,198.51,198.51,South America
+e3ebb8db-d7fb-4331-8d76-e36c520b5790,2024-08-27,Wireless Headphones,Electronics,3,158.24,474.72,South America
+a4a9941d-f12e-43d9-8657-277115677794,2024-09-27,Office Chair,Furniture,10,202.07,2020.7,Europe
+bc6e9cc0-5124-4df0-ab34-2ff952a792f7,2025-10-02,Smartphone X,Electronics,8,823.29,6586.32,Asia
+8446b107-8d16-4d78-a382-e316f8eb01d8,2025-08-26,Laptop Pro,Electronics,1,1282.03,1282.03,Europe
+b1676085-dc70-47e6-83fa-015a092ce2ab,2025-11-08,Blender,Appliances,3,85.22,255.66,Asia
+0a33f91f-1041-4a5a-8df5-8541900047a3,2024-07-21,Desk Lamp,Furniture,2,46.96,93.92,Europe
+1d262963-cbe8-4b2d-bc39-373adef23a01,2025-03-11,Coffee Maker,Appliances,4,107.73,430.92,South America
+b7a1c144-6ea7-4509-babf-c68622bc5e3d,2024-04-27,Laptop Pro,Electronics,6,1254.58,7527.48,South America
