@@ -1,190 +1,140 @@
-# Scalable Multi-Agent Data Engineering Swarm POC Guide
+# Multi-Agent Data Engineering Swarm
 
-**Version:** 1.0
-**Date Created:** July 22, 2025
-**Last Updated:** July 22, 2025
-**Authors:** Grok (xAI) in collaboration with User
-**Purpose:** This is a living document serving as the central blueprint for our experimental Proof-of-Concept (POC) project. It outlines the design, implementation, and evolution of a multi-agent LLM system for automated data engineering pipelines. We will update this document iteratively with every proposed change, enhancement, or experiment. Updates will be logged in the "Change Log" section at the end, with version increments.
+> AI agents that collaborate to automatically build data engineering pipelines
 
-The focus remains on data engineering: Building an AI-swarm that collaboratively ingests, cleans, transforms, and validates datasets (e.g., for ETL/ELT workflows). We emphasize modern paradigms like swarm intelligence for emergent collaboration, hybrid ReAct-ToT reasoning, MCP for interoperable tooling, and dynamic scaling for handling massive datasets. If a novel paradigm emerges (e.g., "quantum-inspired branching" for probabilistic pipeline optimization), we'll prototype it here.
+A proof-of-concept system where specialized LLM agents work together using swarm intelligence to ingest, clean, transform, and validate datasets. Each agent has a specific role (prompt engineering, data ingestion, cleaning, transformation, validation) and they debate through consensus mechanisms to create high-quality ETL pipelines.
 
-This guide is structured for scalability: Modular components allow easy extension to cloud (e.g., AWS Lambda for agent parallelism) or distributed systems (e.g., Kubernetes for swarm orchestration).
+## 🚀 Quick Start
 
-## 1. Introduction
+### Prerequisites
+- Python 3.12+
+- [uv](https://docs.astral.sh/uv/) package manager
+- API keys for OpenAI, Anthropic, and/or xAI
 
-### Project Overview
-This POC demonstrates a decentralized multi-agent system where LLMs "swarm" to build data pipelines. Unlike hierarchical orchestrators, agents operate autonomously, debating outputs via shared state and voting mechanisms. Key innovations:
-- **Swarm Paradigm:** Agents self-organize, spawning sub-agents for complex tasks (e.g., parallel feature engineering on dataset shards).
-- **Multi-Model Integration:** Leverage diverse LLMs (Anthropic/Claude, Grok, OpenAI, locals like Ollama/Deepseek/CodeLlama) for specialized roles.
-- **Data Engineering Focus:** Automate pipeline creation for raw datasets (e.g., CSV/JSON ingestion → cleaning → transformation → validation), with RAG for schema retrieval and MCP for tool standardization.
-- **Iteration & Consensus:** Cyclic workflows in LangGraph allow multiple rounds of refinement until consensus.
-- **Prompt Engineering:** A dedicated agent auto-refines prompts for optimal performance.
-- **Scalability Mindset:** Async operations, dynamic agent scaling, and observability via LangSmith prepare for production-scale data flows (e.g., terabyte datasets).
+### Installation
+```bash
+# Clone repository
+git clone <repository-url>
+cd multi-agent-data-engineering-swarm
 
-### Goals
-- Understand/experiment with cutting-edge tools (LangChain, LangGraph, LangSmith, Pydantic, MCP).
-- Create a reusable template for personal projects.
-- Invent if needed: E.g., a "meta-swarm optimizer" that uses reinforcement learning to evolve agent configurations.
+# Install dependencies
+curl -LsSf https://astral.sh/uv/install.sh | sh  # Install uv if needed
+uv sync
 
-### Assumptions & Prerequisites
-- Python 3.10+ environment.
-- API keys for Anthropic, xAI (Grok), OpenAI.
-- Local models via Ollama (Deepseek, CodeLlama).
-- Installed libraries: See Section 3.
-- Sample dataset: A CSV file (e.g., `sales_data.csv`) in `/data/` for testing.
-
-## 2. Architecture Overview
-
-### High-Level Design
-- **Core Framework:** LangGraph for graph-based workflows (nodes: agents, edges: conditional routes for iteration).
-- **Agents:** Semi-autonomous units with roles:
-  - Prompt Engineer: Refines user inputs (Deepseek-powered).
-  - Data Ingestor: Retrieves/loads data with RAG (OpenAI embeddings + FAISS).
-  - Cleaner: Handles missing values, outliers (Claude for reasoning).
-  - Transformer: Feature engineering, transformations (Grok for creative approaches).
-  - Validator/Debater: Consensus via multi-model voting (OpenAI + locals).
-- **Shared State:** TypedDict in LangGraph for passing pipeline steps, debate history.
-- **Tools & Protocols:** MCP for standardized tool calls (e.g., data validators); Custom tools for data ops.
-- **Iteration Loop:** Debate node triggers re-routes until consensus or max rounds.
-- **Novel Element:** Dynamic sub-swarm spawning: If a task exceeds complexity threshold, spawn parallel agents (e.g., for sharded data processing).
-
-### Data Flow Example
-1. User inputs task: "Build pipeline for sales_data.csv".
-2. Prompt Engineer refines it.
-3. Ingestor loads data + RAG for schemas.
-4. Sequential agents build steps.
-5. Debater evaluates; loops if needed.
-6. Output: Structured pipeline (Pydantic-enforced JSON/code snippets).
-
-### Scalability Features
-- **Parallelism:** LangGraph async nodes for concurrent agent execution.
-- **Fault Tolerance:** Model fallbacks (e.g., API down → local).
-- **Monitoring:** LangSmith traces all interactions.
-- **Extension Points:** Hooks for cloud integration (e.g., S3 for large data).
-
-## 3. Project Structure & Setup
-
-### Directory Structure
-```
-my_data_eng_swarm/
-├── agents/                # Agent logic
-│   ├── prompt_engineer.py
-│   ├── data_ingestor.py
-│   ├── cleaner.py
-│   ├── transformer.py
-│   └── validator.py
-├── tools/                 # MCP-wrapped tools
-│   └── data_tools.py      # E.g., validators, loaders
-├── graph.py               # LangGraph workflow
-├── config.py              # Models, Pydantic schemas, keys
-├── main.py                # Entry point
-├── requirements.txt       # Dependencies
-├── data/                  # Datasets & indexes
-│   └── sales_data.csv     # Sample
-└── indexes/               # FAISS for RAG
+# Setup environment
+cp .env.example .env  # Create from template
+# Edit .env with your API keys
 ```
 
-### Setup Instructions
-1. **Clone/Create Repo:** `mkdir my_data_eng_swarm && cd my_data_eng_swarm`
-2. **Install Dependencies:** Create `requirements.txt`:
-   ```
-   langchain==0.2.5  # Adjust to latest (mid-2025 versions)
-   langgraph==0.1.8
-   langsmith==0.1.4
-   pydantic==2.7.1
-   anthropic==0.25.0  # For Claude & MCP
-   openai==1.30.0
-   ollama==0.1.9
-   faiss-cpu==1.8.0
-   # Add xai-sdk if available for Grok
-   ```
-   Run: `pip install -r requirements.txt`
-3. **Environment Vars:** Set API keys (e.g., `export ANTHROPIC_API_KEY=your_key`)
-4. **Build RAG Index:** Embed sample schemas/docs into FAISS (script in `main.py`).
-5. **Run:** `python main.py`
-
-## 4. Key Components
-
-### Config & Pydantic Contracts (`config.py`)
-```python
-from pydantic import BaseModel, Field
-from langchain_openai import ChatOpenAI
-from langchain_anthropic import ChatAnthropic
-from langchain_community.llms import Ollama
-# Add Grok: from langchain_xai import GrokLLM
-
-class PipelineStep(BaseModel):
-    step_name: str = Field(description="Step name")
-    code_snippet: str = Field(description="Executable code")
-    rationale: str = Field(description="Explanation")
-
-MODELS = {
-    "prompt_engineer": Ollama(model="deepseek"),
-    "ingestor": ChatOpenAI(model="gpt-4o", api_key="..."),
-    "cleaner": ChatAnthropic(model="claude-3.5-sonnet-2025", api_key="..."),
-    "transformer": GrokLLM(model="grok-beta", api_key="..."),  # Placeholder
-    "validator": Ollama(model="codellama")
-}
+### Environment Setup
+Create a `.env` file:
+```env
+OPENAI_API_KEY=your_openai_key
+ANTHROPIC_API_KEY=your_anthropic_key  
+XAI_API_KEY=your_xai_key
+OLLAMA_BASE_URL=http://localhost:11434  # Optional for local models
+MODEL_TEMPERATURE=0.2
 ```
 
-### Agent Examples
-- **Prompt Engineer (`agents/prompt_engineer.py`):** Uses chain to refine prompts.
-  ```python
-  from langchain_core.prompts import ChatPromptTemplate
-  from langchain_core.output_parsers import PydanticOutputParser
-  from config import MODELS, PipelineStep
+### Run
+```bash
+# Basic usage - generate a data pipeline
+uv run python main.py
 
-  parser = PydanticOutputParser(pydantic_object=PipelineStep)
-  prompt = ChatPromptTemplate.from_template("Refine: {user_prompt}")
-  chain = prompt | MODELS["prompt_engineer"] | parser
+# Start MCP server for tool testing
+uv run python tools/data_tools.py
 
-  def refine_prompt(user_prompt: str) -> PipelineStep:
-      return chain.invoke({"user_prompt": user_prompt})
-  ```
-
-(Define others similarly, integrating RAG/tools.)
-
-### Workflow Graph (`graph.py`)
-See previous response for full code; key: StateGraph with cycles.
-
-### Tools with MCP
-Wrap tools for interoperability:
-```python
-# tools/data_tools.py
-def load_csv(file_path: str) -> str:
-    import pandas as pd
-    return pd.read_csv(file_path)"  # MCP-integrated
-```
-
-## 5. Running & Testing the POC
-
-### Basic Run
-```python
-# main.py excerpt
+# With custom task
+uv run python -c "
 from graph import app
-
-initial_state = {"task": "Build pipeline for data_eng_task", "pipeline_steps": []}
-result = app.invoke(initial_state)
-print(result["pipeline_steps"])
+result = app.invoke({
+    'task': 'clean and analyze my sales data',
+    'refined_prompt': '',
+    'pipeline_steps': [],
+    'debate_rounds': 0,
+    'consensus_reached': False
+})
+print('Generated steps:')
+for step in result['pipeline_steps']:
+    print(f'- {step.step_name}: {step.code_snippet}')
+"
 ```
 
-### Test Workflow
-- Input: Sample CSV.
-- Expected: Generated pipeline code snippets.
-- Debug: Enable LangSmith tracing.
+## ✨ Features
 
-## 6. Experimentation Guidelines
-- **Update Protocol:** Propose changes via chat; append to Change Log, update relevant sections, increment version.
-- **Creativity Prompts:** For each update, consider: Scalable innovations? (E.g., Integrate quantum simulation libs for probabilistic data modeling.)
-- **Data Eng Focus:** All experiments must tie to data pipelines (e.g., add streaming for Kafka integration).
+- **Multi-Agent Collaboration**: Specialized AI agents work together using swarm intelligence
+- **Multi-LLM Support**: OpenAI GPT-4, Anthropic Claude, xAI Grok, and local Ollama models
+- **Smart Pipeline Generation**: Automatically creates cleaning, transformation, and validation steps
+- **Consensus Mechanism**: Agents debate and vote on pipeline quality through iterative refinement
+- **RAG Integration**: Uses Chroma vectorstore for schema and context retrieval
+- **MCP Integration**: Standardized tool interfaces for agent interoperability
+- **Dynamic Scaling**: Automatically spawns sub-agents for large datasets
 
-## 7. Change Log
+## 🏗️ How It Works
 
-### Version 1.0) - Initial Creation (July 22, 2025)
-- Document bootstrapped with core structure.
-- No changes yet.
+1. **Task Input**: Provide a data engineering task (e.g., "clean sales data")
+2. **Agent Collaboration**: 
+   - Prompt Engineer (Deepseek) refines the task
+   - Data Ingestor (OpenAI) loads data with RAG context
+   - Cleaner (Claude) handles data quality issues  
+   - Transformer (Grok) performs feature engineering
+   - Validator ensures consensus through multi-model voting
+3. **Pipeline Output**: Structured pipeline with executable Python code
 
-### [Future Entries]
-- Version X.Y - Date: [Description of change, rationale, impact on scalability).]
+## 🧪 Testing
 
-This document is now our anchor—reference it in all future interactions. Propose the next step (e.g., implement a specific agent), and we'll update accordingly!
+```bash
+# Run all tests
+uv run pytest
+
+# Test model connectivity (requires API keys)
+uv run pytest tests/test_config.py::test_model_invocation -s
+
+# Run with coverage
+uv run pytest --cov=.
+```
+
+## 🛠️ Project Structure
+
+```
+├── agents/           # Specialized AI agents
+├── tools/           # MCP-wrapped data tools
+├── docs/           # Detailed documentation
+├── tests/          # Test suite  
+├── data/           # Sample datasets
+├── graph.py        # LangGraph workflow orchestration
+├── config.py       # Model configuration
+└── main.py         # Entry point
+```
+
+## 📚 Documentation
+
+- **[Architecture Overview](docs/architecture.md)** - Detailed system design and components
+- **[MCP Integration](docs/mcp-integration.md)** - Model Context Protocol usage and tools
+- **[Experimentation Guide](docs/experimentation.md)** - Research goals and novel concepts
+
+## 🔧 Optional: Local Models
+
+For local model support with Ollama:
+```bash
+# Install Ollama
+curl -fsSL https://ollama.ai/install.sh | sh
+ollama serve
+
+# Pull required models  
+ollama pull deepseek-r1:1.5b
+ollama pull llama3.2:3b
+```
+
+## 🤝 Contributing
+
+This is an experimental proof-of-concept exploring:
+- Multi-agent consensus mechanisms in data pipelines
+- Dynamic tool discovery via MCP
+- Novel swarm intelligence paradigms for data engineering
+
+Feel free to experiment with new agent types, LLM providers, or consensus mechanisms!
+
+---
+
+*Built with LangChain, LangGraph, MCP, and modern AI orchestration tools*
