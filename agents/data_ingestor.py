@@ -3,7 +3,7 @@ import os
 import asyncio
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import PydanticOutputParser
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from langchain_openai import OpenAIEmbeddings
 from config import MODELS, PipelineStep, DATA_DIR, INDEX_DIR
 from mcp import ClientSession
@@ -77,5 +77,4 @@ async def ingest_data(dataset_path: str) -> PipelineStep:
 def build_rag_index(docs: list[str]):
     vectorstore.add_texts(
         docs
-    )  # Embed; future: Hybrid with Neo4j for relational queries
-    vectorstore.persist()
+    )  # Embed; auto-persisted with persist_directory
