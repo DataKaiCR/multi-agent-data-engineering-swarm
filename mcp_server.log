@@ -1,0 +1,57 @@
+🚀 Starting MCP server on http://127.0.0.1:8000
+Available tools: load_csv, validate_data, clean_data
+Press Ctrl+C to stop
+INFO:     Started server process [13871]
+INFO:     Waiting for application startup.
+[07/22/25 17:55:39] INFO     StreamableHTTP       streamable_http_manager.py:110
+                             session manager                                    
+                             started                                            
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:54459 - "POST /mcp HTTP/1.1" 200 OK
+[07/22/25 17:55:57] INFO     Terminating session: None    streamable_http.py:630
+INFO:     127.0.0.1:54461 - "POST /mcp HTTP/1.1" 202 Accepted
+                    INFO     Terminating session: None    streamable_http.py:630
+INFO:     127.0.0.1:54463 - "POST /mcp HTTP/1.1" 200 OK
+                    INFO     Processing request of type            server.py:625
+                             ListToolsRequest                                   
+                    INFO     Terminating session: None    streamable_http.py:630
+INFO:     127.0.0.1:54465 - "POST /mcp HTTP/1.1" 200 OK
+                    INFO     Processing request of type            server.py:625
+                             CallToolRequest                                    
+                    INFO     Terminating session: None    streamable_http.py:630
+INFO:     127.0.0.1:54467 - "POST /mcp HTTP/1.1" 200 OK
+                    INFO     Processing request of type            server.py:625
+                             CallToolRequest                                    
+                    INFO     Terminating session: None    streamable_http.py:630
+INFO:     127.0.0.1:54469 - "POST /mcp HTTP/1.1" 200 OK
+                    INFO     Processing request of type            server.py:625
+                             CallToolRequest                                    
+                    INFO     Terminating session: None    streamable_http.py:630
+INFO:     127.0.0.1:54476 - "POST /mcp HTTP/1.1" 200 OK
+[07/22/25 17:56:01] INFO     Terminating session: None    streamable_http.py:630
+INFO:     127.0.0.1:54478 - "POST /mcp HTTP/1.1" 202 Accepted
+                    INFO     Terminating session: None    streamable_http.py:630
+INFO:     127.0.0.1:54480 - "POST /mcp HTTP/1.1" 200 OK
+                    INFO     Processing request of type            server.py:625
+                             ListToolsRequest                                   
+                    INFO     Terminating session: None    streamable_http.py:630
+INFO:     127.0.0.1:54482 - "POST /mcp HTTP/1.1" 200 OK
+                    INFO     Processing request of type            server.py:625
+                             CallToolRequest                                    
+                    INFO     Terminating session: None    streamable_http.py:630
+INFO:     127.0.0.1:54484 - "POST /mcp HTTP/1.1" 200 OK
+                    INFO     Processing request of type            server.py:625
+                             CallToolRequest                                    
+                    INFO     Terminating session: None    streamable_http.py:630
+INFO:     127.0.0.1:54486 - "POST /mcp HTTP/1.1" 200 OK
+                    INFO     Processing request of type            server.py:625
+                             CallToolRequest                                    
+                    INFO     Terminating session: None    streamable_http.py:630
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+[07/22/25 17:56:19] INFO     StreamableHTTP       streamable_http_manager.py:114
+                             session manager                                    
+                             shutting down                                      
+INFO:     Application shutdown complete.
+INFO:     Finished server process [13871]

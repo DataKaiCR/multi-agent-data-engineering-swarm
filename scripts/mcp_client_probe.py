@@ -17,6 +17,16 @@ async def test_mcp():
             )
             print("Load Result (Structured):", load_result.structuredContent)
 
+            # Test clean_data
+            clean_result = await session.call_tool(
+                "clean_data",
+                {
+                    "file_path": "data/sales_data.csv",
+                    "ingest_metadata": load_result.structuredContent["metadata"],
+                },
+            )
+            print("Clean Result:", clean_result.structuredContent)
+
             # Test validate_data (simulate validation)
             mock_steps = [{"step_name": "test", "code_snippet": "", "rationale": ""}]
             valid_result = await session.call_tool(

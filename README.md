@@ -36,28 +36,66 @@ OLLAMA_BASE_URL=http://localhost:11434  # Optional for local models
 MODEL_TEMPERATURE=0.2
 ```
 
-### Run
+### Quick Commands
+
+**Using Make (Recommended):**
+```bash
+# Start MCP server in background
+make mcp-start
+
+# Run main pipeline
+make run
+
+# Test MCP tools
+make mcp-probe
+
+# Check server status
+make mcp-status
+
+# Stop server
+make mcp-stop
+
+# See all available commands
+make help
+```
+
+**Using Shell Script:**
+```bash
+# Start MCP server
+./scripts/mcp-server.sh start
+
+# Test with probe
+./scripts/mcp-server.sh probe
+
+# Check logs
+./scripts/mcp-server.sh logs
+```
+
+**Manual Commands:**
 ```bash
 # Basic usage - generate a data pipeline
 uv run python main.py
 
-# Start MCP server for tool testing
+# Start MCP server manually (foreground)
 uv run python tools/data_tools.py
+```
 
-# With custom task
-uv run python -c "
-from graph import app
-result = app.invoke({
-    'task': 'clean and analyze my sales data',
-    'refined_prompt': '',
-    'pipeline_steps': [],
-    'debate_rounds': 0,
-    'consensus_reached': False
-})
-print('Generated steps:')
-for step in result['pipeline_steps']:
-    print(f'- {step.step_name}: {step.code_snippet}')
-"
+### Development Workflow
+
+**Quick Start Development:**
+```bash
+make setup          # First time setup
+make mcp-start       # Start MCP server in background  
+make run             # Test main pipeline
+make mcp-probe       # Test all MCP tools
+```
+
+**Daily Development:**
+```bash
+make dev             # Start development mode (MCP + tips)
+make mcp-probe       # Test functionality
+make dev-logs        # Watch server logs
+make clean           # Cleanup when done
 ```
 
 ## ✨ Features
