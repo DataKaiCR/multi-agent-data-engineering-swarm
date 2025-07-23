@@ -1,13 +1,68 @@
 # Python-generated files
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
 build/
 dist/
-wheels/
-*.egg-info
+*.egg-info/
+.Python
+*.so
 
 # Virtual environments
-.venv
+.venv/
+venv/
+ENV/
+env/
 
-# secrets or local env files
+# Secrets and environment files
 .env
+.env.local
+.env.production
+.env.staging
+*.key
+*.pem
+
+# Database and index files
+indexes/
+*.sqlite3
+*.db
+
+# Logs and runtime files
+*.log
+*.pid
+mcp_server.log
+mcp_server.pid
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS generated files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
