@@ -38,9 +38,27 @@ run:
 # Run tests
 test:
 	@echo "🧪 Running tests..."
-	uv run pytest tests/test_config.py tests/test_simple.py -v
-	@echo "🧪 Running direct functionality tests..."
-	uv run python test_direct.py
+	uv run python -m pytest tests/ -v
+
+# Run specific test files
+test-simple:
+	@echo "🧪 Running simple tests..."
+	uv run python -m pytest tests/test_config.py tests/test_simple.py -v
+
+# Run integration tests
+test-integration:
+	@echo "🧪 Running integration tests..."
+	@if ! pgrep -f "tools/data_tools.py" > /dev/null; then \
+		echo "📡 Starting MCP server for integration tests..."; \
+		$(MAKE) mcp-start; \
+		sleep 3; \
+	fi
+	uv run python -m pytest tests/ -m integration -v
+
+# Run unit tests only
+test-unit:
+	@echo "🧪 Running unit tests..."
+	uv run python -m pytest tests/ -m "not integration" -v
 
 # MCP Server Management
 mcp-start:

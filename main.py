@@ -15,9 +15,8 @@ def setup_indexes():
     )
 
 
-async def main():
-    setup_indexes()
-    initial_state = {
+def setup_initial_state():
+    return {
         "task": "Build ETL pipeline for sales_data.csv",
         "refined_prompt": "",
         "pipeline_steps": [],
@@ -25,6 +24,11 @@ async def main():
         "consensus_reached": False,
         "discovered_tools": {},
     }
+
+
+async def main():
+    setup_indexes()
+    initial_state = setup_initial_state()
     result = await app.ainvoke(initial_state)
     print("Final Pipeline Steps:")
     for step in result["pipeline_steps"]:

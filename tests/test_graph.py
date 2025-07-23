@@ -15,7 +15,7 @@ async def test_graph_workflow():
             "graph.prompt_node",
             return_value={
                 "refined_prompt": "Mock refine",
-                "pipeline_steps": [PipelineStep(...)],
+                "pipeline_steps": [PipelineStep(step_name="test", code_snippet="", rationale="test")],
             },
         ):
             with patch(
@@ -34,7 +34,7 @@ async def test_graph_workflow():
                             "graph.debate_node",
                             return_value={
                                 "consensus_reached": True,
-                                "pipeline_steps": [PipelineStep(...)],
+                                "pipeline_steps": [PipelineStep(step_name="test", code_snippet="", rationale="test")],
                             },
                         ):
                             initial = {"task": "test", "pipeline_steps": []}

@@ -1,13 +1,6 @@
 # tests/test_data_tools.py
-import sys
-from pathlib import Path
 import pytest
 from unittest.mock import patch, MagicMock
-
-# Add project root to Python path
-project_root = Path(__file__).parent.parent
-sys.path.insert(0, str(project_root))
-
 from tools.data_tools import load_csv, mcp
 
 
@@ -25,12 +18,13 @@ def mock_pd():
 def test_load_csv_small_file(mock_pd):
     # Mock the context object
     from unittest.mock import MagicMock
+
     mock_ctx = MagicMock()
-    
+
     # Mock file size to be small
     with patch("tools.data_tools.os.path.getsize", return_value=1024):  # 1KB
         result = load_csv("data/small.csv", mock_ctx)
-    
+
     assert result.data_json is not None
     assert result.metadata["size_mb"] > 0
     assert "sharding_hint" not in result.metadata  # No hint for small files
