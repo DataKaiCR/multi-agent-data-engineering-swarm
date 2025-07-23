@@ -60,9 +60,13 @@ async def validate_steps(
     # Consensus: Majority vote; creative: Weight by rationale length/confidence (future RL optimization)
     yes_votes = len([v for v in votes if "yes" in v.rationale.lower()])
     consensus = yes_votes > len(votes) / 2
+    
+    # Clear consensus indicator for graph routing
+    consensus_status = "CONSENSUS_REACHED" if consensus else "CONSENSUS_FAILED"
+    
     rationale = (
-        f"Consensus: {yes_votes}/{len(votes)} yes votes. Details: "
-        + " | ".join([v.rationale for v in votes])
+        f"{consensus_status}: {yes_votes}/{len(votes)} yes votes. Details: "
+        + " | ".join([f"Vote: {v.rationale}" for v in votes])
     )
 
     if not consensus:

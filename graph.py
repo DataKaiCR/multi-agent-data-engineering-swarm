@@ -13,6 +13,11 @@ from mcp.client.streamable_http import streamablehttp_client
 import asyncio
 import functools
 
+# Debate Configuration
+MAX_DEBATE_ROUNDS = 3  # Maximum number of consensus rounds before force-exit (LangGraph has 25-step limit)
+VOTING_MODELS = ["validator", "cleaner", "transformer"]  # Models that participate in voting
+CONSENSUS_THRESHOLD = 0.5  # Fraction of votes needed for consensus (majority)
+
 
 class AgentState(TypedDict):
     task: str
@@ -117,15 +122,19 @@ async def debate_node(state: AgentState) -> AgentState:
     step = await validate_steps(state["pipeline_steps"], state["refined_prompt"])
     state["pipeline_steps"].append(step)
     state["debate_rounds"] += 1
-    state["consensus_reached"] = (
-        "yes" in step.rationale.lower()
-    )  # Simplified; enhance with vote parse
+    
+    # Proper consensus detection based on validator's actual majority vote
+    state["consensus_reached"] = "CONSENSUS_REACHED" in step.rationale
+    
     return state
 
 
 # Conditional routing: Loop if no consensus (scalable: Max rounds prevent infinite loops)
 def route(state: AgentState) -> str:
-    if state["consensus_reached"] or state["debate_rounds"] > 5:
+    if state["consensus_reached"]:
+        return END
+    elif state["debate_rounds"] >= MAX_DEBATE_ROUNDS:
+        print(f"\n⚠️  Maximum debate rounds ({MAX_DEBATE_ROUNDS}) reached. Forcing consensus...")
         return END
     return "prompt"  # Re-refine; dynamic: Route to weak agent based on discovered tools
 
