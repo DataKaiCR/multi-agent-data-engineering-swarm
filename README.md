@@ -30,7 +30,7 @@ cp .env.example .env  # Create from template
 Create a `.env` file:
 ```env
 OPENAI_API_KEY=your_openai_key
-ANTHROPIC_API_KEY=your_anthropic_key  
+ANTHROPIC_API_KEY=your_anthropic_key
 XAI_API_KEY=your_xai_key
 OLLAMA_BASE_URL=http://localhost:11434  # Optional for local models
 MODEL_TEMPERATURE=0.2
@@ -88,7 +88,7 @@ uv run python tools/data_tools.py
 **Quick Start Development:**
 ```bash
 make setup           # First time setup
-make mcp-start       # Start MCP server in background  
+make mcp-start       # Start MCP server in background
 make run             # Test main pipeline
 make mcp-probe       # Test all MCP tools
 make test-simple     # Run basic tests
@@ -123,7 +123,7 @@ make test            # All tests before committing
 ## 🏗️ How It Works
 
 1. **Task Input**: Provide a data engineering task (e.g., "clean sales data")
-2. **Agent Collaboration**: 
+2. **Agent Collaboration**:
    - **Prompt Engineer**: Optimized for task refinement and structured thinking
    - **Data Ingestor**: Excels at data profiling and schema understanding with RAG context
    - **Cleaner**: Strong at data quality assessment and cleaning logic
@@ -171,7 +171,7 @@ uv run python -m pytest --cov=.
 ├── agents/           # Specialized AI agents
 ├── tools/           # MCP-wrapped data tools
 ├── docs/           # Detailed documentation
-├── tests/          # Test suite  
+├── tests/          # Test suite
 ├── data/           # Sample datasets
 ├── graph.py        # LangGraph workflow orchestration
 ├── config.py       # Model configuration
@@ -192,7 +192,7 @@ For local model support with Ollama:
 curl -fsSL https://ollama.ai/install.sh | sh
 ollama serve
 
-# Pull required models  
+# Pull required models
 ollama pull deepseek-r1:1.5b
 ollama pull llama3.2:3b
 ```
@@ -202,7 +202,9 @@ ollama pull llama3.2:3b
 This is an experimental proof-of-concept exploring:
 - Multi-agent consensus mechanisms in data pipelines
 - Dynamic tool discovery via MCP
+- Hybrid human-AI pipeline validation workflows
 - Novel swarm intelligence paradigms for data engineering
+- Reinforcement learning for agent configuration optimization
 
 Feel free to experiment with new agent types, LLM providers, or consensus mechanisms!
 
