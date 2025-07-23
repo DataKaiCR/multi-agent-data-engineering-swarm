@@ -1,8 +1,8 @@
 # Multi-Agent Data Engineering Swarm
 
-> AI agents that collaborate to automatically build data engineering pipelines
+> **Self-Learning AI agents that achieve consensus through emergent optimization**
 
-A proof-of-concept system where specialized LLM agents work together using swarm intelligence to ingest, clean, transform, and validate datasets. Each agent has a specific role (prompt engineering, data ingestion, cleaning, transformation, validation) and they debate through consensus mechanisms to create high-quality ETL pipelines.
+A pioneering **self-learning multi-agent system** that demonstrates **emergent self-optimization** through feedback loops, multi-gap parallel resolution, and intra-round validation. Specialized LLM agents collaboratively build data engineering pipelines, learning from validation failures to achieve consensus through sophisticated **meta-swarmlet escalation** and **embedding-based similarity detection**.
 
 ## 🚀 Quick Start
 
@@ -79,9 +79,16 @@ make help
 # Basic usage - generate a data pipeline
 uv run python main.py
 
+# Verbose mode (recommended) - shows detailed progress
+uv run python main.py -v
+
 # Start MCP server manually (foreground)
 uv run python tools/data_tools.py
 ```
+
+**Output Files:**
+- `output.json` - Complete pipeline results with consensus status
+- `logs/pipeline_YYYYMMDD_HHMMSS.json` - Structured observability logs
 
 ### Development Workflow
 
@@ -110,15 +117,25 @@ make test-integration # Full integration tests
 make test            # All tests before committing
 ```
 
-## ✨ Features
+## ✨ Revolutionary Features
 
-- **Multi-Agent Collaboration**: Specialized AI agents work together using swarm intelligence
-- **Adaptive Multi-LLM Architecture**: Dynamically selects optimal models (OpenAI, Anthropic, xAI, Ollama) based on task-specific performance
-- **Smart Pipeline Generation**: Automatically creates cleaning, transformation, and validation steps
-- **Consensus Mechanism**: Agents debate and vote on pipeline quality through iterative refinement
-- **RAG Integration**: Uses Chroma vectorstore for schema and context retrieval
-- **MCP Integration**: Standardized tool interfaces for agent interoperability
-- **Dynamic Scaling**: Automatically spawns sub-agents for large datasets
+### 🧠 **Self-Learning & Emergent Optimization**
+- **Meta-Swarmlet Escalation**: Parallel gap resolution when patterns persist (>0.3 similarity)
+- **Feedback Loop Learning**: Treats validation failures as "feedback dataset" for improvement
+- **Intra-Round Validation**: Immediate consensus testing within the same debate round
+- **Embedding-based Memory**: RAG storage prevents token bloat in long-running swarms
+
+### 🤖 **Advanced Multi-Agent Architecture**  
+- **Multi-Model Consensus**: Validator uses 3 different LLMs for robust decision-making
+- **Specialized Agent Roles**: Each agent optimized for specific tasks (OpenAI, Anthropic, xAI)
+- **Pipeline State Management**: Agents build cohesively on each other's work
+- **Async Parallel Processing**: `asyncio.gather()` for concurrent gap resolution
+
+### 📊 **Production-Ready Observability**
+- **Structured JSON Logging**: ELK-compatible logs for monitoring dashboards  
+- **Gap Resolution Metrics**: Track escalation patterns, consensus rates, performance
+- **Comprehensive Templates**: Production-ready BigQuery, Spark, pytest, monitoring solutions
+- **MCP Integration**: Standardized tool interfaces with automatic discovery
 
 ## 🏗️ How It Works
 

@@ -13,6 +13,7 @@ from mcp import ClientSession
 from mcp.client.streamable_http import streamablehttp_client
 import asyncio
 import functools
+import structlog
 
 def calculate_semantic_similarity(gaps1, gaps2):
     """Calculate semantic similarity between gap sets using keyword overlap"""
@@ -53,6 +54,9 @@ class AgentState(TypedDict):
     feedback_summary: str = ""  # Aggregated feedback from all agents
     feedback_history: List[str] = []  # Raw feedback for trend analysis
     gap_escalation_count: int = 0  # Track escalations to prevent infinite loops
+    current_data_path: str = "data/sales_data.csv"  # Track current dataset file path
+    data_format: str = "csv"  # Track current data format (csv, parquet, etc.)
+    pipeline_metadata: Dict[str, str] = {}  # Track metadata between agents
 
 
 # Invented paradigm: Hybrid wrapper for sync/async agents (scales to mixed workloads in ETL swarms)
@@ -120,31 +124,70 @@ async def prompt_node(state: AgentState) -> AgentState:
 
 @hybrid_async_node
 async def ingest_node(state: AgentState) -> AgentState:
+    # Pass feedback context to help ingestor adapt to validation gaps
     step = await ingest_data(
-        "data/sales_data.csv"
-    )  # Dynamic: Could pass discovered tool
+        state["current_data_path"], 
+        state.get("feedback_summary", ""),
+        state["data_format"]
+    )
     state["pipeline_steps"].append(step)
+    
+    # Update pipeline state with ingestor's output
+    if step.output_file_path:
+        state["current_data_path"] = step.output_file_path
+        state["data_format"] = step.output_format
+        state["pipeline_metadata"]["last_ingest_output"] = step.output_file_path
+    
     return state
 
 
 @hybrid_async_node
 async def clean_node(state: AgentState) -> AgentState:
-    last_step = state["pipeline_steps"][-1]
-    step = await clean_data("data/sales_data.csv", last_step)
+    last_step = state["pipeline_steps"][-1]  # This should be the ingest step
+    # Pass feedback context and current data path to help cleaner adapt
+    step = await clean_data(
+        state["current_data_path"], 
+        last_step, 
+        state.get("feedback_summary", ""),
+        state["data_format"]
+    )
     state["pipeline_steps"].append(step)
+    
+    # Update pipeline state with cleaner's output
+    if step.output_file_path:
+        state["current_data_path"] = step.output_file_path
+        state["data_format"] = step.output_format
+        state["pipeline_metadata"]["last_clean_output"] = step.output_file_path
+    
     return state
 
 
 @hybrid_async_node
 async def transform_node(state: AgentState) -> AgentState:
-    last_step = state["pipeline_steps"][-1]
-    step = await transform_data("data/sales_data.csv", last_step)
+    last_step = state["pipeline_steps"][-1]  # This should be the clean step
+    # Pass feedback context and current data path to help transformer adapt
+    step = await transform_data(
+        state["current_data_path"], 
+        last_step, 
+        state.get("feedback_summary", ""),
+        state["data_format"]
+    )
     state["pipeline_steps"].append(step)
+    
+    # Update pipeline state with transformer's output
+    if step.output_file_path:
+        state["current_data_path"] = step.output_file_path
+        state["data_format"] = step.output_format
+        state["pipeline_metadata"]["last_transform_output"] = step.output_file_path
+    
     return state
 
 
 @hybrid_async_node
 async def debate_node(state: AgentState) -> AgentState:
+    logger = structlog.get_logger('pipeline')
+    logger.info("debate_node_started", round=state["debate_rounds"] + 1)
+    
     step, votes = await validate_steps(state["pipeline_steps"], state["refined_prompt"])
     state["pipeline_steps"].append(step)
     state["debate_rounds"] += 1
@@ -179,8 +222,13 @@ async def debate_node(state: AgentState) -> AgentState:
         if len(recent_gaps) >= 2:
             similarity = calculate_semantic_similarity(recent_gaps[0], recent_gaps[-1])
             if similarity > 0.3 and len(unique_gaps) > 0:
+                logger.info("persistent_gaps_detected", 
+                           similarity=similarity, 
+                           gap_count=len(unique_gaps),
+                           escalation_count=state["gap_escalation_count"])
                 print(f"🔄 Persistent gaps detected (similarity: {similarity:.2f}). Triggering meta-swarmlet resolver...")
                 state["gap_escalation_count"] += 1
+                
                 # Escalate to gap resolver (async for scalability)
                 resolver_step = await resolve_persistent_gaps(
                     gaps=current_feedback,
@@ -188,9 +236,31 @@ async def debate_node(state: AgentState) -> AgentState:
                     history=state["feedback_history"]
                 )
                 state["pipeline_steps"].append(resolver_step)
+                logger.info("gap_resolver_generated", 
+                           step_name=resolver_step.step_name,
+                           output_format=resolver_step.output_format)
                 print(f"🛠️ Gap resolver generated: {resolver_step.step_name}")
-                # Clear feedback to give resolver solution a chance
-                state["feedback_summary"] = f"Applied resolver solution: {resolver_step.step_name}"
+                
+                # INTRA-ROUND VALIDATION: Immediately validate the resolver solution
+                logger.info("intra_round_validation_started")
+                print("🔍 Intra-round validation: Testing resolver solution...")
+                from agents.validator import validate_pipeline
+                validation_result = await validate_pipeline(
+                    pipeline_steps=state["pipeline_steps"],
+                    task=state["task"]
+                )
+                
+                logger.info("intra_round_validation_completed",
+                           consensus_reached=validation_result.consensus_reached,
+                           vote_count=validation_result.vote_count)
+                
+                if validation_result.consensus_reached:
+                    print("✅ Resolver solution passed immediate validation!")
+                    state["consensus_reached"] = True
+                    state["feedback_summary"] = f"Resolver solution validated: {resolver_step.step_name}"
+                else:
+                    print(f"⚠️ Resolver solution needs refinement: {validation_result.rationale[:100]}...")
+                    state["feedback_summary"] = f"Resolver applied but needs refinement: {validation_result.rationale[:200]}"
     return state
 
 
@@ -207,7 +277,13 @@ def route(state: AgentState) -> str:
 
 
 # Build graph (async nodes for parallel scalability in large swarms)
-graph = StateGraph(state_schema=AgentState, initial_state={'feedback_history': [], 'gap_escalation_count': 0})
+graph = StateGraph(state_schema=AgentState, initial_state={
+    'feedback_history': [], 
+    'gap_escalation_count': 0,
+    'current_data_path': 'data/sales_data.csv',
+    'data_format': 'csv',
+    'pipeline_metadata': {}
+})
 graph.add_node("discovery", discovery_node)
 graph.add_node("prompt", prompt_node)
 graph.add_node("ingest", ingest_node)

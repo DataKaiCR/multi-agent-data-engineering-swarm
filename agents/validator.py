@@ -24,6 +24,33 @@ prompt = ChatPromptTemplate.from_template(validate_template)
 chain = prompt | MODELS["validator"] | parser
 
 
+from dataclasses import dataclass
+from typing import Optional
+
+@dataclass
+class ValidationResult:
+    consensus_reached: bool
+    rationale: str
+    vote_count: str
+
+async def validate_pipeline(pipeline_steps: List[PipelineStep], task: str) -> ValidationResult:
+    """Validate entire pipeline and return consensus status"""
+    # Use existing validate_steps function but handle tuple return
+    validation_step, votes = await validate_steps(pipeline_steps, task)
+    
+    # Count actual yes votes from the structured votes
+    yes_votes = sum(1 for vote in votes if vote.get("vote") == "Yes")
+    total_votes = len(votes)
+    consensus_reached = yes_votes > total_votes / 2
+    
+    vote_count = f"{yes_votes}/{total_votes} yes votes"
+    
+    return ValidationResult(
+        consensus_reached=consensus_reached,
+        rationale=validation_step.rationale,
+        vote_count=vote_count
+    )
+
 async def validate_steps(
     pipeline_steps: List[PipelineStep], validation_context: str
 ) -> PipelineStep:

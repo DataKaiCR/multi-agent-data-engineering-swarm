@@ -18,6 +18,12 @@ class PipelineStep(BaseModel):
     step_name: str = Field(description="Name of the pipeline step")
     code_snippet: str = Field(description="Python code for this step")
     rationale: str = Field(description="Why this step?")
+    output_file_path: str = Field(
+        description="Path to output file created by this step", default=""
+    )
+    output_format: str = Field(
+        description="Format of output file (csv, parquet, etc.)", default="csv"
+    )
 
 
 # Model configurations
@@ -26,7 +32,7 @@ MODEL_CONFIGS = [
         "agent_role": "prompt_engineer",
         "model_provider": "openai",
         "model": "gpt-4o-mini",
-        "config": {"api_key": os.getenv("OPENAI_API_KEY"), "temperature": 0.2},
+        "config": {"api_key": os.getenv("OPENAI_API_KEY"), "temperature": 0.3},
     },
     {
         "agent_role": "ingestor",
@@ -51,6 +57,12 @@ MODEL_CONFIGS = [
         "model_provider": "xai",  # Placeholder
         "model": "grok-3",
         "config": {"api_key": os.getenv("XAI_API_KEY"), "temperature": 0.2},
+    },
+    {
+        "agent_role": "gap_resolver",
+        "model_provider": "anthropic",  # Use Claude for creative gap resolution
+        "model": "claude-3-5-sonnet-20240620",
+        "config": {"api_key": os.getenv("ANTHROPIC_API_KEY"), "temperature": 0.7},
     },
     ##{
     ##    "agent_role": "validator",
