@@ -49,6 +49,9 @@ make run
 # Test MCP tools
 make mcp-probe
 
+# Run tests
+make test
+
 # Check server status
 make mcp-status
 
@@ -84,24 +87,33 @@ uv run python tools/data_tools.py
 
 **Quick Start Development:**
 ```bash
-make setup          # First time setup
+make setup           # First time setup
 make mcp-start       # Start MCP server in background  
 make run             # Test main pipeline
 make mcp-probe       # Test all MCP tools
+make test-simple     # Run basic tests
 ```
 
 **Daily Development:**
 ```bash
 make dev             # Start development mode (MCP + tips)
+make test-unit       # Run fast unit tests
 make mcp-probe       # Test functionality
 make dev-logs        # Watch server logs
 make clean           # Cleanup when done
 ```
 
+**Testing Workflow:**
+```bash
+make test-unit       # Fast unit tests during development
+make test-integration # Full integration tests
+make test            # All tests before committing
+```
+
 ## ✨ Features
 
 - **Multi-Agent Collaboration**: Specialized AI agents work together using swarm intelligence
-- **Multi-LLM Support**: OpenAI GPT-4, Anthropic Claude, xAI Grok, and local Ollama models
+- **Adaptive Multi-LLM Architecture**: Dynamically selects optimal models (OpenAI, Anthropic, xAI, Ollama) based on task-specific performance
 - **Smart Pipeline Generation**: Automatically creates cleaning, transformation, and validation steps
 - **Consensus Mechanism**: Agents debate and vote on pipeline quality through iterative refinement
 - **RAG Integration**: Uses Chroma vectorstore for schema and context retrieval
@@ -112,24 +124,45 @@ make clean           # Cleanup when done
 
 1. **Task Input**: Provide a data engineering task (e.g., "clean sales data")
 2. **Agent Collaboration**: 
-   - Prompt Engineer (Deepseek) refines the task
-   - Data Ingestor (OpenAI) loads data with RAG context
-   - Cleaner (Claude) handles data quality issues  
-   - Transformer (Grok) performs feature engineering
-   - Validator ensures consensus through multi-model voting
+   - **Prompt Engineer**: Optimized for task refinement and structured thinking
+   - **Data Ingestor**: Excels at data profiling and schema understanding with RAG context
+   - **Cleaner**: Strong at data quality assessment and cleaning logic
+   - **Transformer**: Specialized in feature engineering and mathematical transformations
+   - **Validator**: Multi-model consensus mechanism for quality assurance
 3. **Pipeline Output**: Structured pipeline with executable Python code
+
+> **Model Selection**: Each agent role uses the most suitable LLM based on performance benchmarks for that specific task type. Models are regularly evaluated and upgraded as new capabilities become available.
 
 ## 🧪 Testing
 
+**Using Make (Recommended):**
 ```bash
 # Run all tests
-uv run pytest
+make test
+
+# Run unit tests only (fast)
+make test-unit
+
+# Run basic functionality tests
+make test-simple
+
+# Run integration tests (starts MCP server automatically)
+make test-integration
+```
+
+**Manual Commands:**
+```bash
+# Run all tests
+uv run python -m pytest
 
 # Test model connectivity (requires API keys)
-uv run pytest tests/test_config.py::test_model_invocation -s
+uv run python -m pytest tests/test_config.py::test_model_invocation -s
+
+# Run specific test files
+uv run python -m pytest tests/test_transformer.py -v
 
 # Run with coverage
-uv run pytest --cov=.
+uv run python -m pytest --cov=.
 ```
 
 ## 🛠️ Project Structure
