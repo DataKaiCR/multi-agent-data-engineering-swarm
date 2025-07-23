@@ -24,6 +24,9 @@ def setup_initial_state():
         "debate_rounds": 0,
         "consensus_reached": False,
         "discovered_tools": {},
+        "feedback_summary": "",
+        "feedback_history": [],
+        "gap_escalation_count": 0,
     }
 
 
@@ -173,6 +176,9 @@ if __name__ == "__main__":
                 "debate_rounds": 0,
                 "consensus_reached": False,
                 "discovered_tools": {},
+                "feedback_summary": "",
+                "feedback_history": [],
+                "gap_escalation_count": 0,
             }
         
         # Replace the function globally for this run

@@ -8,14 +8,36 @@ from agents.data_ingestor import ingest_data
 from agents.cleaner import clean_data
 from agents.transformer import transform_data
 from agents.validator import validate_steps
+from agents.gap_resolver import resolve_persistent_gaps
 from mcp import ClientSession
 from mcp.client.streamable_http import streamablehttp_client
 import asyncio
 import functools
 
+def calculate_semantic_similarity(gaps1, gaps2):
+    """Calculate semantic similarity between gap sets using keyword overlap"""
+    keywords1, keywords2 = set(), set()
+    key_terms = ["validation", "error", "handling", "transformation", "missing", "data", "pipeline", "quality", "incomplete"]
+    
+    for gap in gaps1:
+        keywords1.update(term for term in key_terms if term in gap.lower())
+    for gap in gaps2:
+        keywords2.update(term for term in key_terms if term in gap.lower())
+    
+    if not keywords1 or not keywords2:
+        return 0.0
+    
+    intersection = len(keywords1 & keywords2)
+    union = len(keywords1 | keywords2)
+    return intersection / union if union > 0 else 0.0
+
 # Debate Configuration
 MAX_DEBATE_ROUNDS = 3  # Maximum number of consensus rounds before force-exit (LangGraph has 25-step limit)
-VOTING_MODELS = ["validator", "cleaner", "transformer"]  # Models that participate in voting
+VOTING_MODELS = [
+    "validator",
+    "cleaner",
+    "transformer",
+]  # Models that participate in voting
 CONSENSUS_THRESHOLD = 0.5  # Fraction of votes needed for consensus (majority)
 
 
@@ -28,6 +50,9 @@ class AgentState(TypedDict):
     discovered_tools: Dict[
         str, str
     ] = {}  # New: Dynamic tool map (e.g., {"ingest": "load_csv"})
+    feedback_summary: str = ""  # Aggregated feedback from all agents
+    feedback_history: List[str] = []  # Raw feedback for trend analysis
+    gap_escalation_count: int = 0  # Track escalations to prevent infinite loops
 
 
 # Invented paradigm: Hybrid wrapper for sync/async agents (scales to mixed workloads in ETL swarms)
@@ -84,9 +109,10 @@ async def discovery_node(state: AgentState) -> AgentState:
 # Agent nodes (async for scalability; use discovered tools in calls if needed)
 @hybrid_async_node
 async def prompt_node(state: AgentState) -> AgentState:
-    refined = await refine_prompt(
-        state["task"]
-    )  # Assuming async version; update if sync
+    task_with_feedback = state["task"]
+    if state["feedback_summary"]:
+        task_with_feedback = f"{state['feedback_summary']}\n\nOriginal Task: {task_with_feedback}\n\nIMPORTANT: Address the gaps above in your refinements."
+    refined = await refine_prompt(task_with_feedback)
     state["refined_prompt"] = refined.rationale
     state["pipeline_steps"].append(refined)
     return state
@@ -119,13 +145,52 @@ async def transform_node(state: AgentState) -> AgentState:
 
 @hybrid_async_node
 async def debate_node(state: AgentState) -> AgentState:
-    step = await validate_steps(state["pipeline_steps"], state["refined_prompt"])
+    step, votes = await validate_steps(state["pipeline_steps"], state["refined_prompt"])
     state["pipeline_steps"].append(step)
     state["debate_rounds"] += 1
-    
+
     # Proper consensus detection based on validator's actual majority vote
-    state["consensus_reached"] = "CONSENSUS_REACHED" in step.rationale
+    state["consensus_reached"] = sum(1 for v in votes if "Yes" in v) > len(votes) / 2
+
+    # Enhanced gap extraction from structured votes
+    gaps = set()
+    for vote in votes:
+        if vote["vote"] == "No":
+            # Extract gaps from rationale using improved keyword matching
+            rationale = vote["rationale"].lower()
+            gap_keywords = ["missing", "lacks", "incomplete", "should include", "needs", "requires", "absent"]
+            for line in rationale.split("."):
+                if any(keyword in line for keyword in gap_keywords):
+                    gaps.add(line.strip())
     
+    # Create compact feedback summary
+    unique_gaps = list(gaps)[:5]  # Limit to top 5 for token efficiency
+    state["feedback_summary"] = "MUST address these gaps: " + "; ".join(unique_gaps) if unique_gaps else ""
+    
+    # Store raw feedback for escalation detection
+    current_feedback = "; ".join(unique_gaps)
+    state["feedback_history"].append(current_feedback)
+    
+    # Check for persistent gaps (escalation trigger)
+    if len(state["feedback_history"]) > 2 and state["gap_escalation_count"] < 2:
+        recent_feedback = state["feedback_history"][-3:]
+        # Semantic similarity check for persistent gap patterns
+        recent_gaps = [set(feedback.split(";")) for feedback in recent_feedback if feedback]
+        if len(recent_gaps) >= 2:
+            similarity = calculate_semantic_similarity(recent_gaps[0], recent_gaps[-1])
+            if similarity > 0.3 and len(unique_gaps) > 0:
+                print(f"🔄 Persistent gaps detected (similarity: {similarity:.2f}). Triggering meta-swarmlet resolver...")
+                state["gap_escalation_count"] += 1
+                # Escalate to gap resolver (async for scalability)
+                resolver_step = await resolve_persistent_gaps(
+                    gaps=current_feedback,
+                    context=state["refined_prompt"],
+                    history=state["feedback_history"]
+                )
+                state["pipeline_steps"].append(resolver_step)
+                print(f"🛠️ Gap resolver generated: {resolver_step.step_name}")
+                # Clear feedback to give resolver solution a chance
+                state["feedback_summary"] = f"Applied resolver solution: {resolver_step.step_name}"
     return state
 
 
@@ -134,13 +199,15 @@ def route(state: AgentState) -> str:
     if state["consensus_reached"]:
         return END
     elif state["debate_rounds"] >= MAX_DEBATE_ROUNDS:
-        print(f"\n⚠️  Maximum debate rounds ({MAX_DEBATE_ROUNDS}) reached. Forcing consensus...")
+        print(
+            f"\n⚠️  Maximum debate rounds ({MAX_DEBATE_ROUNDS}) reached. Forcing consensus..."
+        )
         return END
     return "prompt"  # Re-refine; dynamic: Route to weak agent based on discovered tools
 
 
 # Build graph (async nodes for parallel scalability in large swarms)
-graph = StateGraph(state_schema=AgentState)
+graph = StateGraph(state_schema=AgentState, initial_state={'feedback_history': [], 'gap_escalation_count': 0})
 graph.add_node("discovery", discovery_node)
 graph.add_node("prompt", prompt_node)
 graph.add_node("ingest", ingest_node)
