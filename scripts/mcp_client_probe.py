@@ -27,6 +27,19 @@ async def test_mcp():
             )
             print("Clean Result:", clean_result.structuredContent)
 
+            # Test transform_data (transformation)
+            if clean_result.structuredContent:
+                transform_result = await session.call_tool(
+                    "transform_data",
+                    {
+                        "file_path": "data/sales_data.csv",
+                        "clean_metadata": clean_result.structuredContent,
+                    },
+                )
+                print("Transform Result:", transform_result.structuredContent)
+            else:
+                print("❌ Clean result was None, skipping transform test")
+
             # Test validate_data (simulate validation)
             mock_steps = [{"step_name": "test", "code_snippet": "", "rationale": ""}]
             valid_result = await session.call_tool(
