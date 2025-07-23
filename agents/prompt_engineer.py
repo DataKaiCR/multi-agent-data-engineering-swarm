@@ -9,7 +9,9 @@ Refine this user prompt for a data engineering task: {user_prompt}.
 Make it more structured, incorporate ETL best practices (e.g., data lineage, scalability hints), and optimize for multi-agent collaboration.
 Add few-shot examples if helpful. Critique and iterate if needed for precision.
 
-Output as a PipelineStep with step_name='refined_prompt', code_snippet=empty, rationale=refined prompt text.
+{format_instructions}
+
+Output as a PipelineStep with step_name='refined_prompt', code_snippet='', rationale=refined prompt text.
 """
 
 prompt = ChatPromptTemplate.from_template(refine_template)
@@ -17,9 +19,9 @@ prompt = ChatPromptTemplate.from_template(refine_template)
 chain = prompt | MODELS["prompt_engineer"] | parser
 
 
-def refine_prompt(user_prompt: str) -> PipelineStep:
-    # Internal iteration for meta-refinement (scalable creativity)
-    initial = chain.invoke({"user_prompt": user_prompt})
+async def refine_prompt(user_prompt: str) -> PipelineStep:
+    # Internal iteration for meta-refinement
+    initial = await chain.ainvoke({"user_prompt": user_prompt, "format_instructions": parser.get_format_instructions()})  # Async for scalability
     critique_prompt = f"Critique and improve: {initial.rationale}"
-    refined = chain.invoke({"user_prompt": critique_prompt})
+    refined = await chain.ainvoke({"user_prompt": critique_prompt, "format_instructions": parser.get_format_instructions()})
     return refined

@@ -27,6 +27,8 @@ Retrieved transform rules: {transform_rules}.
 Generate transform step: Feature engineering (e.g., scaling, encoding, derivations). Suggest parallel if large.
 Output code_snippet as executable Python (Pandas/Sklearn for small, Spark hints for large).
 Rationale: Include feature insights and scalability notes.
+
+{format_instructions}
 """
 
 prompt = ChatPromptTemplate.from_template(transform_template)
@@ -62,6 +64,7 @@ async def transform_data(dataset_path: str, clean_step: PipelineStep) -> Pipelin
             "dataset_path": dataset_path,
             "clean_metadata": str(structured_transform["metadata"]),
             "transform_rules": transform_rules + "\n" + rationale_add,
+            "format_instructions": parser.get_format_instructions(),
         }
     )
     return result

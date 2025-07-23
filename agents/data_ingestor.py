@@ -27,6 +27,8 @@ Retrieved schemas/context: {retrieved_context}.
 Generate ingestion step: Load, profile (shape, types, nulls), suggest sharding if large.
 Output code_snippet as executable Python (Pandas for small, Spark for large).
 Rationale: Include quality insights and scalability notes (e.g., parallel hints).
+
+{format_instructions}
 """
 
 prompt = ChatPromptTemplate.from_template(ingest_template)
@@ -68,6 +70,7 @@ async def ingest_data(dataset_path: str) -> PipelineStep:
             + rationale_add
             + "\nLoaded metadata: "
             + str(structured_load["metadata"]),
+            "format_instructions": parser.get_format_instructions(),
         }
     )
     return result

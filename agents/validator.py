@@ -13,6 +13,8 @@ validate_template = """
 Evaluate pipeline steps: {pipeline_steps}.
 Vote yes/no on validity, with rationale. Use validation rules: {validation_context}.
 If debate needed, suggest refinements for scalability/quality.
+
+{format_instructions}
 """
 
 prompt = ChatPromptTemplate.from_template(validate_template)
@@ -44,6 +46,7 @@ async def validate_steps(
                 {
                     "pipeline_steps": [step.model_dump() for step in pipeline_steps],
                     "validation_context": enriched_context,
+                    "format_instructions": parser.get_format_instructions(),
                 }
             )
             for model_key in [

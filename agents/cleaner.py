@@ -26,6 +26,8 @@ Retrieved cleaning rules: {cleaning_rules}.
 Generate cleaning step: Handle nulls, outliers, type errors. Suggest parallel cleaning if large.
 Output code_snippet as executable Python (Pandas for small, Spark hints for large).
 Rationale: Include quality fixes and scalability notes.
+
+{format_instructions}
 """
 
 prompt = ChatPromptTemplate.from_template(clean_template)
@@ -64,6 +66,7 @@ async def clean_data(dataset_path: str, ingest_step: PipelineStep) -> PipelineSt
             "dataset_path": dataset_path,
             "ingest_metadata": str(structured_clean["metadata"]),
             "cleaning_rules": cleaning_rules + "\n" + rationale_add,
+            "format_instructions": parser.get_format_instructions(),
         }
     )
     return result

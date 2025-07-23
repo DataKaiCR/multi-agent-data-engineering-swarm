@@ -24,12 +24,9 @@ class PipelineStep(BaseModel):
 MODEL_CONFIGS = [
     {
         "agent_role": "prompt_engineer",
-        "model_provider": "ollama",
-        "model": "deepseek-r1:1.5b",
-        "config": {
-            "temperature": float(os.getenv("MODEL_TEMPERATURE", 0.2)),
-            "base_url": os.getenv("OLLAMA_BASE_URL", "http://localhost:11434"),
-        },
+        "model_provider": "openai",
+        "model": "gpt-4o-mini",
+        "config": {"api_key": os.getenv("OPENAI_API_KEY"), "temperature": 0.2},
     },
     {
         "agent_role": "ingestor",
