@@ -1,0 +1,21 @@
+{"log_file": "logs/pipeline_20250724_123711.json", "event": "structured_logging_initialized", "timestamp": "2025-07-24T18:37:11.381576Z", "level": "info"}
+{"verbose": true, "event": "pipeline_started", "timestamp": "2025-07-24T18:37:11.381713Z", "level": "info"}
+{"status": "started", "event": "building_rag_indexes", "timestamp": "2025-07-24T18:37:11.381771Z", "level": "info"}
+{"status": "completed", "event": "building_rag_indexes", "timestamp": "2025-07-24T18:37:16.476206Z", "level": "info"}
+{"task": "execute a simple etl for sales_data.csv", "gap_escalation_count": 0, "event": "pipeline_state_initialized", "timestamp": "2025-07-24T18:37:16.476734Z", "level": "info"}
+{"task_length": 1024, "event": "prompt_engineer_completed", "timestamp": "2025-07-24T18:37:36.452004Z", "level": "info"}
+{"step_name": "Load and Profile Sales Data", "output_file": "output/profiled_sales_data.csv", "output_format": "csv", "event": "data_ingestor_completed", "timestamp": "2025-07-24T18:37:42.166216Z", "level": "info"}
+{"step_name": "Clean Sales Data", "output_file": "output/cleaned_sales_data.csv", "output_format": "csv", "event": "data_cleaner_completed", "timestamp": "2025-07-24T18:37:48.389927Z", "level": "info"}
+{"step_name": "Feature Engineering - Encoding Categoricals", "output_file": "output/transformed_sales_data.csv", "output_format": "csv", "event": "data_transformer_completed", "timestamp": "2025-07-24T18:38:18.237324Z", "level": "info"}
+{"round": 1, "event": "debate_node_started", "timestamp": "2025-07-24T18:38:18.238452Z", "level": "info"}
+{"task_length": 1909, "event": "prompt_engineer_completed", "timestamp": "2025-07-24T18:39:20.787455Z", "level": "info"}
+{"step_name": "Ingest and Profile Sales Data", "output_file": "output/profiled_sales_data.csv", "output_format": "csv", "event": "data_ingestor_completed", "timestamp": "2025-07-24T18:39:29.635656Z", "level": "info"}
+{"step_name": "Clean Sales Data", "output_file": "output/cleaned_sales_data.csv", "output_format": "csv", "event": "data_cleaner_completed", "timestamp": "2025-07-24T18:39:39.279841Z", "level": "info"}
+{"step_name": "Transform Data - Feature Engineering", "output_file": "output/transformed_sales_data.csv", "output_format": "csv", "event": "data_transformer_completed", "timestamp": "2025-07-24T18:40:01.361703Z", "level": "info"}
+{"round": 2, "event": "debate_node_started", "timestamp": "2025-07-24T18:40:01.363224Z", "level": "info"}
+{"task_length": 1820, "event": "prompt_engineer_completed", "timestamp": "2025-07-24T18:41:31.968722Z", "level": "info"}
+{"step_name": "Ingest and Profile Sales Data", "output_file": "output/profiled_sales_data.csv", "output_format": "csv", "event": "data_ingestor_completed", "timestamp": "2025-07-24T18:41:40.019244Z", "level": "info"}
+{"step_name": "Clean Sales Data", "output_file": "output/cleaned_sales_data.csv", "output_format": "csv", "event": "data_cleaner_completed", "timestamp": "2025-07-24T18:41:50.435875Z", "level": "info"}
+{"step_name": "Transform Data - Feature Engineering", "output_file": "output/transformed_sales_data.csv", "output_format": "csv", "event": "data_transformer_completed", "timestamp": "2025-07-24T18:44:12.637170Z", "level": "info"}
+{"round": 3, "event": "debate_node_started", "timestamp": "2025-07-24T18:44:12.638449Z", "level": "info"}
+{"file": "output.json", "total_steps": 15, "consensus_reached": false, "event": "pipeline_output_saved", "timestamp": "2025-07-24T18:44:30.473242Z", "level": "info"}

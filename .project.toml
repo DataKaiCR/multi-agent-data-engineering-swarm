@@ -1,0 +1,34 @@
+# Project Metadata
+
+[project]
+name = "Multi-Agent Data Engineering Swarm"
+id = "multi-agent-data-engineering-swarm"
+status = "active"
+type = "product"
+
+[ownership]
+primary = "datakai"
+partners = []
+license_model = ""
+
+[client]
+end_client = ""
+intermediary = ""
+my_role = "owner"
+
+[tech]
+stack = ["python", "ai", "multi-agent-systems"]
+domain = ["ai", "data-engineering", "automation"]
+
+[dates]
+started = "2025-06-01"
+completed = ""
+
+[links]
+scriptorium_project = ""
+repository = "git@github.com:datakai/multi-agent-data-engineering-swarm.git"
+documentation = ""
+conduit_graph = ""
+
+[notes]
+description = "AI swarm system for automated data engineering tasks"
